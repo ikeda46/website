@@ -1,0 +1,22 @@
+# Languages
+#   Create a section for each of your site's languages.
+#   Documentation: https://wowchemy.com/docs/guide/language/
+
+# Default language
+en:
+  languageCode: en-gb
+  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
+  contentDir: content/en
+
+# Uncomment the lines below to configure your website in a second language.
+ja:
+  languageCode: ja
+  contentDir: content/ja
+#  title: Japanese website
+#  params:
+#    description: Site in Japanese.
+#  menu:
+#    main:
+#      - name: 池田思朗
+#        url: '#about'
+#        weight: 1

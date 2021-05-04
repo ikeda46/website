@@ -1,0 +1,150 @@
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  object-fit: cover; }
+
+// Saved as custom.scss in `/assets/scss/custom.scss` relative to the website root
+// https://sourcethemes.com/academic/docs/customization/
+
+// CHANGES
+//  change all #ffffff            --> rgba(255, 255, 255, 0.87)
+//  change all rgb(152, 166, 173) --> rgba(255, 255, 255, 0.87) -- headings
+//  change all rgb(68, 71, 90)    --> mix(#1f222a, white, 98%)
+//  change all rgb(40, 42, 54)    --> #1f222a -- page background
+//  change all rgb(139, 233, 253) --> #fff14d -- dark mode inline code text
+
+// COLOR VARIABLES
+// primary and secondary colors and variants
+$spc-primary:            #122140; // primary color
+$spc-primary-light:      #3d486b; // primary color, lighter variant
+$spc-primary-dark:       #05101b; // primary color, darker variant
+$spc-secondary:          #5482a2; // secondary color
+$spc-secondary-light:    #8097bb; // secondary color, lighter variant
+$spc-secondary-dark:     #48708b; // secondary color, darker variant
+
+// text colors
+$spc-text-high:          rgba(255, 255, 255, 0.60); // high emphasis/high priority, white 87% opacity
+$spc-text-medium:        rgba(255, 255, 255, 0.50); // medium emphasis, white 60% opacity
+$spc-text-low:           rgba(255, 255, 255, 0.35); // disabled text, white 45% opacity
+//$spc-text-low:         rgba(255, 255, 255, 0.38); // disabled text, white 38% opacity
+
+// surface colors
+
+$spc-bkg-light-std: #F8F0D0;
+//$spc-bkg-light-std: #EEEEEE;                 // light mode background
+$spc-bkg-dark-std: #123242;                    // dark mode background (00dp elevation level)
+
+// COLOR CALCULATIONS
+// below from mix($spc-primary, $spc-bkg-dark-std, 25)
+$spc-bkg-dark: #12151d;                                 // custom bkg
+// below from mix($spc-primary, $spc-bkg-dark-std, 40)
+$spc-00dp: #121824;                                     // 00dp surface
+// below from mix($spc-00dp, white, 95)                 // 00dp with 5% white overlay
+$spc-01dp: #1d232e;
+// below from mix($spc-00dp, white, 93)                 // 00dp with 7% white overlay
+$spc-02dp: #222833;
+// below from mix($spc-00dp, white, 92)                 // 00dp with 8% white overlay
+$spc-03dp: #242a35;
+// below from mix($spc-00dp, white, 91)                 // 00dp with 9% white overlay
+$spc-04dp: #272c37;
+
+// error colors
+$spc-error: rgba(169, 5, 51, 1);
+$spc-error-light: rgba(253, 244, 244, 1);
+
+// ************************************************
+// CORE
+// ************************************************
+
+body {
+  color: #555;
+//  font-size: 0.9rem; // ~90% of base font size
+}
+
+// headings: _root.scss
+h1, h2, h3, h4, h5, h6 {
+  color: #555;
+}
+
+h1 {
+  color: #555;
+  font-size: 2rem;
+}
+
+// ************************************************
+// NAVIGATION BAR: _nav.scss
+// ************************************************
+
+.navbar {
+  font-weight: 700;                         // weight for navbar text
+  letter-spacing: .08em;                    // horizontal padding
+  padding: 0 2em;
+}
+
+// ************************************************
+// HOME PAGE: _widgets.scss
+// ************************************************
+.portrait-title {
+  h2 {
+  font-size: 1.73em;
+  }
+  h3 {
+    font-size: 0.96rem;
+    font-weight: 300;
+  }
+}
+
+.network-icon li:hover {
+  transform: scale(1.05);
+}
+
+.home-section {
+  &:first-of-type {
+    padding: 50px 0 50px 0;
+  }
+  &:not(:first-of-type) {
+    padding: 25px 0 50px 0;
+  }
+  .wg-experience .card-body {
+    padding: 2em;                // padding around text in experience cards
+  }
+  .wg-experience .card .card-text {
+    padding: 0;
+  }
+  .wg-pages .section-heading {
+    h1 {                         // erases the margin-bottom for h1
+      margin: 0 0 0 0;
+    }
+    p {                          // section subtitle
+      margin-top: 0;
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+    }
+  }
+}
+
+// section headers
+div.universal-wrapper.pt-3 h1 {
+  text-align: center;
+  padding-bottom: 50px;
+  text-transform: capitalize;
+}
+
+// -----------------------------------------------------------------------------
+// -----------------------------------------------------------------------------
+// DARK MODE CUSTOMIZATION
+// -----------------------------------------------------------------------------
+// -----------------------------------------------------------------------------
+
+// Page builder: _widgets.scss
+.dark {
+  .home-section:nth-of-type(odd) {
+    background-color: mix($spc-02dp, white, 90%);   // odd sections: about, recent pubs, contact
+  }
+  .home-section:nth-of-type(even) {
+    background-color: mix($spc-02dp, white, 94%);   // even sections: experience, recent posts
+  }
+}

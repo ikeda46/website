@@ -1,0 +1,3353 @@
+% Journal
+@string(annmathstat = {The Annals of Mathematical Statistics})
+@string(annstat =     {The Annals of Statistics})
+@string(jrstatsocB =  {J. R. Statistical Society, Series B})
+@string(jmlr =        {Journal of Machine Learning Research})
+@string(mnras =       {Monthly Notices of the Royal Astronomical Society})
+@string(nc =          {Neural Computation})
+@string(nn =          {Neural Networks})
+@string(belltechj =   {The Bell System Technical Journal})
+%@string(pasj =        {Publ. Astron. Soc. Jpn})
+@string(pasj =        {Publications of the Astronomical Society of Japan})
+%@string(nima =        {Nucl. Instr. Meth. Phys. Res. A})
+@string(nima =        {Nuclear Instruments and Methods in Physics Research A})
+%@string(optexp =      {Opt. Express})
+@string(optexp =      {Optics Express})
+%@string(apj =         {Astrophys. J.})
+@string(apj =         {The Astrophysical Journal})
+@string(apjletters =  {The Astrophysical Journal Letters})
+
+
+% IEEE transactions
+
+@string(ieeeac  ={IEEE Transactions on Automatic Control})
+@string(ieeeassp={IEEE Transactions on Acoustic, Speech \& Signal Process.})
+@string(ieeesp  ={IEEE Transactions on Signal Processing})
+@string(ieeec   ={IEEE Transactions on Communications})
+@string(ieeecoml ={IEEE Communications Letters})
+%@string(ieeeit  ={IEEE Trans. Inf. Theory})
+@string(ieeeit  ={IEEE Transactions on Information Theory})
+@string(ieeenn  ={IEEE Transactions on Neural Networks})
+
+% publisher
+@string(john = {John Wiley \& Sons, Inc.})
+@string(kluwer = {Kluwer Academic Publishers})
+@string(mit = {MIT Press})
+@string(springer = {Springer-Verlag})
+
+% Proceedings
+@string(ica1999={Proceedings of International Workshop on Independent Component Analysis and Blind Signal Separation (ICA'99)})
+@string(ica2000={Proceedings of International Workshop on Independent Component Analysis and Blind Signal Separation (ICA2000)})
+@string(ica2001={Proceedings of International Workshop on Independent Component Analysis and Blind Signal Separation (ICA2001)})
+@string(isit2002={Proceedings of 2002 IEEE International Symposium on Information Theory (ISIT2002)})
+@string(isit2009={Proceedings of 2009 IEEE International Symposium on Information Theory (ISIT2009)})
+
+% book name
+
+@string(amfm={Advanced Mean Field Methods -- Theory and Practice})
+@string(nips={Advances in Neural Information Processing Systems})
+% 2021
+
+@article{2021.Omama_etal.pasj,
+  author       =  "Omama, Tomoki and Uemura, Makoto and Ikeda, Shiro and
+                  Morii, Mikio",
+  title        =  "Extracting common signal components from the {X-ray} and optical 
+                  light curves of {GX} 339-4: new view for anti-correlation",
+  journal      =  pasj,
+  year         =  2021,
+  month        =  4,
+  doi          =  "10.1093/pasj/psab032",	
+  eprinttype   =  "arXiv",
+  eprint       =  "2104.07338",
+  eprintClass  =  "astro-ph.HE",
+  abstract     =  "Simultaneous X-ray and optical observations of black
+                  hole X-ray binaries have shown that the light curves 
+                  contain multiple correlated and anti-correlated 
+	              variation components when the objects are in the 
+	              hard state. In the case of the black hole X-ray 
+	              binary, {GX} 339-4, the cross correlation function
+	              ({CCF}) of the light curves suggests a positive 
+	              correlation with an optical lag of 0.15 s and
+	              anti-correlations with an optical lag of 1 s and 
+	              X-ray lag of 4 s. This indicates the two light curves
+	              have some common signal components with different 
+	              delays. In this study, we extracted and reconstructed 
+	              those signal components from the data for {GX} 339-4. 
+	              The results confirmed that correlation and anti-correlation 
+	              with the optical lag are two common components. However, we 
+	              found that the reconstructed light curve for the 
+	              anti-correlated component indicates a positively correlated 
+	              variation with an X-ray lag of {\textasciitilde} +1 s. In
+	              addition, the {CCF} for this signal component shows 
+	              anti-correlations not only with the optical lag,
+	              but also with the X-ray lag, which is consistent with the 
+	              {CCF} for the data. Therefore, our results suggest that 
+	              the combination of the two positively correlated 
+	              components, that is, the X-ray preceding signal with
+	              the 0.15-s optical lag and the optical preceding signal with
+	              the 1-s X-ray lag, can make the observed {CCF} without
+	              anti-correlated signals. The optical preceding signal may
+	              be caused by synchrotron emission in a magnetically dominated 
+	              accretion flow or in a jet, while further study
+	              is required to understand the mechanism of the X-ray time lag.",
+  keywords     =  "Astrophysics - High Energy Astrophysical Phenomena"
+}
+
+@article{2021.Shirasaki_etal.mnras,
+  author       =  "Shirasaki, Masato and Moriwaki, Kana and Oogi, Taira
+                  and Yoshida, Naoki and Ikeda, Shiro and Nishimichi,
+                  Takahiro",
+  title        =  "Noise reduction for weak lensing mass mapping: {An}
+                  application of generative adversarial networks to
+                  {Subaru} {Hyper} {Suprime}-{Cam} first-year data",
+  journal      =  mnras,
+  year         =  2021,
+  month        =  4,
+  pages        =  "stab982",
+  doi          =  "10.1093/mnras/stab982",
+  eprinttype   =  "arXiv",
+  eprint       =  "1911.12890",
+  eprintClass  =  "astro-ph.CO",
+  abstract     =  "We propose a deep-learning approach based on
+                  generative adversarial networks ({GANs}) to reduce
+                  noise in weak lensing mass maps under realistic
+                  conditions. We apply image-to-image translation
+                  using conditional {GANs} to the mass map obtained
+                  from the first-year data of Subaru Hyper Suprime-Cam
+                  ({HSC}) survey. We train the conditional {GANs} by
+                  using 25000 mock {HSC} catalogues that directly
+                  incorporate a variety of observational effects. We
+                  study the non-Gaussian information in denoised maps
+                  using one-point probability distribution functions
+                  ({PDFs}) and also perform matching analysis for
+                  positive peaks and massive clusters. An ensemble
+                  learning technique with our {GANs} is successfully
+                  applied to reproduce the {PDFs} of the lensing
+                  convergence. About $60\%$ of
+                  the peaks in the denoised maps with height greater
+                  than 5$\sigma$ have counterparts of massive clusters
+                  within a separation of 6 arcmin. We show that {PDFs}
+                  in the denoised maps are not compromised by details
+                  of multiplicative biases and photometric redshift
+                  distributions, nor by shape measurement errors, and
+                  that the {PDFs} show stronger cosmological
+                  dependence compared to the noisy counterpart. We
+                  apply our denoising method to a part of the
+                  first-year {HSC} data to show that the observed mass
+                  distribution is statistically consistent with the
+                  prediction from the standard $\Lambda${CDM} model."  
+}
+
+@article{2021.EHT.paper8,
+  author       =  "{The Event Horizon Telescope Collaboration}",
+  memo         =  "Akiyama, Kazunori and Algaba, Juan Carlos and
+                  Alberdi, Antxon and Alef, Walter and Anantua,
+                  Richard and Asada, Keiichi and Azulay, Rebecca and
+                  Baczko, Anne-Kathrin and Ball, David and
+                  Balokovi{\'c}, Mislav and Barrett, John and Benson,
+                  Bradford A. and Bintley, Dan and Blackburn, Lindy
+                  and Blundell, Raymond and Boland, Wilfred and
+                  Bouman, Katherine L. and Bower, Geoffrey C. and
+                  Boyce, Hope and Bremer, Michael and Brinkerink,
+                  Christiaan D. and Brissenden, Roger and Britzen,
+                  Silke and Broderick, Avery E. and Broguiere,
+                  Dominique and Bronzwaer, Thomas and Byun, Do-Young
+                  and Carlstrom, John E. and Chael, Andrew and Chan,
+                  Chi-kwan and Chatterjee, Shami and Chatterjee,
+                  Koushik and Chen, Ming-Tang and Chen, Yongjun and
+                  Chesler, Paul M. and Cho, Ilje and Christian, Pierre
+                  and Conway, John E. and Cordes, James M. and
+                  Crawford, Thomas M. and Crew, Geoffrey B. and
+                  Cruz-Osorio, Alejandro and Cui, Yuzhu and Davelaar,
+                  Jordy and Laurentis, Mariafelicia De and Deane,
+                  Roger and Dempsey, Jessica and Desvignes, Gregory
+                  and Dexter, Jason and Doeleman, Sheperd S. and
+                  Eatough, Ralph P. and Falcke, Heino and Farah,
+                  Joseph and Fish, Vincent L. and Fomalont, Ed and
+                  Ford, H. Alyson and Fraga-Encinas, Raquel and
+                  Friberg, Per and Fromm, Christian M. and Fuentes,
+                  Antonio and Galison, Peter and Gammie, Charles
+                  F. and Garc\{'i}a, Roberto and Gelles, Zachary and
+                  Gentaz, Olivier and Georgiev, Boris and Goddi,
+                  Ciriaco and Gold, Roman and G{\'o}mez, Jos{\'e}
+                  L. and G{\'o}mez-Ruiz, Arturo I. and Gu, Minfeng and
+                  Gurwell, Mark and Hada, Kazuhiro and Haggard, Daryl
+                  and Hecht, Michael H. and Hesper, Ronald and
+                  Himwich, Elizabeth and Ho, Luis C. and Ho, Paul and
+                  Honma, Mareki and Huang, Chih-Wei L. and Huang, Lei
+                  and Hughes, David H. and Ikeda, Shiro and Inoue,
+                  Makoto and Issaoun, Sara and James, David J. and
+                  Jannuzi, Buell T. and Janssen, Michael and Jeter,
+                  Britton and Jiang, Wu and Jimenez-Rosales, Alejandra
+                  and Johnson, Michael D. and Jorstad, Svetlana and
+                  Jung, Taehyun and Karami, Mansour and Karuppusamy,
+                  Ramesh and Kawashima, Tomohisa and Keating, Garrett
+                  K. and Kettenis, Mark and Kim, Dong-Jin and Kim,
+                  Jae-Young and Kim, Jongsoo and Kim, Junhan and Kino,
+                  Motoki and Koay, Jun Yi and Kofuji, Yutaro and Koch,
+                  Patrick M. and Koyama, Shoko and Kramer, Michael and
+                  Kramer, Carsten and Krichbaum, Thomas P. and Kuo,
+                  Cheng-Yu and Lauer, Tod R. and Lee, Sang-Sung and
+                  Levis, Aviad and Li, Yan-Rong and Li, Zhiyuan and
+                  Lindqvist, Michael and Lico, Rocco and Lindahl, Greg
+                  and Liu, Jun and Liu, Kuo and Liuzzo, Elisabetta and
+                  Lo, Wen-Ping and Lobanov, Andrei P. and Loinard,
+                  Laurent and Lonsdale, Colin and Lu, Ru-Sen and
+                  {MacDonald}, Nicholas R. and Mao, Jirong and
+                  Marchili, Nicola and Markoff, Sera and Marrone,
+                  Daniel P. and Marscher, Alan P. and Mart{\'i}-Vidal,
+                  Iv{\'a}n and Matsushita, Satoki and Matthews, Lynn
+                  D. and Medeiros, Lia and Menten, Karl M. and Mizuno,
+                  Izumi and Mizuno, Yosuke and Moran, James M. and
+                  Moriyama, Kotaro and Moscibrodzka, Monika and
+                  M{\"u}ller, Cornelia and Musoke, Gibwa and
+                  Mej{\'i}as, Alejandro Mus and Michalik, Daniel and
+                  Nadolski, Andrew and Nagai, Hiroshi and Nagar, Neil
+                  M. and Nakamura, Masanori and Narayan, Ramesh and
+                  Narayanan, Gopal and Natarajan, Iniyan and
+                  Nathanail, Antonios and Neilsen, Joey and Neri,
+                  Roberto and Ni, Chunchong and Noutsos, Aristeidis
+                  and Nowak, Michael A. and Okino, Hiroki and
+                  Olivares, H{\'e}ctor and Ortiz-Le{\'o}n, Gisela
+                  N. and Oyama, Tomoaki and {\"O}zel, Feryal and
+                  Palumbo, Daniel C. M. and Park, Jongho and Patel,
+                  Nimesh and Pen, Ue-Li and Pesce, Dominic W. and
+                  Pi{\'e}tu, Vincent and Plambeck, Richard and
+                  {PopStefanija}, Aleksandar and Porth, Oliver and
+                  P{\"o}tzl, Felix M. and Prather, Ben and
+                  Preciado-L{\'o}pez, Jorge A. and Psaltis, Dimitrios
+                  and Pu, Hung-Yi and Ramakrishnan, Venkatessh and
+                  Rao, Ramprasad and Rawlings, Mark G. and Raymond,
+                  Alexander W. and Rezzolla, Luciano and Ricarte,
+                  Angelo and Ripperda, Bart and Roelofs, Freek and
+                  Rogers, Alan and Ros, Eduardo and Rose, Mel and
+                  Roshanineshat, Arash and Rottmann, Helge and Roy,
+                  Alan L. and Ruszczyk, Chet and Rygl, Kazi L. J. and
+                  S{\'a}nchez, Salvador and S{\'a}nchez-Arguelles,
+                  David and Sasada, Mahito and Savolainen, Tuomas and
+                  Schloerb, F. Peter and Schuster, Karl-Friedrich and
+                  Shao, Lijing and Shen, Zhiqiang and Small, Des and
+                  Sohn, Bong Won and {SooHoo}, Jason and Sun, He and
+                  Tazaki, Fumie and Tetarenko, Alexandra J. and Tiede,
+                  Paul and Tilanus, Remo P. J. and Titus, Michael and
+                  Toma, Kenji and Torne, Pablo and Trent, Tyler and
+                  Traianou, Efthalia and Trippe, Sascha and Bemmel,
+                  Ilse van and Langevelde, Huib Jan van and Rossum,
+                  Daniel R. van and Wagner, Jan and Ward-Thompson,
+                  Derek and Wardle, John and Weintroub, Jonathan and
+                  Wex, Norbert and Wharton, Robert and Wielgus, Maciek
+                  and Wong, George N. and Wu, Qingwen and Yoon, Doosoo
+                  and Young, Andr{\'e} and Young, Ken and Younsi, Ziri
+                  and Yuan, Feng and Yuan, Ye-Fei and Zensus, J. Anton
+                  and Zhao, Guang-Yao and Zhao, Shan-Shan and
+                  Collaboration, The Event Horizon Telescope",
+  title        =  "First {M87} {E}vent {H}orizon {T}elescope
+                  Results. {VIII}. {M}agnetic Field Structure near The
+                  Event Horizon",
+  journal      =  apjletters,
+  year         =  2021,
+  month        =  3,
+  volume       =  910,
+  number       =  1,
+  pages        =  "L13(43pp)",
+  doi          =  "10.3847/2041-8213/abe4de"
+}
+
+@article{2021.EHT.paper7,
+ author        =  "{The Event Horizon Telescope Collaboration}",
+ memo          =  "Akiyama, Kazunori and Algaba, Juan Carlos and
+                  Alberdi, Antxon and Alef, Walter and Anantua,
+                  Richard and Asada, Keiichi and Azulay, Rebecca and
+                  Baczko, Anne-Kathrin and Ball, David and
+                  Balokovi{\'c}, Mislav and Barrett, John and Benson,
+                  Bradford A. and Bintley, Dan and Blackburn, Lindy
+                  and Blundell, Raymond and Boland, Wilfred and
+                  Bouman, Katherine L. and Bower, Geoffrey C. and
+                  Boyce, Hope and Bremer, Michael and Brinkerink,
+                  Christiaan D. and Brissenden, Roger and Britzen,
+                  Silke and Broderick, Avery E. and Broguiere,
+                  Dominique and Bronzwaer, Thomas and Byun, Do-Young
+                  and Carlstrom, John E. and Chael, Andrew and Chan,
+                  Chi-kwan and Chatterjee, Shami and Chatterjee,
+                  Koushik and Chen, Ming-Tang and Chen, Yongjun and
+                  Chesler, Paul M. and Cho, Ilje and Christian, Pierre
+                  and Conway, John E. and Cordes, James M. and
+                  Crawford, Thomas M. and Crew, Geoffrey B. and
+                  Cruz-Osorio, Alejandro and Cui, Yuzhu and Davelaar,
+                  Jordy and Laurentis, Mariafelicia De and Deane,
+                  Roger and Dempsey, Jessica and Desvignes, Gregory
+                  and Dexter, Jason and Doeleman, Sheperd S. and
+                  Eatough, Ralph P. and Falcke, Heino and Farah,
+                  Joseph and Fish, Vincent L. and Fomalont, Ed and
+                  Ford, H. Alyson and Fraga-Encinas, Raquel and
+                  Freeman, William T. and Friberg, Per and Fromm,
+                  Christian M. and Fuentes, Antonio and Galison, Peter
+                  and Gammie, Charles F. and Garc{\'i}a, Roberto and
+                  Gentaz, Olivier and Georgiev, Boris and Goddi,
+                  Ciriaco and Gold, Roman and G{\'o}mez, Jos{\'e}
+                  L. and G{\'o}mez-Ruiz, Arturo I. and Gu, Minfeng and
+                  Gurwell, Mark and Hada, Kazuhiro and Haggard, Daryl
+                  and Hecht, Michael H. and Hesper, Ronald and Ho,
+                  Luis C. and Ho, Paul and Honma, Mareki and Huang,
+                  Chih-Wei L. and Huang, Lei and Hughes, David H. and
+                  Ikeda, Shiro and Inoue, Makoto and Issaoun, Sara and
+                  James, David J. and Jannuzi, Buell T. and Janssen,
+                  Michael and Jeter, Britton and Jiang, Wu and
+                  Jimenez-Rosales, Alejandra and Johnson, Michael
+                  D. and Jorstad, Svetlana and Jung, Taehyun and
+                  Karami, Mansour and Karuppusamy, Ramesh and
+                  Kawashima, Tomohisa and Keating, Garrett K. and
+                  Kettenis, Mark and Kim, Dong-Jin and Kim, Jae-Young
+                  and Kim, Jongsoo and Kim, Junhan and Kino, Motoki
+                  and Koay, Jun Yi and Kofuji, Yutaro and Koch,
+                  Patrick M. and Koyama, Shoko and Kramer, Michael and
+                  Kramer, Carsten and Krichbaum, Thomas P. and Kuo,
+                  Cheng-Yu and Lauer, Tod R. and Lee, Sang-Sung and
+                  Levis, Aviad and Li, Yan-Rong and Li, Zhiyuan and
+                  Lindqvist, Michael and Lico, Rocco and Lindahl, Greg
+                  and Liu, Jun and Liu, Kuo and Liuzzo, Elisabetta and
+                  Lo, Wen-Ping and Lobanov, Andrei P. and Loinard,
+                  Laurent and Lonsdale, Colin and Lu, Ru-Sen and
+                  {MacDonald}, Nicholas R. and Mao, Jirong and
+                  Marchili, Nicola and Markoff, Sera and Marrone,
+                  Daniel P. and Marscher, Alan P. and Mart{\'i}-Vidal,
+                  Iv{\'a}n and Matsushita, Satoki and Matthews, Lynn
+                  D. and Medeiros, Lia and Menten, Karl M. and Mizuno,
+                  Izumi and Mizuno, Yosuke and Moran, James M. and
+                  Moriyama, Kotaro and Moscibrodzka, Monika and
+                  M{\"u}ller, Cornelia and Musoke, Gibwa and
+                  Mej{\'i}as, Alejandro Mus and Michalik, Daniel and
+                  Nadolski, Andrew and Nagai, Hiroshi and Nagar, Neil
+                  M. and Nakamura, Masanori and Narayan, Ramesh and
+                  Narayanan, Gopal and Natarajan, Iniyan and
+                  Nathanail, Antonios and Neilsen, Joey and Neri,
+                  Roberto and Ni, Chunchong and Noutsos, Aristeidis
+                  and Nowak, Michael A. and Okino, Hiroki and
+                  Olivares, H{\'e}ctor and Ortiz-Le{\'o}n, Gisela
+                  N. and Oyama, Tomoaki and {\"O}zel, Feryal and
+                  Palumbo, Daniel C. M. and Park, Jongho and Patel,
+                  Nimesh and Pen, Ue-Li and Pesce, Dominic W. and
+                  Pi{\'e}tu, Vincent and Plambeck, Richard and
+                  {PopStefanija}, Aleksandar and Porth, Oliver and
+                  P{\"o}tzl, Felix M. and Prather, Ben and
+                  Preciado-L{\'o}pez, Jorge A. and Psaltis, Dimitrios
+                  and Pu, Hung-Yi and Ramakrishnan, Venkatessh and
+                  Rao, Ramprasad and Rawlings, Mark G. and Raymond,
+                  Alexander W. and Rezzolla, Luciano and Ricarte,
+                  Angelo and Ripperda, Bart and Roelofs, Freek and
+                  Rogers, Alan and Ros, Eduardo and Rose, Mel and
+                  Roshanineshat, Arash and Rottmann, Helge and Roy,
+                  Alan L. and Ruszczyk, Chet and Rygl, Kazi L. J. and
+                  S{\'a}nchez, Salvador and S{\'a}nchez-Arguelles,
+                  David and Sasada, Mahito and Savolainen, Tuomas and
+                  Schloerb, F. Peter and Schuster, Karl-Friedrich and
+                  Shao, Lijing and Shen, Zhiqiang and Small, Des and
+                  Sohn, Bong Won and {SooHoo}, Jason and Sun, He and
+                  Tazaki, Fumie and Tetarenko, Alexandra J. and Tiede,
+                  Paul and Tilanus, Remo P. J. and Titus, Michael and
+                  Toma, Kenji and Torne, Pablo and Trent, Tyler and
+                  Traianou, Efthalia and Trippe, Sascha and Bemmel,
+                  Ilse van and Langevelde, Huib Jan van and Rossum,
+                  Daniel R. van and Wagner, Jan and Ward-Thompson,
+                  Derek and Wardle, John and Weintroub, Jonathan and
+                  Wex, Norbert and Wharton, Robert and Wielgus, Maciek
+                  and Wong, George N. and Wu, Qingwen and Yoon, Doosoo
+                  and Young, Andr{\'e} and Young, Ken and Younsi, Ziri
+                  and Yuan, Feng and Yuan, Ye-Fei and Zensus, J. Anton
+                  and Zhao, Guang-Yao and Zhao, Shan-Shan",
+	title      =  "First {M87} {E}vent {H}orizon {T}elescope
+                  Results. {VII}. {P}olarization of the Ring",
+	journal    =  apjletters,
+	year       =  2021,
+	volume     =  910,
+	number     =  1,
+	pages      =  "L12(48pp)",
+	month      =  3,
+	doi        =  "10.3847/2041-8213/abe71d"
+}
+
+% 2020
+
+@article{2020.Uemura_etal.pasj,
+  author       =  "Uemura, Makoto and Abe, Taisei and Yamada, Yurika
+                  and Ikeda, Shiro",
+  title        =  "Feature selection for classification of blazars
+                  based on optical photometric and polarimetric
+                  time-series data",
+  journal      =  pasj,
+  volume       =  72,
+  number       =  5,
+  pages        =  74,
+  year         =  2020,
+  month        =  10,
+  doi          =  "10.1093/pasj/psaa063",
+  eprinttype   =  "arXiv",
+  eprint       =  "2006.07792",
+  eprintClass  =  "astro-ph.HE",
+  abstract     =  "Blazars can be divided into two subtypes, flat
+                  spectrum radio quasars (FSRQs) and BL Lac objects,
+                  which have been distinguished phenomenologically by
+                  the strength of their optical emission lines, while
+                  their physical nature and relationship are still not
+                  fully understood. In this paper, we focus on the
+                  differences in their variability. We characterize
+                  the blazar variability using the Ornstein-Uhlenbeck
+                  (OU) process, and investigate the features that are
+                  discriminative for the two subtypes. We used optical
+                  photometric and polarimetric data obtained with the
+                  1.5-m Kanata telescope for 2008-2014. We found that
+                  four features, namely the variation amplitude,
+                  characteristic timescale, and non-stationarity of
+                  the variability obtained from the light curves and
+                  the median of the degree of polarization (PD), are
+                  essential for distinguishing between FSRQs and BL
+                  Lac objects. FSRQs are characterized by rare and
+                  large flares, while the variability of BL Lac
+                  objects can be reproduced with a stationary OU
+                  process with relatively small amplitudes. The
+                  characteristics of the variability are governed not
+                  by the differences in the jet structure between the
+                  subtypes, but by the peak frequency of the
+                  synchrotron emission. This implies that the nature
+                  of the variation in the jets is common in FSRQs and
+                  BL Lac objects. We found that BL Lac objects tend to
+                  have high PD medians, which suggests that they have
+                  a stable polarization component. FSRQs have no such
+                  component, possibly because of a strong Compton
+                  cooling effect in sub-pc scale jets."
+}
+
+@article{2020.Aizawa_etal.apj,
+  author       =  "Masataka Aizawa and Yasushi Suto and Yoko Oya and
+                  Shiro Ikeda and Takeshi Nakazato",
+  title        =  "Search for Alignment of Disk Orientations in Nearby
+                  Star-forming Regions: Lupus, Taurus, Upper Scorpius,
+                  {$\rho$} Ophiuchi, and Orion",
+  journal      =  "The Astrophysical Journal",
+  doi          =  "10.3847/1538-4357/aba43d",
+  year         =  2020,
+  month        =  8,
+  publisher    =  "American Astronomical Society",
+  volume       =  899,
+  number       =  1,
+  pages        =  55,
+  eprinttype   =  "arXiv",
+  eprint       =  "2007.03393",
+  eprintClass  =  "astro-ph.SR",
+  abstract     =  "Spatial correlations among protoplanetary disk
+                  orientations carry unique information on physics of
+                  multiple-star formation processes. We select five
+                  nearby star-forming regions that comprise a number
+                  of protoplanetary disks with spatially resolved
+                  images with ALMA and Hubble Space Telescope, and we
+                  search for the mutual alignment of the disk
+                  axes. Specifically, we apply the Kuiper test to
+                  examine the statistical uniformity of the position
+                  angle (PA: the angle of the major axis of the
+                  projected disk ellipse measured counterclockwise
+                  from the north) distribution. The disks located in
+                  the star-forming regions, except the Lupus clouds,
+                  do not show any signature of the alignment,
+                  supporting the random orientation. Rotational axes
+                  of 16 disks with spectroscopic measurement of PA in
+                  the Lupus III cloud, a subregion of the Lupus field,
+                  however, exhibit a weak and possible departure from
+                  the random distribution at a 2$\sigma$ level, and
+                  the inclination angles of the 16 disks are not
+                  uniform as well. Furthermore, the mean direction of
+                  the disk PAs in the Lupus III cloud is parallel to
+                  the direction of its filament structure and
+                  approximately perpendicular to the magnetic field
+                  direction. We also confirm the robustness of the
+                  estimated PAs in the Lupus clouds by comparing the
+                  different observations and estimators based on three
+                  different methods, including sparse modeling. The
+                  absence of the significant alignment of the disk
+                  orientation is consistent with the turbulent origin
+                  of the disk angular momentum. Further observations
+                  are required to confirm/falsify the possible disk
+                  alignment in the Lupus III cloud."  
+}
+
+@article{2020.Ohsawa_etal.planetary,
+  author       =  "Ohsawa, Ryou and Hirota, Akira and Morita, Kohei and
+                  Abe, Shinsuke and Kastinen, Daniel and Kero, Johan and
+                  Szasz, Csilla and Fujiwara, Yasunori and Nakamura,
+                  Takuji and Nishimura, Koji and Sako, Shigeyuki and
+                  Watanabe, {Jun-ichi} and Aoki, Tsutomu and Arima, Noriaki
+                  and Arimatsu, Ko and Doi, Mamoru and Ichiki, Makoto and
+                  Ikeda, Shiro and Ita, Yoshifusa and Kasuga, Toshihiro
+                  and Kobayashi, Naoto and Kokubo, Mitsuru and Konishi,
+                  Masahiro and Maehara, Hiroyuki and Matsunaga, Noriyuki
+                  and Miyata, Takashi and Mori, Yuki and Morii, Mikio and
+                  Morokuma, Tomoki and Motohara, Kentaro and Nakada, 
+                  Yoshikazu and Okumura, {Shin-ichiro} and Sarugaku, Yuki and
+                  Sato, Mikiya and Shigeyama, Toshikazu and Soyano, Takao
+                  and Takahashi, Hidenori and Tanaka, Masaomi and
+                  Tarusawa, {Ken'ichi} and Tominaga, Nozomu and Urakawa, 
+                  Seitaro and Usui, Fumihiko and Yamashita, Takuya and
+                  Yoshikawa, Makoto",
+  title        =  "Relationship between radar cross section and optical
+                  magnitude based on radar and optical simultaneous
+                  observations of faint meteors",
+  journal      =  "Planetary and Space Science",
+  pages        =  105011,
+  year         =  2020,
+  month        =  12,
+  volume       =  194,
+  doi          =  "10.1016/j.pss.2020.105011",
+  eprinttype   =  "arXiv",
+  eprint       =  "2008.08942",
+  eprintClass  =  "astro-ph.EP",
+  issn         =  "0032-0633",
+  abstract     =  "Radar and optical simultaneous observations of
+                  meteors are important to understand the size
+                  distribution of the interplanetary dust. However,
+                  faint meteors detected by high power large aperture
+                  radar observations, which are typically as faint as
+                  10 mag. In optical, have not been detected until
+                  recently in optical observations, mainly due to
+                  insufficient sensitivity of the optical
+                  observations. In this paper, two radar and optical
+                  simultaneous observations were organized. The first
+                  observation was carried out in 2009-2010 using
+                  Middle and Upper Atmosphere Radar (MU radar) and an
+                  image-intensified CCD camera. The second observation
+                  was carried out in 2018 using the MU radar and a
+                  mosaic CMOS camera, Tomo-e Gozen, mounted on the
+                  1.05-m Kiso Schmidt Telescope. In total, 331
+                  simultaneous meteors were detected. The relationship
+                  between radar cross sections and optical V-band
+                  magnitudes was well approximated by a linear
+                  function. A transformation function from the radar
+                  cross section to the V-band magnitude was derived
+                  for sporadic meteors. The transformation function
+                  was applied to about 150,000 meteors detected by the
+                  MU radar in 2009-2015, large part of which are
+                  sporadic, and a luminosity function was derived in
+                  the magnitude range of -1.5--9.5mag . The luminosity
+                  function was well approximated by a single power-law
+                  function with the population index of
+                  $r=3.52\pm 0.12$. The present observation indicates that
+                  the MU radar has capability to detect interplanetary
+                  dust of $10^{-5}$ -- $10^0$g in mass as meteors."  
+}
+
+@article{2020.Yamaguchi_etal.apj,
+  author       =  "Yamaguchi, Masayuki and Akiyama, Kazunori and Tsukagoshi,
+                  Takashi and Muto, Takayuki and Kataoka, Akimasa and
+                  Tazaki, Fumie and Ikeda, Shiro and Fukagawa, Misato and
+                  Honma, Mareki and Kawabe, Ryohei",
+  title        =  "Super-resolution Imaging of the Protoplanetary Disk
+                  {HD} 142527 Using Sparse Modeling",
+  journal      =  apj,
+  year         =  2020,
+  month        =  5,
+  publisher    =  "American Astronomical Society",
+  volume       =  895,
+  number       =  2,
+  pages        =  84,
+  doi          =  "10.3847/1538-4357/ab899f",
+  eprinttype   =  "arXiv",
+  eprint       =  "2004.10989",
+  eprintClass  =  "astro-ph.EP",  
+  abstract     =  "With an emphasis on improving the fidelity even in
+                  super-resolution regimes, new imaging techniques
+                  have been intensively developed over the last
+                  several years, which may provide substantial
+                  improvements to the interferometric observation of
+                  protoplanetary disks. In this study, sparse modeling
+                  (SpM) is applied for the first time to observational
+                  data sets taken by the Atacama Large
+                  Millimeter/submillimeter Array (ALMA). The two data
+                  sets used in this study were taken independently
+                  using different array configurations at Band 7 (330
+                  GHz), targeting the protoplanetary disk around HD
+                  142527: one in the shorter-baseline array
+                  configuration ($\sim$430 m), and the other in the
+                  longer-baseline array configuration ($\sim$1570 m). The
+                  image resolutions reconstructed from the two data
+                  sets are different by a factor of $\sim$3. We confirm
+                  that the previously known disk structures appear on
+                  the images produced by both SpM and CLEAN at the
+                  standard beam size. The image reconstructed from the
+                  shorter-baseline data using the SpM matches that
+                  obtained with the longer-baseline data using the
+                  CLEAN, achieving a super-resolution image from which
+                  a structure finer than the beam size can be
+                  reproduced. Our results demonstrate that ongoing
+                  intensive development in the SpM imaging technique
+                  is beneficial to imaging with ALMA."
+}
+
+@article{2020.Kasai_etal.jbNMR,
+  author       =  "Kasai, Takuma and Ono, Shunsuke and Koshiba, Seizo
+                  and Yamamoto, Masayuki and Tanaka, Toshiyuki and
+                  Ikeda, Shiro and Kigawa, Takanori",
+  title        =  "Amino-acid selective isotope labeling enables
+                  simultaneous overlapping signal decomposition and
+                  information extraction from {NMR} spectra",
+  journal      =  "Journal of Biomolecular NMR",
+  year         =  2020,
+  month        =  1,
+  day          =  30,
+  abstract     =  "Signal overlapping is a major bottleneck for
+                  protein NMR analysis. We propose a new method,
+                  stable-isotope-assisted parameter extraction
+                  (SiPex), to resolve overlapping signals by a
+                  combination of amino-acid selective isotope labeling
+                  (AASIL) and tensor decomposition. The basic idea of
+                  Sipex is that overlapping signals can be decomposed
+                  with the help of intensity patterns derived from
+                  quantitative fractional AASIL, which also provides
+                  amino-acid information. In SiPex, spectra for
+                  protein characterization, such as 15N relaxation
+                  measurements, are assembled with those for
+                  amino-acid information to form a four-order tensor,
+                  where the intensity patterns from AASIL contribute
+                  to high decomposition performance even if the
+                  signals share similar chemical shift values or
+                  characterization profiles, such as relaxation
+                  curves. The loading vectors of each decomposed
+                  component, corresponding to an amide group,
+                  represent both the amino-acid and relaxation
+                  information. This information link provides an
+                  alternative protein analysis method that does not
+                  require ``assignments'' in a general sense; i.e.,
+                  chemical shift determinations, since the amino-acid
+                  information for some of the residues allows
+                  unambiguous assignment according to the dual
+                  selective labeling. SiPex can also decompose signals
+                  in time-domain raw data without Fourier transform,
+                  even in non-uniformly sampled data without spectral
+                  reconstruction. These features of SiPex should
+                  expand biological NMR applications by overcoming
+                  their overlapping and assignment problems.",
+  issn         =  "1573-5001",
+  doi          =  "10.1007/s10858-019-00295-9"
+}
+
+% 2019
+
+@article{2019.Richmond_etal.pasj,
+  author       =  "Michael W. Richmond and Masaomi Tanaka and Tomoki
+                  Morokuma and Shigeyuki Sako and Ryou Ohsawa and
+                  Noriaki Arima and Nozomu Tominaga and Mamoru Doi and
+                  Tsutomu Aoki and Ko Arimatsu and Makoto Ichiki and
+                  Shiro Ikeda and Yoshifusa Ita and Toshihiro Kasuga
+                  and Koji S. Kawabata and Hideyo Kawakita and Naoto
+                  Kobayashi and Mitsuru Kokubo and Masahiro Konishi
+                  and Hiroyuki Maehara and Hiroyuki Mito and Takashi
+                  Miyata and Yuki Mori and Mikio Morii and Kentaro
+                  Motohara and Yoshikazu Nakada and {Shin-ichiro} Okumura and
+                  Hiroki Onozato and Yuki Sarugaku and Mikiya Sato and
+                  Toshikazu Shigeyama and Takao Soyano and Hidenori
+                  Takahashi and Ataru Tanikawa and Ken'ichi Tarusawa
+                  and Seitaro Urakawa and Fumihiko Usui and Junichi
+                  Watanabe and Takuya Yamashita and Makoto Yoshikawa",
+  title        =  "An optical search for transients lasting a few seconds",
+  journal      =  pasj,
+  volume       =  72,
+  number       =  1,
+  pages        =  3,
+  year         =  2020,
+  month        =  2,
+  doi          =  "10.1093/pasj/psz120",
+  eprinttype   =  "arXiv",
+  eprint       =  "1910.11343",
+  eprintClass  =  "astro-ph.IM"
+}
+
+@article{2019.Arimatsu_etal.aj,
+  author       =  "Ko Arimatsu and Ryou Ohsawa and George L. Hashimoto
+                  and Seitaro Urakawa and Jun Takahashi and Miyako
+                  Tozuka and Yoichi Itoh and Misato Yamashita and
+                  Fumihiko Usui and Tsutomu Aoki and Noriaki Arima and
+                  Mamoru Doi and Makoto Ichiki and Shiro Ikeda and
+                  Yoshifusa Ita and Toshihiro Kasuga and Naoto
+                  Kobayashi and Mitsuru Kokubo and Masahiro Konishi
+                  and Hiroyuki Maehara and Noriyuki Matsunaga and
+                  Takashi Miyata and Mikio Morii and Tomoki Morokuma
+                  and Kentaro Motohara and Yoshikazu Nakada and
+                  Shin-ichiro Okumura and Shigeyuki Sako and Yuki
+                  Sarugaku and Mikiya Sato and Toshikazu Shigeyama and
+                  Takao Soyano and Hidenori Takahashi and {Ken'ichi}
+                  Tarusawa and Nozomu Tominaga and {Jun-ichi} Watanabe
+                  and Takuya Yamashita and Makoto Yoshikawa",
+  title        =  "New Constraint on the Atmosphere of (50000) Quaoar
+                  from a Stellar Occultation",
+  journal      =  "The Astronomical Journal",
+  volume       =  158,
+  number       =  6,
+  pages        =  236,
+  year         =  2019,
+  month        =  11,
+  publisher    =  "American Astronomical Society",
+  abstract     =  "We report observations of a stellar occultation by
+                  the classical Kuiper Belt object (50000) Quaoar that
+                  occurred on 2019 June 28. A single-chord
+                  high-cadence (2Hz) photometry data set was obtained
+                  with the Tomo-e Gozen CMOS camera mounted on the
+                  1.05 m Schmidt telescope at Kiso Observatory. The
+                  obtained ingress and egress data do not show any
+                  indication of atmospheric refraction and allow new
+                  1$\sigma$ and 3$\sigma$ upper limits of 6 and 16
+                  nbar, respectively, to be set for the surface
+                  pressure of a pure methane atmosphere. These upper
+                  limits are lower than the saturation vapor pressure
+                  of methane at Quaoar's expected mean surface
+                  temperature (T$\sim$44 K) and imply the absence of
+                  a$\sim$10 nbar-level global atmosphere formed by methane
+                  ice on Quaoar's surface.",
+  doi          =  "10.3847/1538-3881/ab5058",
+  eprinttype   =  "arXiv",
+  eprint       =  "1910.09988",
+  eprintClass  =  "astro-ph.EP"
+}
+
+
+@article{2019.Maeda_etal.pasj,
+  author =       "Maeda, Yoshitomo and Iizuka, Ryo and Hayashi,
+                  Takayuki and Sato, Toshiki and Nakaniwa, Nozomi and
+                  Takeo, Mai and Suzuki, Hitomi and Ishida, Manabu and
+                  Ikeda, Shiro and Morii, Mikio",
+  title =        "A concept for {X}-ray telescope system with an
+                  angular-resolution booster",
+  journal = 	 pasj,
+  volume =       71,
+  number =       "5",
+  pages =        "97",
+  year =         2019,
+  month =        10,
+  doi = 	 "10.1093/pasj/psz081",
+  eprinttype =   "arXiv",
+  eprint =       "1908.00231",
+  eprintClass =  "astro-ph.IM"
+}
+
+@article{2019.EHT.GR,
+  author = 	"{The Event Horizon Telescope Collaboration}",
+  memo =         "Porth, Oliver and Chatterjee, Koushik and Narayan,
+                  Ramesh and Gammie, Charles F. and Mizuno, Yosuke and
+                  Anninos, Peter and Baker, John G. and Bugli, Matteo
+                  and Chan, Chi-kwan and Davelaar, Jordy and Del
+                  Zanna, Luca and Etienne, Zachariah B. and Fragile,
+                  P. Chris and Kelly, Bernard J.  and Liska, Matthew
+                  and Markoff, Sera and McKinney, Jonathan C. and
+                  Mishra, Bhupendra and Noble, Scott C. and Olivares,
+                  Hector and Prather, Ben and Rezzolla, Luciano and
+                  Ryan, Benjamin R. and Stone, James M. and Tomei,
+                  Niccolo and White, Christopher J. and Younsi, Ziri
+                  and Akiyama, Kazunori and Alberdi, Antxon and Alef,
+                  Walter and Asada, Keiichi and Azulay, Rebecca and
+                  Baczko, Anne-Kathrin and Ball, David and Balokovic,
+                  Mislav and Barrett, John and Bintley, Dan and
+                  Blackburn, Lindy and Boland, Wilfred and Bouman,
+                  Katherine L. and Bower, Geoffrey C. and Bremer,
+                  Michael and Brinkerink, Christiaan D. and
+                  Brissenden, Roger and Britzen, Silke and Broderick,
+                  Avery E. and Broguiere, Dominique and Bronzwaer,
+                  Thomas and Byun, Do-Young and Carlstrom, John E. and
+                  Chael, Andrew and Chatterjee, Shami and Chen,
+                  Ming-Tang and Chen, Yongjun and Cho, Ilje and
+                  Christian, Pierre and Conway, John E. and Cordes,
+                  James M. and Crew, Geoffrey B. and Cui, Yuzhu and
+                  De Laurentis, Mariafelicia and Deane, Roger and
+                  Dempsey, Jessica and Desvignes, Gregory and
+                  Doeleman, Sheperd S. and Eatough, Ralph P. and
+                  Falcke, Heino and Fish, Vincent L. and Fomalont, Ed
+                  and Fraga-Encinas, Raquel and Freeman, Bill and
+                  Friberg, Per and Fromm, Christian M. and Gomez, Jose
+                  L. and Galison, Peter and Garcia, Roberto and
+                  Gentaz, Olivier and Georgiev, Boris and Goddi,
+                  Ciriaco and Gold, Roman and Gu, Minfeng and Gurwell,
+                  Mark and Hada, Kazuhiro and Hecht, Michael H. and
+                  Hesper, Ronald and Ho, Luis C. and Ho, Paul and
+                  Honma, Mareki and Huang, Chih-Wei L. and Huang, Lei
+                  and Hughes, David H. and Ikeda, Shiro and Inoue,
+                  Makoto and Issaoun, Sara and James, David J. and
+                  Jannuzi, Buell T. and Janssen, Michael and Jeter,
+                  Britton and Jiang, Wu and Johnson, Michael D. and
+                  Jorstad, Svetlana and Jung, Taehyun and Karami,
+                  Mansour and Karuppusamy, Ramesh and Kawashima,
+                  Tomohisa and Keating, Garrett K. and Kettenis, Mark
+                  and Kim, Jae-Young and Kim, Junhan and Kim, Jongsoo
+                  and Kino, Motoki and Koay, Jun Yi and Patrick,
+                  M. Koch and Koyama, Shoko and Kramer, Michael and
+                  Kramer, Carsten and Krichbaum, Thomas P. and Kuo,
+                  Cheng-Yu and Lauer, Tod R. and Lee, Sang-Sung and
+                  Li, Yan-Rong and Li, Zhiyuan and Lindqvist, Michael
+                  and Liu, Kuo and Liuzzo, Elisabetta and Lo, Wen-Ping
+                  and Lobanov, Andrei P. and Loinard, Laurent and
+                  Lonsdale, Colin and Lu, Ru-Sen and MacDonald,
+                  Nicholas R. and Mao, Jirong and Marrone, Daniel P.
+                  and Marscher, Alan P. and Marti-Vidal, Ivan and
+                  Matsushita, Satoki and Matthews, Lynn D. and
+                  Medeiros, Lia and Menten, Karl M. and Mizuno, Izumi
+                  and Moran, James M. and Moriyama, Kotaro and
+                  Moscibrodzka, Monika and Mueller, Cornelia and
+                  Nagai, Hiroshi and Nagar, Neil M. and Nakamura,
+                  Masanori and Narayanan, Gopal and Natarajan, Iniyan
+                  and Neri, Roberto and Ni, Chunchong and Noutsos,
+                  Aristeidis and Okino, Hiroki and Oyama, Tomoaki and
+                  Ozel, Feryal and Palumbo, Daniel C. M. and Patel,
+                  Nimesh and Pen, Ue-Li and Pesce, Dominic W. and
+                  Pietu, Vincent and Plambeck, Richard and
+                  PopStefanija, Aleksandar and Preciado-Lopez, Jorge
+                  A. and Psaltis, Dimitrios and Pu, Hung-Yi and
+                  Ramakrishnan, Venkatessh and Rao, Ramprasad and
+                  Rawlings, Mark G. and Raymond, Alexander W. and
+                  Ripperda, Bart and Roelofs, Freek and Rogers, Alan
+                  and Ros, Eduardo and Rose, Mel and Roshanineshat,
+                  Arash and Rottmann, Helge and Roy, Alan L.  and
+                  Ruszczyk, Chet and Rygl, Kazi L. J. and Sanchez,
+                  Salvador and Sanchez-Arguelles, David and Sasada,
+                  Mahito and Savolainen, Tuomas and Schloerb, F. Peter
+                  and Schuster, Karl-Friedrich and Shao, Lijing and
+                  Shen, Zhiqiang and Small, Des and Sohn, Bong Won and
+                  SooHoo, Jason and Tazaki, Fumie and Tiede, Paul and
+                  Tilanus, Remo P. J. and Titus, Michael and Toma,
+                  Kenji and Torne, Pablo and Trent, Tyler and Trippe,
+                  Sascha and Tsuda, Shuichiro and van Bemmel, Ilse and
+                  van Langevelde, Huib Jan and van Rossum, Daniel
+                  R. and Wagner, Jan and Wardle, John and Weintroub,
+                  Jonathan and Wex, Norbert and Wharton, Robert and
+                  Wielgus, Maciek and Wong, George N. and Wu, Qingwen
+                  and Young, Ken and Young, Andre and Yuan, Feng and
+                  Yuan, Ye-Fei and Zensus, J. Anton and Zhao, Guangyao
+                  and Zhao, Shan-Shan and Zhu, Ziyan",
+  title =        "The Event Horizon General Relativistic
+                  Magnetohydrodynamic Code Comparison Project",
+  journal =      "Astrophysical Journal Supplement Series",
+  year =          2019,
+  volume =        243,
+  number =        2,
+  month =        8,
+  bbstract =     "Recent developments in compact object astrophysics,
+                  especially the discovery of merging neutron stars by
+                  LIGO, the imaging of the black hole in M87 by the
+                  Event Horizon Telescope, and high- precision
+                  astrometry of the Galactic Center at close to the
+                  event horizon scale by the GRAVITY experiment
+                  motivate the development of numerical source models
+                  that solve the equations of general relativistic
+                  magnetohydrodynamics (GRMHD). Here we compare GRMHD
+                  solutions for the evolution of a magnetized
+                  accretion flow where turbulence is promoted by the
+                  magnetorotational instability from a set of nine
+                  GRMHD codes: Athena++, BHAC, Cosmos++, ECHO, H-AMR,
+                  iharm3D, HARM-Noble, IllinoisGRMHD, and
+                  KORAL. Agreement among the codes improves as
+                  resolution increases, as measured by a consistently
+                  applied, specially developed set of code performance
+                  metrics. We conclude that the community of GRMHD
+                  codes is mature, capable, and consistent on these
+                  test problems.",
+  publisher =    "IOP publishing LTD",
+  eprinttype =   "arXiv",
+  eprint =       "1904.04923",
+  eprintClass =  "astro-ph.HE",
+  doi =          "10.3847/1538-4365/ab29fd",
+  ISSN =         "0067-0049",
+  EISSN =        "1538-4365"
+}
+
+@article{2019.Shirasaki_etal.prd,
+  author        = 	 "Masato Shirasaki and Naoki Yoshida and Shiro Ikeda",
+  title = 	 "Denoising Weak Lensing Mass Maps with Deep Learning",
+  journal =      "Physical Review D",
+  volume =       100,
+  pages =        "043527",
+  month = 	 8,
+  year = 	 2019,
+  eprinttype =   "arXiv",
+  eprint =       "1812.05781",
+  eprintClass =  "astro-ph.CO",
+  doi =          "10.1103/PhysRevD.100.043527"
+}
+
+@article{2019.Yasuda_etal.pasj,
+  author =       "Yasuda, Naoki and Tanaka, Masaomi and Tominaga,
+                  Nozomu and Jiang, {Ji-an} and Moriya, Takashi J. and
+                  Morokuma, Tomoki and Suzuki, Nao and Takahashi,
+                  Ichiro and Yamaguchi, Masaki S. and Maeda, Keiichi
+                  and Sako, Masao and Ikeda, Shiro and Kimura, Akisato
+                  and Morii, Mikio and Ueda, Naonori and Yoshida,
+                  Naoki and Lee, Chien-Hsiu and Suyu, Sherry H. and
+                  Komiyama, Yutaka and Regnault, Nicolas and Rubin,
+                  David",
+  title =        "The {H}yper {S}uprime-{C}am {SSP} Transient Survey
+                  in {COSMOS}: Overview",
+  journal = 	 pasj,
+  volume =       71,
+  number =       4,
+  pages =        "74",
+  month =        8,
+  year =         2019,
+  doi = 	 "10.1093/pasj/psz050",
+  eprinttype =   "arXiv",
+  eprint =       "1904.09697",
+  eprintClass =  "astro-ph.GA"
+}
+
+@Article{2019.EHT.paper1,
+  author = 	"{The Event Horizon Telescope Collaboration}",
+  memo =         "Kazunori Akiyama and Antxon Alberdi and Walter Alef
+                  and Keiichi Asada and Rebecca Azulay and
+                  Anne-Kathrin Baczko and David Ball and Mislav
+                  Balokovi{\'c} and John Barrett and Dan Bintley and
+                  Lindy Blackburn and Wilfred Boland and Katherine
+                  L. Bouman and Geoffrey C. Bower and Michael Bremer
+                  and Christiaan D. Brinkerink and Roger Brissenden
+                  and Silke Britzen and Avery E. Broderick and
+                  Dominique Broguiere and Thomas Bronzwaer and
+                  Do-Young Byun and John E. Carlstrom and Andrew Chael
+                  and Chi-kwan Chan and Shami Chatterjee and Koushik
+                  Chatterjee and Ming-Tang Chen and Yongjun Chen and
+                  Ilje Cho and Pierre Christian and John E. Conway and
+                  James M. Cordes and Geoffrey B. Crew and Yuzhu Cui
+                  and Jordy Davelaar and Mariafelicia De Laurentis and
+                  Roger Deane and Jessica Dempsey and Gregory
+                  Desvignes and Jason Dexter and Sheperd S. Doeleman
+                  and Ralph P. Eatough and Heino Falcke and Vincent
+                  L. Fish and Ed Fomalont and Raquel Fraga-Encinas and
+                  William T. Freeman and Per Friberg and Christian
+                  M. Fromm and Jos{\'e} L. G{\'o}mez and Peter Galison
+                  and Charles F. Gammie and Roberto Garc{\'i}a and
+                  Olivier Gentaz and Boris Georgiev and Ciriaco Goddi
+                  and Roman Gold and Minfeng Gu and Mark Gurwell and
+                  Kazuhiro Hada and Michael H. Hecht and Ronald Hesper
+                  and Luis C. Ho and Paul Ho and Mareki Honma and
+                  Chih-Wei L. Huang and Lei Huang and David H. Hughes
+                  and Shiro Ikeda and Makoto Inoue and Sara Issaoun
+                  and David J. James and Buell T. Jannuzi and Michael
+                  Janssen and Britton Jeter and Wu Jiang and Michael
+                  D. Johnson and Svetlana Jorstad and Taehyun Jung and
+                  Mansour Karami and Ramesh Karuppusamy and Tomohisa
+                  Kawashima and Garrett K. Keating and Mark Kettenis
+                  and Jae-Young Kim and Junhan Kim and Jongsoo Kim and
+                  Motoki Kino and Jun Yi Koay and Patrick M. Koch and
+                  Shoko Koyama and Michael Kramer and Carsten Kramer
+                  and Thomas P. Krichbaum and Cheng-Yu Kuo and Tod
+                  R. Lauer and Sang-Sung Lee and Yan-Rong Li and
+                  Zhiyuan Li and Michael Lindqvist and Kuo Liu and
+                  Elisabetta Liuzzo and Wen-Ping Lo and Andrei
+                  P. Lobanov and Laurent Loinard and Colin Lonsdale
+                  and Ru-Sen Lu and Nicholas R. MacDonald and Jirong
+                  Mao and Sera Markoff and Daniel P. Marrone and Alan
+                  P. Marscher and Iv{\'a}n Mart{\'i}-Vidal and Satoki
+                  Matsushita and Lynn D. Matthews and Lia Medeiros and
+                  Karl M. Menten and Yosuke Mizuno and Izumi Mizuno
+                  and James M. Moran and Kotaro Moriyama and Monika
+                  Moscibrodzka and Cornelia M{\"u}ller and Hiroshi
+                  Nagai and Neil M. Nagar and Masanori Nakamura and
+                  Ramesh Narayan and Gopal Narayanan and Iniyan
+                  Natarajan and Roberto Neri and Chunchong Ni and
+                  Aristeidis Noutsos and Hiroki Okino and H{\'e}ctor
+                  Olivares and Gisela N. Ortiz-Le{\'o}n and Tomoaki
+                  Oyama and Feryal {\"O}zel and Daniel C. M. Palumbo
+                  and Nimesh Patel and Ue-Li Pen and Dominic W. Pesce
+                  and Vincent Pi{\'e}tu and Richard Plambeck and
+                  Aleksandar PopStefanija and Oliver Porth and Ben
+                  Prather and Jorge A. Preciado-L{\'o}pez and
+                  Dimitrios Psaltis and Hung-Yi Pu and Venkatessh
+                  Ramakrishnan and Ramprasad Rao and Mark G. Rawlings
+                  and Alexander W. Raymond and Luciano Rezzolla and
+                  Bart Ripperda and Freek Roelofs and Alan Rogers and
+                  Eduardo Ros and Mel Rose and Arash Roshanineshat and
+                  Helge Rottmann and Alan L. Roy and Chet Ruszczyk and
+                  Benjamin R. Ryan and Kazi L. J. Rygl and Salvador
+                  S{\'a}nchez and David S{\'a}nchez-Arguelles and
+                  Mahito Sasada and Tuomas Savolainen and F. Peter
+                  Schloerb and Karl-Friedrich Schuster and Lijing Shao
+                  and Zhiqiang Shen and Des Small and Bong Won Sohn
+                  and Jason SooHoo and Fumie Tazaki and Paul Tiede and
+                  Remo P. J. Tilanus and Michael Titus and Kenji Toma
+                  and Pablo Torne and Tyler Trent and Sascha Trippe
+                  and Shuichiro Tsuda and Ilse van Bemmel and Huib Jan
+                  van Langevelde and Daniel R. van Rossum and Jan
+                  Wagner and John Wardle and Jonathan Weintroub and
+                  Norbert Wex and Robert Wharton and Maciek Wielgus
+                  and George N. Wong and Qingwen Wu and Ken Young and
+                  Andr{\'e} Young and Ziri Younsi and Feng Yuan and
+                  Ye-Fei Yuan and J. Anton Zensus and Guangyao Zhao
+                  and Shan-Shan Zhao and Ziyan Zhu and Juan-Carlos
+                  Algaba and Alexander Allardi and Rodrigo Amestica
+                  and Jadyn Anczarski and Uwe Bach and Frederick
+                  K. Baganoff and Christopher Beaudoin and Bradford
+                  A. Benson and Ryan Berthold and Jay M. Blanchard and
+                  Ray Blundell and Sandra Bustamente and Roger
+                  Cappallo and Edgar Castillo-Dom{\'i}nguez and
+                  Chih-Cheng Chang and Shu-Hao Chang and Song-Chu
+                  Chang and Chung-Chen Chen and Ryan Chilson and Tim
+                  C. Chuter and Rodrigo C{\'o}rdova Rosado and Iain
+                  M. Coulson and Thomas M. Crawford and Joseph Crowley
+                  and John David and Mark Derome and Matthew Dexter
+                  and Sven Dornbusch and Kevin A. Dudevoir and Sergio
+                  A. Dzib and Andreas Eckart and Chris Eckert and Neal
+                  R. Erickson and Wendeline B. Everett and Aaron Faber
+                  and Joseph R. Farah and Vernon Fath and Thomas
+                  W. Folkers and David C. Forbes and Robert Freund and
+                  Arturo I. G{\'o}mez-Ruiz and David M. Gale and Feng
+                  Gao and Gertie Geertsema and David A. Graham and
+                  Christopher H. Greer and Ronald Grosslein and
+                  Fr{\'e}d{\'e}ric Gueth and Daryl Haggard and Nils
+                  W. Halverson and Chih-Chiang Han and Kuo-Chang Han
+                  and Jinchi Hao and Yutaka Hasegawa and Jason
+                  W. Henning and Antonio Hern{\'e}ndez-G{\'o}mez and
+                  Rub{\'e}n Herrero-Illana and Stefan Heyminck and Akihiko
+                  Hirota and James Hoge and Yau-De Huang and
+                  C. M. Violette Impellizzeri and Homin Jiang and
+                  Atish Kamble and Ryan Keisler and Kimihiro Kimura
+                  and Yusuke Kono and Derek Kubo and John Kuroda and
+                  Richard Lacasse and Robert A. Laing and Erik
+                  M. Leitch and Chao-Te Li and Lupin C.-C. Lin and
+                  Ching-Tang Liu and Kuan-Yu Liu and Li-Ming Lu and
+                  Ralph G. Marson and Pierre L. Martin-Cocher and Kyle
+                  D. Massingill and Callie Matulonis and Martin
+                  P. McColl and Stephen R. McWhirter and Hugo Messias
+                  and Zheng Meyer-Zhao and Daniel Michalik and Alfredo
+                  Monta{\~n}a and William Montgomerie and Matias
+                  Mora-Klein and Dirk Muders and Andrew Nadolski and
+                  Santiago Navarro and Joseph Neilsen and Chi
+                  H. Nguyen and Hiroaki Nishioka and Timothy Norton
+                  and Michael A. Nowak and George Nystrom and Hideo
+                  Ogawa and Peter Oshiro and Tomoaki Oyama and Harriet
+                  Parsons and Scott N. Paine and Juan Pe{\~n}alver and
+                  Neil M. Phillips and Michael Poirier and Nicolas
+                  Pradel and Rurik A. Primiani and Philippe A. Raffin
+                  and Alexandra S. Rahlin and George Reiland and
+                  Christopher Risacher and Ignacio Ruiz and Alejandro
+                  F. S{\'a}ez-Mada{\'i}n and Remi Sassella and Pim
+                  Schellart and Paul Shaw and Kevin M. Silva and
+                  Hotaka Shiokawa and David R. Smith and William Snow
+                  and Kamal Souccar and Don Sousa and T. K. Sridharan
+                  and Ranjani Srinivasan and William Stahm and Anthony
+                  A. Stark and Kyle Story and Sjoerd T. Timmer and
+                  Laura Vertatschitsch and Craig Walther and Ta-Shun
+                  Wei and Nathan Whitehorn and Alan R. Whitney and
+                  David P. Woody and Jan G. A. Wouterloot and Melvin
+                  Wright and Paul Yamaguchi and Chen-Yu Yu and
+                  Milagros Zeballos and Shuo Zhang and Lucy Ziurys",
+  title = 	 "First {M87} {E}vent {H}orizon {T}elescope
+                  Results. {I}. {T}he Shadow of the Supermassive Black Hole",
+  journal = 	  apjletters,
+  year = 	  2019,
+  volume = 	  875,
+  number = 	  1,
+  pages = 	 "L1(17pp)",
+  month = 	 4,
+  doi =          "10.3847/2041-8213/ab0ec7",
+  eprinttype =   "arXiv",
+  eprint =       "1906.11238",
+  eprintClass =  "astro-ph.GA"
+  }
+
+@Article{2019.EHT.paper2,
+  author = 	"{The Event Horizon Telescope Collaboration}",
+  memo =        "Kazunori Akiyama and Antxon Alberdi and Walter Alef
+                  and Keiichi Asada and Rebecca Azulay and
+                  Anne-Kathrin Baczko and David Ball and Mislav
+                  Balokovi{\'c} and John Barrett and Dan Bintley and
+                  Lindy Blackburn and Wilfred Boland and Katherine
+                  L. Bouman and Geoffrey C. Bower and Michael Bremer
+                  and Christiaan D. Brinkerink and Roger Brissenden
+                  and Silke Britzen and Avery E. Broderick and
+                  Dominique Broguiere and Thomas Bronzwaer and
+                  Do-Young Byun and John E. Carlstrom and Andrew Chael
+                  and Chi-kwan Chan and Shami Chatterjee and Koushik
+                  Chatterjee and Ming-Tang Chen and Yongjun Chen and
+                  Ilje Cho and Pierre Christian and John E. Conway and
+                  James M. Cordes and Geoffrey B. Crew and Yuzhu Cui
+                  and Jordy Davelaar and Mariafelicia De Laurentis and
+                  Roger Deane and Jessica Dempsey and Gregory
+                  Desvignes and Jason Dexter and Sheperd S. Doeleman
+                  and Ralph P. Eatough and Heino Falcke and Vincent
+                  L. Fish and Ed Fomalont and Raquel Fraga-Encinas and
+                  Per Friberg and Christian M. Fromm and Jos{\'e}
+                  L. G{\'o}mez and Peter Galison and Charles F. Gammie
+                  and Roberto Garc{\'i}a and Olivier Gentaz and Boris
+                  Georgiev and Ciriaco Goddi and Roman Gold and
+                  Minfeng Gu and Mark Gurwell and Kazuhiro Hada and
+                  Michael H. Hecht and Ronald Hesper and Luis C. Ho
+                  and Paul Ho and Mareki Honma and Chih-Wei L. Huang
+                  and Lei Huang and David H. Hughes and Shiro Ikeda
+                  and Makoto Inoue and Sara Issaoun and David J. James
+                  and Buell T. Jannuzi and Michael Janssen and Britton
+                  Jeter and Wu Jiang and Michael D. Johnson and
+                  Svetlana Jorstad and Taehyun Jung and Mansour Karami
+                  and Ramesh Karuppusamy and Tomohisa Kawashima and
+                  Garrett K. Keating and Mark Kettenis and Jae-Young
+                  Kim and Junhan Kim and Jongsoo Kim and Motoki Kino
+                  and Jun Yi Koay and Patrick M. Koch and Shoko Koyama
+                  and Michael Kramer and Carsten Kramer and Thomas
+                  P. Krichbaum and Cheng-Yu Kuo and Tod R. Lauer and
+                  Sang-Sung Lee and Yan-Rong Li and Zhiyuan Li and
+                  Michael Lindqvist and Kuo Liu and Elisabetta Liuzzo
+                  and Wen-Ping Lo and Andrei P. Lobanov and Laurent
+                  Loinard and Colin Lonsdale and Ru-Sen Lu and
+                  Nicholas R. MacDonald and Jirong Mao and Sera
+                  Markoff and Daniel P. Marrone and Alan P. Marscher
+                  and Iv{\'a}n Mart{\'i}-Vidal and Satoki Matsushita
+                  and Lynn D. Matthews and Lia Medeiros and Karl
+                  M. Menten and Yosuke Mizuno and Izumi Mizuno and
+                  James M. Moran and Kotaro Moriyama and Monika
+                  Moscibrodzka and Cornelia M{\"u}ller and Hiroshi
+                  Nagai and Neil M. Nagar and Masanori Nakamura and
+                  Ramesh Narayan and Gopal Narayanan and Iniyan
+                  Natarajan and Roberto Neri and Chunchong Ni and
+                  Aristeidis Noutsos and Hiroki Okino and H{\'e}ctor
+                  Olivares and Gisela N. Ortiz-Le{\'o}n and Tomoaki
+                  Oyama and Feryal {\"O}zel and Daniel C. M. Palumbo
+                  and Nimesh Patel and Ue-Li Pen and Dominic W. Pesce
+                  and Vincent Pi{\'e}tu and Richard Plambeck and
+                  Aleksandar PopStefanija and Oliver Porth and Ben
+                  Prather and Jorge A. Preciado-L{\'o}pez and
+                  Dimitrios Psaltis and Hung-Yi Pu and Venkatessh
+                  Ramakrishnan and Ramprasad Rao and Mark G. Rawlings
+                  and Alexander W. Raymond and Luciano Rezzolla and
+                  Bart Ripperda and Freek Roelofs and Alan Rogers and
+                  Eduardo Ros and Mel Rose and Arash Roshanineshat and
+                  Helge Rottmann and Alan L. Roy and Chet Ruszczyk and
+                  Benjamin R. Ryan and Kazi L. J. Rygl and Salvador
+                  S{\'a}nchez and David S{\'a}nchez-Arguelles and
+                  Mahito Sasada and Tuomas Savolainen and F. Peter
+                  Schloerb and Karl-Friedrich Schuster and Lijing Shao
+                  and Zhiqiang Shen and Des Small and Bong Won Sohn
+                  and Jason SooHoo and Fumie Tazaki and Paul Tiede and
+                  Remo P. J. Tilanus and Michael Titus and Kenji Toma
+                  and Pablo Torne and Tyler Trent and Sascha Trippe
+                  and Shuichiro Tsuda and Ilse van Bemmel and Huib Jan
+                  van Langevelde and Daniel R. van Rossum and Jan
+                  Wagner and John Wardle and Jonathan Weintroub and
+                  Norbert Wex and Robert Wharton and Maciek Wielgus
+                  and George N. Wong and Qingwen Wu and Andr{\'e}
+                  Young and Ken Young and Ziri Younsi and Feng Yuan
+                  and Ye-Fei Yuan and J. Anton Zensus and Guangyao
+                  Zhao and Shan-Shan Zhao and Ziyan Zhu and
+                  Juan-Carlos Algaba and Alexander Allardi and Rodrigo
+                  Amestica and Uwe Bach and Christopher Beaudoin and
+                  Bradford A. Benson and Ryan Berthold and Jay
+                  M. Blanchard and Ray Blundell and Sandra Bustamente
+                  and Roger Cappallo and Edgar Castillo-Dom{\'i}nguez
+                  and Chih-Cheng Chang and Shu-Hao Chang and Song-Chu
+                  Chang and Chung-Chen Chen and Ryan Chilson and Tim
+                  C. Chuter and Rodrigo C{\'o}rdova Rosado and Iain
+                  M. Coulson and Thomas M. Crawford and Joseph Crowley
+                  and John David and Mark Derome and Matthew Dexter
+                  and Sven Dornbusch and Kevin A. Dudevoir and Sergio
+                  A. Dzib and Chris Eckert and Neal R. Erickson and
+                  Wendeline B. Everett and Aaron Faber and Joseph
+                  R. Farah and Vernon Fath and Thomas W. Folkers and
+                  David C. Forbes and Robert Freund and Arturo
+                  I. G{\'o}mez-Ruiz and David M. Gale and Feng Gao and
+                  Gertie Geertsema and David A. Graham and Christopher
+                  H. Greer and Ronald Grosslein and Fr{\'e}d{\'e}ric
+                  Gueth and Nils W. Halverson and Chih-Chiang Han and
+                  Kuo-Chang Han and Jinchi Hao and Yutaka Hasegawa and
+                  Jason W. Henning and Antonio Hern{\'a}ndez-G{\'o}mez
+                  and Rub{\'e}n Herrero-Illana and Stefan Heyminck and
+                  Akihiko Hirota and James Hoge and Yau-De Huang and
+                  C. M. Violette Impellizzeri and Homin Jiang and
+                  Atish Kamble and Ryan Keisler and Kimihiro Kimura
+                  and Yusuke Kono and Derek Kubo and John Kuroda and
+                  Richard Lacasse and Robert A. Laing and Erik
+                  M. Leitch and Chao-Te Li and Lupin C.-C. Lin and
+                  Ching-Tang Liu and Kuan-Yu Liu and Li-Ming Lu and
+                  Ralph G. Marson and Pierre L. Martin-Cocher and Kyle
+                  D. Massingill and Callie Matulonis and Martin
+                  P. McColl and Stephen R. McWhirter and Hugo Messias
+                  and Zheng Meyer-Zhao and Daniel Michalik and Alfredo
+                  Monta{\~n}a and William Montgomerie and Matias
+                  Mora-Klein and Dirk Muders and Andrew Nadolski and
+                  Santiago Navarro and Chi H. Nguyen and Hiroaki
+                  Nishioka and Timothy Norton and George Nystrom and
+                  Hideo Ogawa and Peter Oshiro and Tomoaki Oyama and
+                  Stephen Padin and Harriet Parsons and Scott N. Paine
+                  and Juan Pe{\~n}alver and Neil M. Phillips and
+                  Michael Poirier and Nicolas Pradel and Rurik
+                  A. Primiani and Philippe A. Raffin and Alexandra
+                  S. Rahlin and George Reiland and Christopher
+                  Risacher and Ignacio Ruiz and Alejandro
+                  F. S{\'a}ez-Mada{\'i}n and Remi Sassella and Pim
+                  Schellart and Paul Shaw and Kevin M. Silva and
+                  Hotaka Shiokawa and David R. Smith and William Snow
+                  and Kamal Souccar and Don Sousa and T. K. Sridharan
+                  and Ranjani Srinivasan and William Stahm and Antony
+                  A. Stark and Kyle Story and Sjoerd T. Timmer and
+                  Laura Vertatschitsch and Craig Walther and Ta-Shun
+                  Wei and Nathan Whitehorn and Alan R. Whitney and
+                  David P. Woody and Jan G. A. Wouterloot and Melvin
+                  Wright and Paul Yamaguchi and Chen-Yu Yu and
+                  Milagros Zeballos and Lucy Ziurys",
+  title = 	 "First {M87} {E}vent {H}orizon {T}elescope
+                  Results. {II}. {A}rray and Instrumentation",
+  journal = 	  apjletters,
+  year = 	  2019,
+  volume = 	  875,
+  number = 	  1,
+  pages = 	 "L2(28pp)",
+  month = 	 4,
+  doi =          "10.3847/2041-8213/ab0c96",
+  eprinttype =   "arXiv",
+  eprint =       "1906.11239",
+  eprintClass =  "astro-ph.IM"
+  }
+
+@Article{2019.EHT.paper3,
+  author       =  "{The Event Horizon Telescope Collaboration}",
+  memo         =  "Kazunori Akiyama and Antxon Alberdi and Walter Alef
+                  and Keiichi Asada and Rebecca Azulay and
+                  Anne-Kathrin Baczko and David Ball and Mislav
+                  Balokovi{\'c} and John Barrett and Dan Bintley and
+                  Lindy Blackburn and Wilfred Boland and Katherine
+                  L. Bouman and Geoffrey C. Bower and Michael Bremer
+                  and Christiaan D. Brinkerink and Roger Brissenden
+                  and Silke Britzen and Avery E. Broderick and
+                  Dominique Broguiere and Thomas Bronzwaer and
+                  Do-Young Byun and John E. Carlstrom and Andrew Chael
+                  and Chi-kwan Chan and Shami Chatterjee and Koushik
+                  Chatterjee and Ming-Tang Chen and Yongjun Chen and
+                  Ilje Cho and Pierre Christian and John E. Conway and
+                  James M. Cordes and Geoffrey B. Crew and Yuzhu Cui
+                  and Jordy Davelaar and Mariafelicia De Laurentis and
+                  Roger Deane and Jessica Dempsey and Gregory
+                  Desvignes and Jason Dexter and Sheperd S. Doeleman
+                  and Ralph P. Eatough and Heino Falcke and Vincent
+                  L. Fish and Ed Fomalont and Raquel Fraga-Encinas and
+                  Per Friberg and Christian M. Fromm and Jos{\'e}
+                  L. G{\'o}mez and Peter Galison and Charles F. Gammie
+                  and Roberto Garc{\'i}a and Olivier Gentaz and Boris
+                  Georgiev and Ciriaco Goddi and Roman Gold and
+                  Minfeng Gu and Mark Gurwell and Kazuhiro Hada and
+                  Michael H. Hecht and Ronald Hesper and Luis C. Ho
+                  and Paul Ho and Mareki Honma and Chih-Wei L. Huang
+                  and Lei Huang and David H. Hughes and Shiro Ikeda
+                  and Makoto Inoue and Sara Issaoun and David J. James
+                  and Buell T. Jannuzi and Michael Janssen and Britton
+                  Jeter and Wu Jiang and Michael D. Johnson and
+                  Svetlana Jorstad and Taehyun Jung and Mansour Karami
+                  and Ramesh Karuppusamy and Tomohisa Kawashima and
+                  Garrett K. Keating and Mark Kettenis and Jae-Young
+                  Kim and Junhan Kim and Jongsoo Kim and Motoki Kino
+                  and Jun Yi Koay and Patrick M. Koch and Shoko Koyama
+                  and Michael Kramer and Carsten Kramer and Thomas
+                  P. Krichbaum and Cheng-Yu Kuo and Tod R. Lauer and
+                  Sang-Sung Lee and Yan-Rong Li and Zhiyuan Li and
+                  Michael Lindqvist and Kuo Liu and Elisabetta Liuzzo
+                  and Wen-Ping Lo and Andrei P. Lobanov and Laurent
+                  Loinard and Colin Lonsdale and Ru-Sen Lu and
+                  Nicholas R. MacDonald and Jirong Mao and Sera
+                  Markoff and Daniel P. Marrone and Alan P. Marscher
+                  and Iv{\'a}n Mart{\'i}-Vidal and Satoki Matsushita
+                  and Lynn D. Matthews and Lia Medeiros and Karl
+                  M. Menten and Yosuke Mizuno and Izumi Mizuno and
+                  James M. Moran and Kotaro Moriyama and Monika
+                  Moscibrodzka and Cornelia M{\"u}ller and Hiroshi
+                  Nagai and Neil M. Nagar and Masanori Nakamura and
+                  Ramesh Narayan and Gopal Narayanan and Iniyan
+                  Natarajan and Roberto Neri and Chunchong Ni and
+                  Aristeidis Noutsos and Hiroki Okino and H{\'e}ctor
+                  Olivares and Gisela N. Ortiz-Le{\'o}n and Tomoaki
+                  Oyama and Feryal {\"O}zel and Daniel C. M. Palumbo
+                  and Nimesh Patel and Ue-Li Pen and Dominic W. Pesce
+                  and Vincent Pi{\'e}tu and Richard Plambeck and
+                  Aleksandar PopStefanija and Oliver Porth and Ben
+                  Prather and Jorge A. Preciado-L{\'o}pez and
+                  Dimitrios Psaltis and Hung-Yi Pu and Venkatessh
+                  Ramakrishnan and Ramprasad Rao and Mark G. Rawlings
+                  and Alexander W. Raymond and Luciano Rezzolla and
+                  Bart Ripperda and Freek Roelofs and Alan Rogers and
+                  Eduardo Ros and Mel Rose and Arash Roshanineshat and
+                  Helge Rottmann and Alan L. Roy and Chet Ruszczyk and
+                  Benjamin R. Ryan and Kazi L. J. Rygl and Salvador
+                  S{\'a}nchez and David S{\'a}nchez-Arguelles and
+                  Mahito Sasada and Tuomas Savolainen and F. Peter
+                  Schloerb and Karl-Friedrich Schuster and Lijing Shao
+                  and Zhiqiang Shen and Des Small and Bong Won Sohn
+                  and Jason SooHoo and Fumie Tazaki and Paul Tiede and
+                  Remo P. J. Tilanus and Michael Titus and Kenji Toma
+                  and Pablo Torne and Tyler Trent and Sascha Trippe
+                  and Shuichiro Tsuda and Ilse van Bemmel and Huib Jan
+                  van Langevelde and Daniel R. van Rossum and Jan
+                  Wagner and John Wardle and Jonathan Weintroub and
+                  Norbert Wex and Robert Wharton and Maciek Wielgus
+                  and George N. Wong and Qingwen Wu and Andr{\'e}
+                  Young and Ken Young and Ziri Younsi and Feng Yuan
+                  and Ye-Fei Yuan and J. Anton Zensus and Guangyao
+                  Zhao and Shan-Shan Zhao and Ziyan Zhu and Roger
+                  Cappallo and Joseph R. Farah and Thomas W. Folkers
+                  and Zheng Meyer-Zhao and Daniel Michalik and Andrew
+                  Nadolski and Hiroaki Nishioka and Nicolas Pradel and
+                  Rurik A. Primiani and Kamal Souccar and Laura
+                  Vertatschitsch and Paul Yamaguchi",
+  title        =  "First {M87} {E}vent {H}orizon {T}elescope
+                  Results. {III}. {D}ata Processing and Calibration",
+  journal      =  apjletters,
+  year = 	  2019,
+  volume = 	  875,
+  number = 	  1,
+  pages = 	 "L3(32pp)",
+  month = 	 4,
+  doi =          "10.3847/2041-8213/ab0c57",
+  eprinttype =   "arXiv",
+  eprint =       "1906.11240",
+  eprintClass =  "astro-ph.GA"
+  }
+
+@Article{2019.EHT.paper4,
+  author = 	"{The Event Horizon Telescope Collaboration}",
+  memo =        "Akiyama, Kazunori and Alberdi, Antxon and Alef,
+                  Walter and Asada, Keiichi and Azulay, Rebecca and
+                  Baczko, Anne-Kathrin and Ball, David and
+                  Balokovi{\'c}, Mislav and Barrett, John and Bintley,
+                  Dan and Blackburn, Lindy and Boland, Wilfred and
+                  Bouman, Katherine L. and Bower, Geoffrey C. and
+                  Bremer, Michael and Brinkerink, Christiaan D. and
+                  Brissenden, Roger and Britzen, Silke and Broderick,
+                  Avery E. and Broguiere, Dominique and Bronzwaer,
+                  Thomas and Byun, Do-Young and Carlstrom, John E. and
+                  Chael, Andrew and Chan, Chi-kwan and Chatterjee,
+                  Shami and Chatterjee, Koushik and Chen, Ming-Tang
+                  and Chen, Yongjun and Cho, Ilje and Christian,
+                  Pierre and Conway, John E. and Cordes, James M. and
+                  Crew, Geoffrey B. and Cui, Yuzhu and Davelaar, Jordy
+                  and De Laurentis, Mariafelicia and Deane, Roger and
+                  Dempsey, Jessica and Desvignes, Gregory and Dexter,
+                  Jason and Doeleman, Sheperd S. and Eatough, Ralph
+                  P. and Falcke, Heino and Fish, Vincent L. and
+                  Fomalont, Ed and Fraga-Encinas, Raquel and Freeman,
+                  William T. and Friberg, Per and Fromm, Christian
+                  M. and G{\'o}mez, Jos{\'e} L. and Galison, Peter and
+                  Gammie, Charles F. and Garc{\'i}a, Roberto and
+                  Gentaz, Olivier and Georgiev, Boris and Goddi,
+                  Ciriaco and Gold, Roman and Gu, Minfeng and Gurwell,
+                  Mark and Hada, Kazuhiro and Hecht, Michael H. and
+                  Hesper, Ronald and Ho, Luis C. and Ho, Paul and
+                  Honma, Mareki and Huang, Chih-Wei L. and Huang, Lei
+                  and Hughes, David H. and Ikeda, Shiro and Inoue,
+                  Makoto and Issaoun, Sara and James, David J. and
+                  Jannuzi, Buell T. and Janssen, Michael and Jeter,
+                  Britton and Jiang, Wu and Johnson, Michael D. and
+                  Jorstad, Svetlana and Jung, Taehyun and Karami,
+                  Mansour and Karuppusamy, Ramesh and Kawashima,
+                  Tomohisa and Keating, Garrett K. and Kettenis, Mark
+                  and Kim, Jae-Young and Kim, Junhan and Kim, Jongsoo
+                  and Kino, Motoki and Koay, Jun Yi and Koch, Patrick
+                  M. and Koyama, Shoko and Kramer, Michael and Kramer,
+                  Carsten and Krichbaum, Thomas P. and Kuo, Cheng-Yu
+                  and Lauer, Tod R. and Lee, Sang-Sung and Li,
+                  Yan-Rong and Li, Zhiyuan and Lindqvist, Michael and
+                  Liu, Kuo and Liuzzo, Elisabetta and Lo, Wen-Ping and
+                  Lobanov, Andrei P. and Loinard, Laurent and
+                  Lonsdale, Colin and Lu, Ru-Sen and MacDonald,
+                  Nicholas R. and Mao, Jirong and Markoff, Sera and
+                  Marrone, Daniel P. and Marscher, Alan P. and
+                  Mart{\'i}-Vidal, Iv{\'a}n and Matsushita, Satoki and
+                  Matthews, Lynn D. and Medeiros, Lia and Menten, Karl
+                  M. and Mizuno, Yosuke and Mizuno, Izumi and Moran,
+                  James M. and Moriyama, Kotaro and Moscibrodzka,
+                  Monika and M{\"u}ller, Cornelia and Nagai, Hiroshi
+                  and Nagar, Neil M. and Nakamura, Masanori and
+                  Narayan, Ramesh and Narayanan, Gopal and Natarajan,
+                  Iniyan and Neri, Roberto and Ni, Chunchong and
+                  Noutsos, Aristeidis and Okino, Hiroki and Olivares,
+                  H{\'e}ctor and Oyama, Tomoaki and {\"O}zel, Feryal
+                  and Palumbo, Daniel C. M. and Patel, Nimesh and Pen,
+                  Ue-Li and Pesce, Dominic W. and Pi{\'e}tu, Vincent
+                  and Plambeck, Richard and PopStefanija, Aleksandar
+                  and Porth, Oliver and Prather, Ben and
+                  Preciado-L{\'o}pez, Jorge A. and Psaltis, Dimitrios
+                  and Pu, Hung-Yi and Ramakrishnan, Venkatessh and
+                  Rao, Ramprasad and Rawlings, Mark G. and Raymond,
+                  Alexander W. and Rezzolla, Luciano and Ripperda,
+                  Bart and Roelofs, Freek and Rogers, Alan and Ros,
+                  Eduardo and Rose, Mel and Roshanineshat, Arash and
+                  Rottmann, Helge and Roy, Alan L. and Ruszczyk, Chet
+                  and Ryan, Benjamin R. and Rygl, Kazi L. J. and
+                  S{\'a}nchez, Salvador and S{\'a}nchez-Arguelles,
+                  David and Sasada, Mahito and Savolainen, Tuomas and
+                  Schloerb, F. Peter and Schuster, Karl-Friedrich and
+                  Shao, Lijing and Shen, Zhiqiang and Small, Des and
+                  Sohn, Bong Won and SooHoo, Jason and Tazaki, Fumie
+                  and Tiede, Paul and Tilanus, Remo P. J. and Titus,
+                  Michael and Toma, Kenji and Torne, Pablo and Trent,
+                  Tyler and Trippe, Sascha and Tsuda, Shuichiro and
+                  van Bemmel, Ilse and van Langevelde, Huib Jan and
+                  van Rossum, Daniel R. and Wagner, Jan and Wardle,
+                  John and Weintroub, Jonathan and Wex, Norbert and
+                  Wharton, Robert and Wielgus, Maciek and Wong, George
+                  N. and Wu, Qingwen and Young, Andr{\'e} and Young,
+                  Ken and Younsi, Ziri and Yuan, Feng and Yuan, Ye-Fei
+                  and Zensus, J. Anton and Zhao, Guangyao and Zhao,
+                  Shan-Shan and Zhu, Ziyan and Farah, Joseph R. and
+                  Meyer-Zhao, Zheng and Michalik, Daniel and Nadolski,
+                  Andrew and Nishioka, Hiroaki and Pradel, Nicolas and
+                  Primiani, Rurik A. and Souccar, Kamal and
+                  Vertatschitsch, Laura and Yamaguchi, Paul",
+  title = 	 "First {M87} {E}vent {H}orizon {T}elescope
+                  Results. {IV}. {I}maging the Central Supermassive
+                  Black Hole",
+  journal = 	  apjletters,
+  year = 	  2019,
+  volume = 	  875,
+  number = 	  1,
+  pages = 	 "L4(52pp)",
+  month = 	 4,
+  doi =          "10.3847/2041-8213/ab0e85",
+  eprinttype =   "arXiv",
+  eprint =       "1906.11241",
+  eprintClass =  "astro-ph.GA"
+  }
+
+@Article{2019.EHT.paper5,
+  author = 	"{The Event Horizon Telescope Collaboration}",
+  memo =        "Akiyama, Kazunori and Alberdi, Antxon and Alef,
+                  Walter and Asada, Keiichi and Azulay, Rebecca and
+                  Baczko, Anne-Kathrin and Ball, David and
+                  Balokovi{\'c}, Mislav and Barrett, John and Bintley,
+                  Dan and Blackburn, Lindy and Boland, Wilfred and
+                  Bouman, Katherine L. and Bower, Geoffrey C. and
+                  Bremer, Michael and Brinkerink, Christiaan D. and
+                  Brissenden, Roger and Britzen, Silke and Broderick,
+                  Avery E. and Broguiere, Dominique and Bronzwaer,
+                  Thomas and Byun, Do-Young and Carlstrom, John E. and
+                  Chael, Andrew and Chan, Chi-kwan and Chatterjee,
+                  Shami and Chatterjee, Koushik and Chen, Ming-Tang
+                  and Chen, Yongjun and Cho, Ilje and Christian,
+                  Pierre and Conway, John E. and Cordes, James M. and
+                  Crew, Geoffrey B. and Cui, Yuzhu and Davelaar, Jordy
+                  and De Laurentis, Mariafelicia and Deane, Roger and
+                  Dempsey, Jessica and Desvignes, Gregory and Dexter,
+                  Jason and Doeleman, Sheperd S. and Eatough, Ralph
+                  P. and Falcke, Heino and Fish, Vincent L. and
+                  Fomalont, Ed and Fraga-Encinas, Raquel and Friberg,
+                  Per and Fromm, Christian M. and G{\'o}mez, Jos{\'e}
+                  L. and Galison, Peter and Gammie, Charles F. and
+                  Garc{\'i}a, Roberto and Gentaz, Olivier and
+                  Georgiev, Boris and Goddi, Ciriaco and Gold, Roman
+                  and Gu, Minfeng and Gurwell, Mark and Hada, Kazuhiro
+                  and Hecht, Michael H. and Hesper, Ronald and Ho,
+                  Luis C. and Ho, Paul and Honma, Mareki and Huang,
+                  Chih-Wei L. and Huang, Lei and Hughes, David H. and
+                  Ikeda, Shiro and Inoue, Makoto and Issaoun, Sara and
+                  James, David J. and Jannuzi, Buell T. and Janssen,
+                  Michael and Jeter, Britton and Jiang, Wu and
+                  Johnson, Michael D. and Jorstad, Svetlana and Jung,
+                  Taehyun and Karami, Mansour and Karuppusamy, Ramesh
+                  and Kawashima, Tomohisa and Keating, Garrett K. and
+                  Kettenis, Mark and Kim, Jae-Young and Kim, Junhan
+                  and Kim, Jongsoo and Kino, Motoki and Koay, Jun Yi
+                  and Koch, Patrick M. and Koyama, Shoko and Kramer,
+                  Michael and Kramer, Carsten and Krichbaum, Thomas
+                  P. and Kuo, Cheng-Yu and Lauer, Tod R. and Lee,
+                  Sang-Sung and Li, Yan-Rong and Li, Zhiyuan and
+                  Lindqvist, Michael and Liu, Kuo and Liuzzo,
+                  Elisabetta and Lo, Wen-Ping and Lobanov, Andrei
+                  P. and Loinard, Laurent and Lonsdale, Colin and Lu,
+                  Ru-Sen and MacDonald, Nicholas R. and Jirong Mao,and
+                  Markoff, Sera and Marrone, Daniel P. and Marscher,
+                  Alan P. and Mart{\'i}-Vidal, Iv{\'a}n and
+                  Matsushita, Satoki and Matthews, Lynn D. and
+                  Medeiros, Lia and Menten, Karl M. and Mizuno, Yosuke
+                  and Mizuno, Izumi and Moran, James M. and Moriyama,
+                  Kotaro and Moscibrodzka, Monika and M{\"u}ller,
+                  Cornelia and Nagai, Hiroshi and Nagar, Neil M. and
+                  Nakamura, Masanori and Narayan, Ramesh and
+                  Narayanan, Gopal and Natarajan, Iniyan and Neri,
+                  Roberto and Ni, Chunchong and Noutsos, Aristeidis
+                  and Okino, Hiroki and Olivares, H{\'e}ctor and
+                  Oyama, Tomoaki and {\"O}zel, Feryal and Palumbo,
+                  Daniel C. M. and Patel, Nimesh and Pen, Ue-Li and
+                  Pesce, Dominic W. and Pi{\'e}tu, Vincent and
+                  Plambeck, Richard and PopStefanija, Aleksandar and
+                  Porth, Oliver and Prather, Ben and
+                  Preciado-L{\'o}pez, Jorge A. and Psaltis, Dimitrios
+                  and Pu, Hung-Yi and Ramakrishnan, Venkatessh and
+                  Rao, Ramprasad and Rawlings, Mark G. and Raymond,
+                  Alexander W. and Rezzolla, Luciano and Ripperda,
+                  Bart and Roelofs, Freek and Rogers, Alan and Ros,
+                  Eduardo and Rose, Mel and Roshanineshat, Arash and
+                  Rottmann, Helge and Roy, Alan L. and Ruszczyk, Chet
+                  and Ryan, Benjamin R. and Rygl, Kazi L. J. and
+                  S{\'a}nchez, Salvador and S{\'a}nchez-Arguelles, David
+                  and Sasada, Mahito and Savolainen, Tuomas and
+                  Schloerb, F. Peter and Schuster, Karl-Friedrich and
+                  Shao, Lijing and Shen, Zhiqiang and Small, Des and
+                  Sohn, Bong Won and SooHoo, Jason and Tazaki, Fumie
+                  and Tiede, Paul and Tilanus, Remo P. J. and Titus,
+                  Michael and Toma, Kenji and Torne, Pablo and Trent,
+                  Tyler and Trippe, Sascha and Tsuda, Shuichiro and
+                  van Bemmel, Ilse and van Langevelde, Huib Jan and
+                  van Rossum, Daniel R. and Wagner, Jan and Wardle,
+                  John and Weintroub, Jonathan and Wex, Norbert and
+                  Wharton, Robert and Wielgus, Maciek and Wong, George
+                  N. and Wu, Qingwen and Young, Andr{\'e} and Young,
+                  Ken and Younsi, Ziri and Yuan, Feng and Yuan, Ye-Fei
+                  and Zensus, J. Anton and Zhao, Guangyao and Zhao,
+                  Shan-Shan and Zhu, Ziyan and Anczarski, Jadyn and
+                  Baganoff, Frederick K. and Eckart, Andreas and
+                  Farah, Joseph R. and Haggard, Daryl and Meyer-Zhao,
+                  Zheng and Michalik, Daniel and Nadolski, Andrew and
+                  Neilsen, Joseph and Nishioka, Hiroaki and Nowak,
+                  Michael A. and Pradel, Nicolas and Primiani, Rurik
+                  A. and Souccar, Kamal and Vertatschitsch, Laura and
+                  Yamaguchi, Paul and Zhang, Shuo",
+  title = 	 "First {M87} {E}vent {H}orizon {T}elescope
+                  Results. {V}. {P}hysical Origin of the Asymmetric
+                  Ring",
+  journal = 	  apjletters,
+  year = 	  2019,
+  volume = 	  875,
+  number = 	  1,
+  pages = 	 "L5(31pp)",
+  month = 	 4,
+  doi =          "10.3847/2041-8213/ab0f43",
+  eprinttype =   "arXiv",
+  eprint =       "1906.11242",
+  eprintClass =  "astro-ph.GA"
+  }
+
+@Article{2019.EHT.paper6,
+  author = 	"{The Event Horizon Telescope Collaboration}",
+  memo =        "Kazunori Akiyama and Antxon Alberdi and Walter Alef
+                  and Keiichi Asada and Rebecca Azulay and
+                  Anne-Kathrin Baczko and David Ball and Mislav
+                  Balokovi{\'c} and John Barrett and Dan Bintley and
+                  Lindy Blackburn and Wilfred Boland and Katherine
+                  L. Bouman and Geoffrey C. Bower and Michael Bremer
+                  and Christiaan D. Brinkerink and Roger Brissenden
+                  and Silke Britzen and Avery E. Broderick and
+                  Dominique Broguiere and Thomas Bronzwaer and
+                  Do-Young Byun and John E. Carlstrom and Andrew Chael
+                  and Chi-kwan Chan and Shami Chatterjee and Koushik
+                  Chatterjee and Ming-Tang Chen and Yongjun Chen and
+                  Ilje Cho and Pierre Christian and John E. Conway and
+                  James M. Cordes and Geoffrey B. Crew and Yuzhu Cui
+                  and Jordy Davelaar and Mariafelicia De Laurentis and
+                  Roger Deane and Jessica Dempsey and Gregory
+                  Desvignes and Jason Dexter and Sheperd S. Doeleman
+                  and Ralph P. Eatough and Heino Falcke and Vincent
+                  L. Fish and Ed Fomalont and Raquel Fraga-Encinas and
+                  Per Friberg and Christian M. Fromm and Jos{\'e}
+                  L. G{\'o}mez and Peter Galison and Charles F. Gammie
+                  and Roberto Garc{\'i}a and Olivier Gentaz and Boris
+                  Georgiev and Ciriaco Goddi and Roman Gold and
+                  Minfeng Gu and Mark Gurwell and Kazuhiro Hada and
+                  Michael H. Hecht and Ronald Hesper and Luis C. Ho
+                  and Paul Ho and Mareki Honma and Chih-Wei L. Huang
+                  and Lei Huang and David H. Hughes and Shiro Ikeda
+                  and Makoto Inoue and Sara Issaoun and David J. James
+                  and Buell T. Jannuzi and Michael Janssen and Britton
+                  Jeter and Wu Jiang and Michael D. Johnson and
+                  Svetlana Jorstad and Taehyun Jung and Mansour Karami
+                  and Ramesh Karuppusamy and Tomohisa Kawashima and
+                  Garrett K. Keating and Mark Kettenis and Jae-Young
+                  Kim and Junhan Kim and Jongsoo Kim and Motoki Kino
+                  and Jun Yi Koay and Patrick M. Koch and Shoko Koyama
+                  and Michael Kramer and Carsten Kramer and Thomas
+                  P. Krichbaum and Cheng-Yu Kuo and Tod R. Lauer and
+                  Sang-Sung Lee and Yan-Rong Li and Zhiyuan Li and
+                  Michael Lindqvist and Kuo Liu and Elisabetta Liuzzo
+                  and Wen-Ping Lo and Andrei P. Lobanov and Laurent
+                  Loinard and Colin Lonsdale and Ru-Sen Lu and
+                  Nicholas R. MacDonald and Jirong Mao and Sera
+                  Markoff and Daniel P. Marrone and Alan P. Marscher
+                  and Iv{\'a}n Mart{\'i}-Vidal and Satoki Matsushita
+                  and Lynn D. Matthews and Lia Medeiros and Karl
+                  M. Menten and Yosuke Mizuno and Izumi Mizuno and
+                  James M. Moran and Kotaro Moriyama and Monika
+                  Moscibrodzka and Cornelia M{\"u}ller and Hiroshi
+                  Nagai and Neil M. Nagar and Masanori Nakamura and
+                  Ramesh Narayan and Gopal Narayanan and Iniyan
+                  Natarajan and Roberto Neri and Chunchong Ni and
+                  Aristeidis Noutsos and Hiroki Okino and H{\'e}ctor
+                  Olivares and Tomoaki Oyama and Feryal {\"O}zel and
+                  Daniel C. M. Palumbo and Nimesh Patel and Ue-Li Pen
+                  and Dominic W. Pesce and Vincent Pi{\'e}tu and
+                  Richard Plambeck and Aleksandar PopStefanija and
+                  Oliver Porth and Ben Prather and Jorge
+                  A. Preciado-L{\'o}pez and Dimitrios Psaltis and
+                  Hung-Yi Pu and Venkatessh Ramakrishnan and Ramprasad
+                  Rao and Mark G. Rawlings and Alexander W. Raymond
+                  and Luciano Rezzolla and Bart Ripperda and Freek
+                  Roelofs and Alan Rogers and Eduardo Ros and Mel Rose
+                  and Arash Roshanineshat and Helge Rottmann and Alan
+                  L. Roy and Chet Ruszczyk and Benjamin R. Ryan and
+                  Kazi L. J. Rygl and Salvador S{\'a}nchez and David
+                  S{\'a}nchez-Arguelles and Mahito Sasada and Tuomas
+                  Savolainen and F. Peter Schloerb and Karl-Friedrich
+                  Schuster and Lijing Shao and Zhiqiang Shen and Des
+                  Small and Bong Won Sohn and Jason SooHoo and Fumie
+                  Tazaki and Paul Tiede and Remo P. J. Tilanus and
+                  Michael Titus and Kenji Toma and Pablo Torne and
+                  Tyler Trent and Sascha Trippe and Shuichiro Tsuda
+                  and Ilse van Bemmel and Huib Jan van Langevelde and
+                  Daniel R. van Rossum and Jan Wagner and John Wardle
+                  and Jonathan Weintroub and Norbert Wex and Robert
+                  Wharton and Maciek Wielgus and George N. Wong and
+                  Qingwen Wu and Andr{\'e} Young and Ken Young and
+                  Ziri Younsi and Feng Yuan and Ye-Fei Yuan and
+                  J. Anton Zensus and Guangyao Zhao and Shan-Shan Zhao
+                  and Ziyan Zhu and Joseph R. Farah and Zheng
+                  Meyer-Zhao and Daniel Michalik and Andrew Nadolski
+                  and Hiroaki Nishioka and Nicolas Pradel and Rurik
+                  A. Primiani and Kamal Souccar and Laura
+                  Vertatschitsch and Paul Yamaguchi",
+  title = 	 "First {M87} {E}vent {H}orizon {T}elescope
+                  Results. {VI}. {T}he Shadow and Mass of the Central
+                  Black Hole",
+  journal = 	  apjletters,
+  year = 	  2019,
+  volume = 	  875,
+  number = 	  1,
+  pages = 	 "L6(44pp)",
+  month = 	 4,
+  doi =          "10.3847/2041-8213/ab1141",
+  eprinttype =   "arXiv",
+  eprint =       "1906.11243",
+  eprintClass =  "astro-ph.GA"
+  }
+
+@article{2019.Ohsawa_etal.planetary,
+  author =       "Ryou Ohsawa and Shigeyuki Sako and Yuki Sarugaku and
+                  Fumihiko Usui and Takafumi Ootsubo and Yasunori Fujiwara and
+		  Mikiya Sato and Toshihiro Kasuga and Ko Arimatsu and
+		  {Jun-ichi} Watanabe and Mamoru Doi and Naoto Kobayashi and
+		  Hidenori Takahashi and Kentaro Motohara and
+		  Tomoki Morokuma and Masahiro Konishi and Tsutomu Aoki and
+		  Takao Soyano and {Ken'ichi} Tarusawa and Yuki Mori and
+		  Yoshikazu Nakada and Makoto Ichiki and Noriaki Arima and
+		  Yuto Kojima and Masahiro Morita and Toshikazu Shigeyama and
+		  Yoshifusa Ita and Mitsuru Kokubo and Kazuma Mitsuda and
+		  Hiroyuki Maehara and Nozomu Tominaga and
+		  Takuya Yamashita and Shiro Ikeda and Mikio Morii and
+		  Seitaro Urakawa and Shin-ichiro Okumura and
+		  Makoto Yoshikawa",
+  title =        "Luminosity function of faint sporadic meteors
+                  measured with a wide-field CMOS mosaic camera Tomo-e PM",
+  journal =      "Planetary and Space Science",
+  volume =       165,
+  pages =        "281--292",
+  year =         2019,
+  month =        1,
+  issn =         "0032-0633",
+  doi =          "10.1016/j.pss.2018.09.006",
+  eprinttype =   "arXiv",
+  eprint =       "1809.08816",
+  eprintClass =  "astro-ph",
+  abstract =     "Imaging observations of faint meteors were carried
+                  out on April 11 and 14, 2016 with a wide-field CMOS
+                  mosaic camera, Tomo-e PM, mounted on the 105-cm
+                  Schmidt telescope at Kiso Observatory, the
+                  University of Tokyo. Tomo-e PM, which is a prototype
+                  model of Tomo-e Gozen, can monitor a sky of
+                  $\sim$1.98$\sim$deg$^2$ at 2Hz. The numbers of detected
+                  meteors are 1514 and 706 on April 11 and 14,
+                  respectively. The detected meteors are attributed to
+                  sporadic meteors. Their absolute magnitudes range
+                  from +4 to +10mag in the V-band, corresponding to
+                  about $8.3{\times}10^{-2}$ to
+                  $3.3{\times}10^{-4}$g in mass. The present
+                  magnitude distributions we obtained are well
+                  explained by a single power-law luminosity function
+                  with a slope parameter $r=3.1\pm 0.4$ and a meteor
+                  rate $\log_{10}N0=-5.5\pm 0.5$. The results
+                  demonstrate a high performance of telescopic
+                  observations with a wide-field video camera to
+                  constrain the luminosity function of faint
+                  meteors. The performance of Tomo-e Gozenis about two
+                  times higher than that of Tomo-e PM. A survey with
+                  Tomo-e Gozenwill provide a more robust measurement
+                  of the luminosity function."
+}
+
+@article{2019.Morii_etal.pasj,
+  author = 	 "Mikio Morii and Shiro Ikeda and Yoshitomo Maeda",
+  title = 	 "An image reconstruction method for {X}-ray telescope system with an angular resolution booster",
+  journal = 	 pasj,
+  year =         2019,
+  month =        1,
+  volume =       71,
+  number =       1,
+  pages =        "24",
+  doi = 	 "10.1093/pasj/psy143",
+  eprinttype =   "arXiv",
+  eprint =       "1811.08653",
+  eprintClass =  "astro-ph.IM"
+  }
+
+% 2018
+
+@Misc{2018.Akiyama_etal.arxiv,
+  author = 	 "Kazunori Akiyama and Takuya Akahori and
+                  Yoshimitsu Miyashita and Shinsuke Ideguchi and
+		  Ryosuke Yamaguchi and Shiro Ikeda and Keitaro Takahashi",
+  title = 	 "Faraday Tomography with Sparse Modeling",
+  month = 	 11,
+  year = 	 2018,
+  eprinttype =   "arXiv",
+  eprint =       "1811.10610",
+  eprintClass =  "astro-ph.IM"
+}
+
+@InProceedings{2018.Nakazato_etal.ADASS,
+  author = 	 "Takeshi Nakazato and Shiro Ikeda and Kazunori Akiyama
+                  and George Kosugi and Masayuki Yamaguchi and Mareki Honma",
+  title = 	 "New synthesis imaging tool for {ALMA} based on the
+                  sparse modeling",
+  booktitle =    "Proc. ADASS (Astronomical Data Analysis Software and Systems) XXVIII",
+  year = 	 2018,
+  pages = 	 "O4.1",
+  address =	 "Maryland, U.S.A.",
+  month = 	 11
+  }
+
+@InProceedings{2018.Kosugi_etal.ADASS,
+  author = 	 "George Kosugi and Takeshi Nakazato and Shiro Ikeda",
+  title = 	 "Acceleration of the Sparse Modeling imaging tool for {ALMA}
+                  radio interferometric data",
+  booktitle =    "Proc. ADASS (Astronomical Data Analysis Software and Systems) XXVIII",
+  year = 	 2018,
+  pages = 	 "P12.9",
+  address =	 "Maryland, U.S.A.",
+  month = 	 11
+  }
+
+@InProceedings{2018.Morii_etal.ADASS,
+  author = 	 "Mikio Morii and Shiro Ikeda and Yoshitomo Maeda",
+  title = 	 "Image reconstruction method for an {X}-ray telescope
+                  with an angular resolution booster",
+  booktitle =    "Proc. ADASS (Astronomical Data Analysis Software and Systems) XXVIII",
+  year = 	 2018,
+  pages = 	 "P12.11",
+  address =	 "Maryland, U.S.A.",
+  month = 	 11
+  }
+
+@InProceedings{2018.Yamaguchi_etal.ADASS,
+  author = 	 "Masayuki Yamaguchi and Kazunori Akiyama and
+                  Akimasa Kataoka and Misato Fukagawa and
+                  Takashi Tsukagoshi and Takayuki Muto and
+		  Shiro Ikeda and Hiroshi Nagai and
+		  Mareki Honma and Ryohei Kawabe",
+  title = 	 "Super-resolution imaging of the protoplanetary disk {HD}
+                  142527 using sparse modeling",
+  booktitle =    "Proc. ADASS (Astronomical Data Analysis Software and Systems) XXVIII",
+  year = 	 2018,
+  pages = 	 "P13.22",
+  address =	 "Maryland, U.S.A.",
+  month = 	 11
+  }
+
+@InProceedings{2018.Wakamatsu_etal.golden,
+  author = 	 "Yasuyuki Wakamatsu and Keisuke Isogai and
+                  Takashi Morita and  Taichi Kato and Daisaku Nogami and
+		  Makoto Uemura and Shiro Ikeda",
+  title = 	 "New method of eclipse mapping and an application
+                  to {HT} {Cas} in the 2017 superoutburst",
+  booktitle =    "Proceedings of Science (The Golden Age of Cataclysmic
+                  Variables and Related Objects IV, 2017)",
+  year = 	 2018,
+  volume = 	 315,
+  series = 	 "Proceedings of Science",
+  pages = 	 "025(7pages)",
+  doi =          "10.22323/1.315.0025"
+  }
+
+@InProceedings{2018.Kojima_etal.SPIE,
+  author = 	 "Yuto Kojima and Shigeyuki Sako and Ryou Ohsawa and Hidenori
+                  Takahashi and Mamoru Doi and Naoto Kobayashi and Tsutomu
+                  Aoki and Noriaki Arima and Ko Arimatsu and Makoto Ichiki and
+                  Shiro Ikeda and Kota Inooka and Yoshifusa Ita and Toshihiro
+                  Kasuga and Mitsuru Kokubo and Masahiro Konishi and Hiroyuki
+                  Maehara and Noriyuki Matsunaga and Kazuma Mitsuda and Takashi
+                  Miyata and Yuki Mori and Mikio Morii and Tomoki Morokuma and
+                  Kentaro Motohara and Yoshikazu Nakada and Shin-Ichiro
+                  Okumura and Yuki Sarugaku and Mikiya Sato and Toshikazu
+                  Shigeyama and Takao Soyano and Masaomi Tanaka and {Ken'ichi}
+                  Tarusawa and Nozomu Tominaga and Tomonori Totani and Seitaro
+                  Urakawa and Fumihiko Usui and Junichi Watanabe and Takuya
+                  Yamashita and Makoto Yoshikawa",
+  title = 	 "Evaluation of large pixel {CMOS} image sensors for
+                  the {T}omo-e {G}ozen wide field camera",
+  booktitle =    "Proc. SPIE 10709, High Energy, Optical, and Infrared
+                  Detectors for Astronomy VIII",
+  year = 	 2018,
+  volume = 	 10709,
+  pages = 	 "107091T",
+  month = 	 7,
+  doi = 	 "10.1117/12.2311301"
+  }
+
+@InProceedings{2018.Sako_etal.SPIE,
+  author = 	 "Shigeyuki Sako and Ryou Ohsawa and Hidenori
+                  Takahashi and Yuto Kojima and Mamoru Doi and Naoto
+                  Kobayashi and Tsutomu Aoki and Noriaki Arima and Ko
+                  Arimatsu and Makoto Ichiki and Shiro Ikeda and Kota
+                  Inooka and Yoshifusa Ita and Toshihiro Kasuga and
+                  Mitsuru Kokubo and Masahiro Konishi and Hiroyuki
+                  Maehara and Noriyuki Matsunaga and Kazuma Mitsuda
+                  and Takashi Miyata and Yuki Mori and Mikio Morii and
+                  Tomoki Morokuma and Kentaro Motohara and Yoshikazu
+                  Nakada and Shin-Ichiro Okumura and Yuki Sarugaku and
+                  Mikiya Sato and Toshikazu Shigeyama and Takao Soyano
+                  and Masaomi Tanaka and {Ken'ichi} Tarusawa and Nozomu
+                  Tominaga and Tomonori Totani and Seitaro Urakawa and
+                  Fumihiko Usui and Junichi Watanabe and Takuya
+                  Yamashita and Makoto Yoshikawa",
+  title = 	 "The {T}omo-e {G}ozen wide field {CMOS} camera for
+                  the {K}iso {S}hmidt telescope",
+  booktitle =    "Proc. SPIE 10702, Ground-based and Airborne
+                  Instrumentation for Astronomy VII",
+  year = 	 2018,
+  volume = 	 10702,
+  pages = 	 "107020J",
+  month = 	 7,
+  doi = 	 "10.1117/12.2310049"
+  }
+
+
+@Article{2018.Kuramochi_etal.apj,
+  author = 	 "Kuramochi, Kazuki and Akiyama, Kazunori and Ikeda,
+                  Shiro and Tazaki, Fumie and Fish, Vincent L. and
+                  Pu, Hung-Yi and Asada, Keiichi and Honma, Mareki",
+  title = 	 "Superresolution Interferometric Imaging with Sparse
+                  Modeling Using Total Squared Variation --
+                  Application to Imaging the Black Hole Shadow",
+  journal = 	 apj,
+  volume =       "858",
+  number =       "1",
+  pages =        "56",
+  year = 	 "2018",
+  month =        5,
+  doi =          "10.3847/1538-4357/aab6b5",
+  abstract =     "We propose a new imaging technique for
+                  interferometry using sparse modeling, utilizing two
+                  regularization terms: the $\ell_1$-norm and a new
+                  function named total squared variation (TSV) of the
+                  brightness distribution. First, we demonstrate that
+                  our technique may achieve a superresolution of
+                  $\sim30\%$ compared with the traditional CLEAN beam
+                  size using synthetic observations of two point
+                  sources. Second, we present simulated observations
+                  of three physically motivated static models of Sgr
+                  A$^\ast$ with the Event Horizon Telescope (EHT) to
+                  show the performance of proposed techniques in
+                  greater detail. Remarkably, in both the image and
+                  gradient domains, the optimal beam size minimizing
+                  root-mean-squared errors is $\le 10\%$ of the
+                  traditional CLEAN beam size for $\ell_1+$ TSV
+                  regularization, and non-convolved reconstructed
+                  images have smaller errors than beam-convolved
+                  reconstructed images. This indicates that TSV is
+                  well matched to the expected physical properties of
+                  the astronomical images and the traditional
+                  post-processing technique of Gaussian convolution in
+                  interferometric imaging may not be required. We also
+                  propose a feature-extraction method to detect
+                  circular features from the image of a black hole
+                  shadow and use it to evaluate the performance of the
+                  image reconstruction. With this method and
+                  reconstructed images, the EHT can constrain the
+                  radius of the black hole shadow with an accuracy of
+                  $\sim10\% - 20\%$ in present simulations for Sgr
+                  A$^\ast$, suggesting that the EHT would be able to
+                  provide useful independent measurements of the mass
+                  of the supermassive black holes in Sgr A$^\ast$ and
+                  also another primary target, M87.",
+  eprinttype =   "arXiv",
+  eprint =       "1802.05783",
+  eprintClass =  "astro-ph.IM"
+}
+
+@Article{2018.Ohsawa_etal.apj,
+  author = 	 "Ohsawa, Ryou and Sako, Shigeyuki and Miyata, Takashi
+                  and Kamizuka, Takafumi and Okada, Kazushi and Mori,
+                  Kiyoshi and Uchiyama, Masahito S. and Yamaguchi,
+                  Junpei and Fujiyoshi, Takuya and Morii, Mikio and
+                  Ikeda, Shiro",
+  title = 	 "``{S}low-scanning'' in ground-based mid-infrared
+                  observations",
+  journal = 	  apj,
+  volume =       857,
+  number =       1,
+  pages =        "37(11pages)",
+  year = 	 2018,
+  month =        4,
+  doi =          "10.3847/1538-4357/aab6ae",
+  abstract =     "Chopping observations with a tip-tilt secondary
+                  mirror have conventionally been used in ground-based
+                  mid-infrared observations. However, it is not
+                  practical for next generation large telescopes to
+                  have a large tip-tilt mirror that moves at a
+                  frequency larger than a few hertz. We propose an
+                  alternative observing method, a ``slow-scanning''
+                  observation. Images are continuously captured as
+                  movie data, while the field of view is slowly
+                  moved. The signal from an astronomical object is
+                  extracted from the movie data by a low-rank and
+                  sparse matrix decomposition. The performance of the
+                  ``slow-scanning'' observation was tested in an
+                  experimental observation with Subaru/COMICS. The
+                  quality of a resultant image in the ``slow-scanning''
+                  observation was as good as in a conventional
+                  chopping observation with COMICS, at least for a
+                  bright point-source object. The observational
+                  efficiency in the ``slow-scanning'' observation was
+                  better than that in the chopping observation. The
+                  results suggest that the ``slow-scanning'' observation
+                  can be a competitive method for the Subaru telescope
+                  and be of potential interest to other ground-based
+                  facilities to avoid chopping.",
+  eprinttype =   "arXiv",
+  eprint =       "1804.04271",
+  eprintClass =  "astro-ph"
+}
+
+@Article{2018.Igarashi_etal.jpsj,
+  author       =  "Igarashi, Yasuhiko and Takenaka, Hikaru and
+                  Nakanishi-Ohno, Yoshinori and Uemura, Makoto and
+                  Ikeda, Shiro and Okada, Masato",
+  title        =  "Exhaustive search for sparse variable selection in
+                  linear regression",
+  journal      = 	"Journal of the Physical Society of Japan",
+  volume       =  87,
+  number       =  4,
+  pages        =  044802,
+  year         =  2018,
+  month        =  3,
+  doi          =  "10.7566/JPSJ.87.044802",
+  eprinttype   =  "arXiv",
+  eprint       =  "1707.02050",
+  eprintClass  =  "stat.ML"
+}
+
+% 2017
+
+@Article{2017.Obuchi_etal.plosone,
+  author       =  "Obuchi, Tomoyuki and Ikeda, Shiro and Akiyama, Kazunori
+                  and Kabashima, Yoshiyuki",
+  title        =  "Accelerating cross-validation with total variation
+                  and its application to super-resolution imaging",
+  journal      =  "PLOS ONE",
+  year         =  2017,
+  volume       =  12,
+  number       =  12,
+  pages        =  "1--14",
+  month        =  12,
+  note         =  "e0188012",
+  doi          =  "10.1371/journal.pone.0188012",
+  eprinttype   =  "arXiv",
+  eprint       =  "1611.07197",
+  eprintClass  =  "stat.ME"
+}
+
+@Article{2017.Akiyama_etal.apj,
+  author       =  "Akiyama, Kazunori and Kuramochi, Kazuki and Ikeda,
+                  Shiro and Fish, Vincent L. and Tazaki, Fumie and
+                  Honma, Mareki and Doeleman, Sheperd S. and
+                  Broderick, Avery and Dexter, Jason and
+                  Mo\'{s}cibrodzka, Monika and Bouman, Katherine
+                  L. and Chael, Andrew and Zaizen, Masamichi",
+  title        =  "Imaging the {Schwarzschild}-radius-scale Structure
+                  of {M87} with the Event Horizon Telescope using Sparse
+                  Modeling",
+  journal      =  apj,
+  volume       =  838,
+  number       =  1,
+  pages        =  "1(16pages)",
+  year         =  2017,
+  month        =  3,
+  doi          =  "10.3847/1538-4357/aa6305",
+  eprinttype   =  "arXiv",
+  eprint       =  "1702.07361",
+  eprintClass  =  "astro-ph.IM"
+}
+
+@Article{2017.Akiyama_etal.aj,
+  author       =  "Akiyama, Kazunori and Ikeda, Shiro and Pleau, Mollie and
+                  Fish, Vincent L. and Tazaki, Fumie and Kuramochi, Kazuki and
+	                Broderick, Avery E. and Dexter, Jason and Mo\'{s}cibrodzka,
+                  Monika and Gowanlock, Michael and Honma, Mareki and Doeleman,
+                  Sheperd S.",
+  title        =  "Superresolution Full-polarimetric Imaging for Radio
+                  Interferometry with Sparse Modeling",
+  journal      =  "The Astronomical Journal",
+  volume       =  153,
+  number       =  4,
+  pages        =  "159(12pages)",
+  year         =  2017,
+  month        =  3,
+  doi          =  "10.3847/1538-3881/aa6302",
+  eprinttype   =  "arXiv",
+  eprint       =  "1702.00424",
+  eprintClass  =  "astro-ph.IM"
+}
+
+@TechReport{2017.Pike_etal.jaxa-rr,
+  author = 	 "Pike, Sean and Ebisawa, Ken and Ikeda, Shiro and
+                  Morii, Mikio and Mizumoto, Misaki and Kusunoki,
+                  Eriko",
+  title = 	 "Application of data science techniques to
+                  disentangle {X}-ray spectral variation of
+                  super-massive black holes",
+  institution =  "JAXA/ISAS",
+  year = 	 2017,
+  number =       "JAXA-RR-16-007",
+  doi =          "10.20637/JAXA-RR-16-007/0007",
+  eprinttype =   "arXiv",
+  eprint =       "1701.05386",
+  eprintClass =  "astro-ph.HE"
+}
+
+@article{2017.Morii_etal.apj,
+  author =       "Morii, Mikio and Ikeda, Shiro and Sako, Shigeyuki
+                  and Ohsawa, Ryou",
+  title =        "Data Compression for the {Tomo-e} {Gozen} Using
+                  Low-rank Matrix Approximation",
+  journal =      apj,
+  volume =       835,
+  number =       1,
+  pages =        "1(5pages)",
+  year =         2017,
+  doi =          "10.3847/1538-4357/835/1/1",
+  abstract =     "Optical wide-field surveys with a high cadence are
+                  expected to create a new field of astronomy,
+                  so-called ``movie astronomy,'' in the near
+                  future. The amount of data from the observations
+                  will be huge, and hence efficient data compression
+                  will be indispensable. Here we propose a low-rank
+                  matrix approximation with sparse matrix
+                  decomposition as a promising solution to reduce the
+                  data size effectively while preserving sufficient
+                  scientific information. We apply one of the methods
+                  to the movie data obtained with the prototype model
+                  of the Tomo-e Gozen mounted on the 1.0 m Schmidt
+                  telescope of Kiso Observatory. Once full-scale
+                  observation with the Tomo-e Gozen commences, it will
+                  generate ~30 TB of data per night. We demonstrate
+                  that the data are compressed by a factor of about 10
+                  in size without losing transient events like optical
+                  short transient point sources and meteors. The
+                  intensity of point sources can be recovered from the
+                  compressed data. The processing runs sufficiently
+                  fast, compared with the expected data-acquisition
+                  rate in the actual observing runs.",
+  eprinttype =   "arXiv",
+  eprint =       "1612.03994",
+  eprintClass =  "astro-ph.IM"
+  }
+%  url =          {stacks.iop.org/0004-637X/835/i=1/a=1",
+
+% 2016
+
+@Article{2016.Ikeya_etal.SciRep,
+  title =        "Improved in-cell structure determination of proteins
+                  at near-physiological concentration",
+  author =       "Ikeya, Teppei and Hanashima, Tomomi and Hosoya,
+                  Saori and Shimazaki, Manato and Ikeda, Shiro and
+                  Mishima, Masaki and G{\"u}ntert, Peter and Ito,
+                  Yutaka",
+  journal =      "Scientific Reports",
+  volume =       6,
+  pages =        "38312(11pages)",
+  year =         2016,
+  month =        12,
+  publisher =    "Nature Publishing Group",
+  doi =          "10.1038/srep38312"
+  }
+
+@Article{2016.WatanabeIkeda.ieeeit,
+  author = 	 "Watanabe, Kazuho and Ikeda, Shiro",
+  title = 	 "Rate-Distortion Functions for Gamma-type Sources
+                  under Absolute-log Distortion Measure",
+  journal = 	 ieeeit,
+  year = 	 2016,
+  volume = 	 62,
+  number = 	 10,
+  pages = 	 "5496--5502",
+  month = 	 10,
+  doi = 	 "10.1109/TIT.2016.2602100"
+  }
+
+@article{2016.Morii_etal.pasj,
+  title =        "Machine-learning Selection of Optical Transients in
+                  {Subaru}/{Hyper} {Suprime-Cam} Survey",
+  author =       "Morii, Mikio and Ikeda, Shiro and Tominaga, Nozomu
+                  and Tanaka, Masaomi and Morokuma, Tomoki and
+                  Ishiguro, Katsuhiko and Yamato, Junji and Ueda,
+                  Naonori and Suzuki, Naotaka and Yasuda, Naoki and
+                  Yoshida, Naoki",
+  journal = 	 pasj,
+  year =         2016,
+  volume =       68,
+  number =       6,
+  pages =        "104(8pages)",
+  doi = 	 "10.1093/pasj/psw096",
+  eprinttype =   "arXiv",
+  eprint =       "1609.03249",
+  eprintClass =  "astro-ph.IM"
+  }
+
+@InProceedings{2016.Ohsawa_etal.SPIE,
+  author = 	 "Ryou Ohsawa and Shigeyuki Sako and Hidenori
+                  Takahashi and Yuki Kikuchi and Mamoru Doi and Naoto
+                  Kobayashi and Tsutomu Aoki and Ko Arimatsu and
+                  Makoto Ichiki and Shiro Ikeda and Yoshifusa Ita and
+                  Toshihiro Kasuga and Hideo Kawakita and Mitsuru
+                  Kokubo and Hiroyuki Maehara and Noriyuki Matsunaga
+                  and Hiroyuki Mito and Kazuma Mitsuda and Takashi
+                  Miyata and Kiyoshi Mori and Yuki Mori and Mikio
+                  Morii and Tomoki Morokuma and Kentaro Motohara and
+                  Yoshikazu Nakada and Shin-ichiro Okumura and Hiroki
+                  Onozato and Kentaro Osawa and Yuki Sarugaku and
+                  Mikiya Sato and Toshikazu Shigeyama and Takao Soyano
+                  and Masaomi Tanaka and Yuki Taniguchi and Ataru
+                  Tanikawa and {Ken'ichi} Tarusawa and Nozomu Tominaga
+                  and Tomonori Totani and Seitaro Urakawa and Fumihiko
+                  Usui and Junichi Watanabe and Jumpei Yamaguchi and
+                  Makoto Yoshikawa",
+  title = 	 "Development of a real-time data processing system
+                  for a prototype of the {T}omo-e {G}ozen wide field
+                  {CMOS} camera",
+  booktitle =    "Proc. SPIE 9908, Ground-based and Airborne
+                  Instrumentation for Astronomy",
+  year = 	 2016,
+  volume = 	 "III",
+  pages = 	 991339,
+  month = 	 8,
+  doi = 	 "10.1117/12.2231615"
+  }
+
+@InProceedings{2016.Sako_etal.SPIE,
+  author = 	 "Shigeyuki Sako and Ryou Osawa and Hidenori Takahashi
+                  and Yuki Kikuchi and Mamoru Doi and Naoto Kobayashi
+                  and Tsutomu Aoki and Ko Arimatsu and Makoto Ichiki
+                  and Shiro Ikeda and Yoshifusa Ita and Toshihiro
+                  Kasuga and Hideyo Kawakita and Mitsuru Kokubo and
+                  Hiroyuki Maehara and Noriyuki Matsunaga and Hiroyuki
+                  Mito and Kazuma Mitsuda and Takashi Miyata and
+                  Kiyoshi Mori and Yuki Mori and Mikio Morii and
+                  Tomoki Morokuma and Kentaro Motohara and Yoshikazu
+                  Nakada and Kentaro Osawa and Shin-ichiro Okumura and
+                  Hiroki Onozato and Yuki Sarugaku and Mikiya Sato and
+                  Toshikazu Shigeyama and Takao Soyano and Masaomi
+                  Tanaka and Yuki Taniguchi and Ataru Tanikawa and
+                  {Ken'ichi} Tarusawa and Nozomu Tominaga and Tomonori
+                  Totani and Seitaro Urakawa and Fumihiko Usui and
+                  Junichi Watanabe and Jumpei Yamaguchi and Makoto
+                  Yoshikawa",
+  title = 	 "Development of a prototype of the {T}omo-e {G}ozen
+                  wide-field {CMOS} camera",
+  booktitle =    "Proc. SPIE 9908, Ground-based and Airborne
+                  Instrumentation for Astronomy",
+  year = 	 2016,
+  volume = 	 "VI",
+  pages = 	 "99083P",
+  month = 	 8,
+  doi = 	 "10.1117/12.2231259"
+  }
+
+@TechReport{2016.PedrosoIkeda.ismmemo,
+  author = 	 "Pedroso, Jo\~ao Pedro and Ikeda, Shiro",
+  title = 	 "Maximum-expectation matching under recourse",
+  institution =  "The Institute of Statistical Mathematics, Research
+                  Memorandum",
+  year = 	 2016,
+  number =	 1197,
+  eprinttype =   "arXiv",
+  eprint =       "1605.08616",
+  eprintClass =  "cs.DS",
+  month =	 5
+}
+%  url =          {www.ism.ac.jp/editsec/resmemo-e.html",
+
+@article{2016.Ikeya_etal.iop,
+  author =       "Ikeya, Teppei and Ikeda, Shiro and Kigawa, Takanori
+                  and Ito, Yutaka and G{\"u}ntert, Peter",
+  title =        "Protein {NMR} Structure Refinement based on
+                  {B}ayesian Inference",
+  journal =      "Journal of Physics: Conference Series",
+  volume =       699,
+  number =       1,
+  pages =        "012005(14pages)",
+  year =         2016,
+  doi =          "10.1088/1742-6596/699/1/012005"
+  }
+%  url =          {stacks.iop.org/1742-6596/699/i=1/a=012005",
+
+@article{2016.Honma_etal.iop,
+  author =       "Honma, Mareki and Akiyama, Kazunori and Tazaki,
+                  Fumie and Kuramochi, Kazuki and Ikeda, Shiro and
+                  Hada, Kazuhiro and Uemura, Makoto",
+  title =        "Imaging black holes with sparse modeling",
+  journal =      "Journal of Physics: Conference Series",
+  volume =       699,
+  number =       1,
+  pages =        "012006(9pages)",
+  year =         2016,
+  doi =          "10.1088/1742-6596/699/1/012006"
+  }
+%  url =          {stacks.iop.org/1742-6596/699/i=1/a=012006",
+
+@article{2016.IkedaOdakaUemura.iop,
+  author =       "Ikeda, Shiro and Odaka, Hirokazu and Uemura, Makoto",
+  title =        "Sparse Modeling for Astronomical Data Analysis",
+  journal =      "Journal of Physics: Conference Series",
+  volume =       699,
+  number =       1,
+  pages =        "012008(4pages)",
+  year =         2016,
+  doi =          "10.1088/1742-6596/699/1/012008"
+  }
+%  url =          {stacks.iop.org/1742-6596/699/i=1/a=012008",
+
+@article{2016.Uemura_etal.iop,
+  author =       "Uemura, Makoto and Kawabata, Koji S. and Ikeda,
+                  Shiro and Maeda, Keiichi and Wu, Hsiang-Yun and
+                  Watanabe, Kazuho and Takahashi, Shigeo and
+                  Fujishiro, Issei",
+  title =        "Data-driven approach to Type {I}a supernovae:
+                  variable selection on the peak luminosity and
+                  clustering in visual analytics",
+  journal =      "Journal of Physics: Conference Series",
+  volume =       699,
+  number =       1,
+  pages =        "012009(10pages)",
+  year =         2016,
+  doi =          "10.1088/1742-6596/699/1/012009"
+  }
+%  url =          {stacks.iop.org/1742-6596/699/i=1/a=012009",
+
+@article{2016.Ikeda_etal.pasj,
+  title =        "{PRECL}: A new method for interferometry imaging
+                  from closure phase",
+  author =       "Ikeda, Shiro and Tazaki, Fumie and Akiyama, Kazunori
+                  and Hada, Kazuhiro and Honma, Mareki",
+  journal = 	 pasj,
+  volume =       68,
+  number =       3,
+  pages =        "45(9pages)",
+  year =         2016,
+  doi = 	 "10.1093/pasj/psv031",
+  eprinttype =   "arXiv",
+  eprint =       "1603.07078",
+  eprintClass =  "astro-ph.IM"
+}
+
+@article{2016.Okamura_etal.pnas,
+  title =        "Risk assessment of radioisotope contamination for
+                  aquatic living resources in and around Japan",
+  author =       "Okamura, Hiroshi and Ikeda, Shiro and Morita, Takami
+                  and Eguchi, Shinto",
+  journal =      "Proceedings of the National Academy of Sciences",
+  volume =       "113",
+  number =       "14",
+  pages =        "3838--3843",
+  year =         "2016",
+  doi =          "10.1073/pnas.1519792113",
+  publisher =    "National Academy of Sciences"
+}
+
+% 2015
+
+@InProceedings{2015.Ariki_etal.robio,
+  author = 	 "Ariki, Yuka and Inamura, Tetsunari and Ikeda, Shiro
+                  and Morimoto, Jun",
+  title = 	 "Sparsely Extracting Stored Movements to Construct
+                  Interfaces for Humanoid End-effector Control",
+  year = 	 2015,
+  booktitle =    "Proceedings of the 2015 IEEE Conference on Robotics
+                  and Biomimetics",
+  pages =        "1816--1821",
+  month = 	 12,
+  note =         "invited",
+  doi =          "10.1109/ROBIO.2015.7419036",
+  address =      "Zhuhai, China"
+  }
+
+@article{2015.Komori_etal.mee,
+  title =        "An asymmetric logistic regression model for ecological data",
+  author =       "Komori, Osamu and Eguchi, Shinto and Ikeda, Shiro
+                  and Okamura, Hiroshi and Ichinokawa, Momoko and
+                  Nakayama, Shinichiro",
+  journal =      "Methods in Ecology and Evolution",
+  month =        10,
+  volume =       7,
+  number =       2,
+  pages =        "249--260",
+  doi =          "10.1111/2041-210X.12473",
+  year =         "2015"
+}
+
+@InProceedings{2015.Ikeda.meis,
+  author = 	 "Ikeda, Shiro",
+  title = 	 "Sparsity and Information Processing",
+  year = 	 2015,
+  booktitle =    "Symposium MEIS2015: Mathematical Progress in
+                  Expressive Image Synthesis",
+  editor = 	 "Ochiai, Hiroyuki and Dobashi, Yoshinori",
+  volume = 	 64,
+  series = 	 "{MI} Lecture Note",
+  month = 	 9,
+  note =         "invited",
+  organization = "Kyushu University"
+  }
+
+@TechReport{2015.Tominaga_etal.atel,
+  author = 	 "Nozomu Tominaga and Tomoki Morokuma and Masaomi
+                  Tanaka and Naoki Yasuda and Hisanori Furusawa and
+                  Mikio Morii and Shiro Ikeda and Naonori Ueda and
+                  Junji Yamato and Katsuhiko Ishiguro and Yoshitaka
+                  Nakamura and Akihiro Yamanaka and Naoki Yoshida and
+                  Nao Suzuki and Jiang, {Ji-an} and Takahiro Kato and
+                  Yuki Taniguchi and Takumi Shibata and Satoshi
+                  Miyazaki and Moriya, Takashi J. and Junichi Noumaru
+                  and Kiaina Schubert and Tadafumi Takata",
+  title = 	 "Supernova candidates discovered with
+                  {Subaru}/{Hyper} {Suprime-Cam}",
+  institution =  "The Astronomer's Telegram",
+  year = 	 2015,
+  number = 	 "ATel\#7927",
+  month = 	 12
+  }
+
+@article{2015.Uemura_etal.pasj,
+  title =        "Variable Selection for Modeling the Absolute
+                  Magnitude at Maximum of Type {I}a Supernovae",
+  author =       "Uemura, Makoto and Kawabata, Koji S. and Ikeda,
+                  Shiro and Maeda, Keiichi",
+  journal = 	 pasj,
+  volume = 	 67,
+  number = 	 3,
+  pages =        "55(9pages)",
+  doi =          "10.1093/pasj/psv031",
+  year =         "2015",
+  eprinttype =   "arXiv",
+  eprint =       "1504.01470",
+  eprintClass =  "astro-ph.SR"
+  }
+
+% 2014
+
+@InProceedings{2014.Ikeda_etal.isita,
+  author = 	 "Ikeda, Shiro and Hayashi, Kazunori and Tanaka,
+                  Toshiyuki",
+  title = 	 "Channel capacity and achievable rates of peak power
+                  limited AWGNC, and their applications to adaptive
+                  modulation and coding",
+  booktitle =    "Proceedings of 2014 International Symposium on
+                  Information Theory and its Applications (ISITA2014)",
+  year = 	 2014,
+  pages = 	 "590--594",
+  month = 	 10,
+  address =      "Melbourne, Australia",
+  eprinttype =   "arXiv",
+  eprint =       "1005.3889v2",
+  eprintClass =  "cs.IT"
+  }
+
+@Article{2014.Honma_etal.pasj,
+  author = 	 "Honma, Mareki and Akiyama, Kazunori and Uemura,
+                  Makoto and Ikeda, Shiro",
+  title = 	 "Super-resolution imaging with radio interferometry
+                  using sparse modeling",
+  journal = 	 pasj,
+  year = 	 2014,
+  volume = 	 66,
+  number = 	 5,
+  pages = 	 "95(14pages)",
+  doi = 	 "10.1093/pasj/psu070",
+  eprinttype =   "arXiv",
+  eprint =       "1407.2442",
+  eprintClass =  "astro-ph.IM"
+  }
+
+@Article{2014.WatanabeIkeda.ml,
+  author = 	 "Watanabe, Kazuho and Ikeda, Shiro",
+  title = 	 "Entropic Risk Minimization for Nonparametric
+                  Estimation of Mixing Distributions",
+  journal = 	 "Machine Learning",
+  year = 	 2015,
+  month =        4,
+  volume = 	 99,
+  number = 	 1,
+  pages = 	 "119--136",
+  doi = 	 "10.1007/s10994-014-5467-7"
+  }
+
+@Article{2014.Ikeda_etal.nima,
+  author = 	 "Ikeda, Shiro and Odaka, Hirokazu and Uemura, Makoto
+                  and Takahashi, Tadayuki and Watanabe, Shin and
+                  Takeda, Shin'ichiro",
+  title = 	 "Bin mode estimation methods for {C}ompton camera imaging",
+  journal = 	 nima,
+  year = 	 2014,
+  volume = 	 760,
+  pages = 	 "46--56",
+  month = 	 10,
+  doi = 	 "10.1016/j.nima.2014.05.081",
+  eprinttype =   "arXiv",
+  eprint =       "1312.4291",
+  eprintClass =  "astro-ph.IM"
+  }
+
+% 2013
+
+@InProceedings{2013.Ikeda_etal.icst,
+  author = 	 "Ikeda, Shiro and Odaka, Hirokazu and Uemura, Makoto
+                  and Takahashi, Tadayuki and Watanabe, Shin and
+                  Takeda, Shin'ichiro",
+  title = 	 "Compton Camera Imaging",
+  booktitle =    "Proceedings of 2013 Seventh International Conference
+                  on Sensing Technology (ICST2013)",
+  year = 	 2013,
+  pages = 	 "674--677",
+  month = 	 12,
+  address = 	 "Wellington, New Zealand"
+  }
+
+@InProceedings{2013.Ikeda.witmse,
+  author = 	 "Ikeda, Shiro",
+  title = 	 "Optimization of probability measure and its
+                  applications in information theory",
+  booktitle =    "Proceedings of The Sixth Workshop on Information
+                  Theoretic Methods in Science and Engineering",
+  pages = 	 "49",
+  year = 	 2013,
+  note =         "invited",
+  month = 	 8,
+  address =      "Tokyo, Japan"
+  }
+
+@InProceedings{2013.WatanabeIkeda.isit,
+  author = 	 "Watanabe, Kazuho and Ikeda, Shiro",
+  title = 	 "Rate-distortion function for gamma sources under
+                  absolute-log distortion measure",
+  booktitle =    "Proceedings of 2013 IEEE International Symposium on
+                  Information Theory (ISIT2013)",
+  pages = 	 "2557--2561",
+  year = 	 2013,
+  address = 	 "Istanbul, Turkey",
+  month = 	 7,
+  doi =          "10.1109/ISIT.2013.6620688"
+  }
+
+@Article{2013.Manton_etal.jstsp,
+  author = 	 "Manton, Jonathan H. and Applebaum, David and Ikeda,
+                  Shiro and LeBihan, Nicolas",
+  title = 	 "Introduction to the issue on differential geometry
+                  in signal processing",
+  journal = 	 "IEEE Journal of Selected Topics in Signal Processing",
+  year = 	 2013,
+  volume = 	 7,
+  number = 	 4,
+  pages = 	 "573--575",
+  month = 	 8,
+  doi =          "10.1109/JSTSP.2013.2265514"
+  }
+
+% 2012
+
+@InProceedings{2012.WatanabeIkeda.witmse,
+  author = 	 "Watanabe, Kazuho and Ikeda, Shiro",
+  title = 	 "Convex formulation for nonparametric estimation of
+                  mixing distribution",
+  booktitle =    "Proceedings of The Fifth Workshop on Information
+                  Theoretic Methods in Science and Engineering",
+  pages = 	 "36--39",
+  year = 	 2012,
+  month = 	 8
+  }
+
+@Article{2012.IkedaKono.optexp,
+  author = 	 "Ikeda, Shiro and Kono, Hidetoshi",
+  title = 	 "Phase retrieval from single biomolecule diffraction
+                  pattern",
+  journal = 	 Optexp,
+  year = 	 2012,
+  volume = 	 20,
+  number = 	 4,
+  pages = 	 "3375--3387",
+  doi =          "10.1364/OE.20.003375",
+  eprinttype =   "arXiv",
+  eprint =       "1101.1442",
+  eprintClass =  "physics.data-an"
+  }
+
+% 2011
+
+@InProceedings{2011.IkedaKono.sparse,
+  author    =    "Ikeda, Shiro and Kono, Hidetoshi",
+  title = 	 "Sparse Phase Retrieval",
+  booktitle =    "Proceedings of 4th Workshop on Signal Processing
+                  with Adaptive Sparse Structured Representations (SPARS2011)",
+  pages = 	 106,
+  year = 	 2011,
+  address = 	 "Edinburgh, U.K.",
+  month = 	 6
+  }
+
+@Article{2011.McDonnellIkedaManton.biocyber,
+  author = 	 "McDonnell, Mark D. and Ikeda, Shiro and Manton,
+                  Jonathan H.",
+  title = 	 "An Introductory Review of Information Theory in the
+                  Context of Computational Neuroscience",
+  journal = 	 "Biological Cybernetics",
+  year = 	 2011,
+  volume = 	 105,
+  number = 	 1,
+  pages = 	 "55--70",
+  month = 	 7,
+  doi =          "10.1007/s00422-011-0451-9",
+  eprinttype =   "arXiv",
+  eprint =       "1107.2984",
+  eprintClass =  "cs.IT"
+  }
+
+% 2010
+@Article{2010.Ikeda.iop,
+  author = 	 "Ikeda, Shiro",
+  title = 	 "Combining binary machines for multi-class:
+                  Statistical model and parameter estimation",
+  journal = 	 "Journal of Physics: Conference Series, International
+                  Workshop on Statistical-Mechanical Informatics 2010
+                  (IW-SMI2010)",
+  year = 	 2010,
+  volume = 	 233,
+  pages = 	 012006,
+  doi =          "10.1088/1742-6596/233/1/012006"
+  }
+
+% 2009
+
+@InProceedings{2009.IkedaSakaguchi.cdc,
+  author = 	 "Ikeda, Shiro and Sakaguchi, Yutaka",
+  title = 	 "Motor Planning as an Optimization of Command Representation",
+  booktitle =    "Proceedings of 48th IEEE Conference on Decision and Control (CDC2009)",
+  pages = 	 "4499--4504",
+  address =      "Shanghai, China",
+  year = 	 2009,
+  month = 	 12,
+  abstract =     "A fundamental problem in the field of motor
+                  neuroscience is to understand how our brain
+                  generates appropriate motor commands for precise
+                  movements effortlessly. The problem seems difficult
+                  since there are infinitely many possible
+                  trajectories and our musculo-skeltal system is
+                  generally redundant. We focus on the motor command
+                  representation and show that a simple strategy can
+                  solve the problem for a planar two-joints arm
+                  model. We also discuss the emergence of the muscle
+                  synergies, which may enable us to make natural motor
+                  behaviors with smaller degrees of freedom.",
+  doi =           "10.1109/CDC.2009.5399672"
+  }
+
+@Article{2009.IkedaManton.iop,
+  author = 	 "Ikeda, Shiro and Manton, Jonathan H.",
+  title = 	 "Capacity of a single spiking neuron",
+  journal = 	 "Journal of Physics: Conference Series, International
+                  Workshop on Statistical-Mechanical Informatics 2009
+                  (IW-SMI2009)",
+  year = 	 2009,
+  volume = 	 197,
+  pages = 	 012014,
+  doi = 	 "10.1088/1742-6596/197/1/012014"
+  }
+
+@Article{2009.IkedaManton.nc,
+  author = 	 "Ikeda, Shiro and Manton, Jonathan H.",
+  title = 	 "Capacity of a Single Spiking Neuron Channel",
+  journal = 	 nc,
+  year = 	 2009,
+  volume = 	 21,
+  number = 	 6,
+  pages = 	 "1714--1748",
+  month = 	 6,
+  doi =          "10.1162/neco.2009.05-08-792"
+  }
+
+@InProceedings{2009.IkedaManton.isit,
+  author =       "Ikeda, Shiro and Manton, Jonathan H.",
+  title =        "Spiking Neuron Channel",
+  booktitle =    isit2009,
+  address =      "Seoul, Korea",
+%  days =         "28-3",
+%  month =        6,
+  date  =        "2009-06-28/2009-07-03",
+  pages = 	 "1589--1593",
+%  year =         2009,
+  keywords =     "channel capacity; channel capacity achieving
+                  distribution; neuroscience; neuron",
+  abstract =     "The information transfer through a single neuron is a
+                  fundamental information processing in the
+                  brain. This paper studies the information-theoretic
+                  capacity of a single neuron by treating the neuron
+                  as a communication channel. Two different models are
+                  considered. The temporal coding model of a neuron as
+                  a communication channel assumes the output is $\tau$
+                  where $\tau$ is a gamma-distributed random variable
+                  corresponding to the inter-spike interval, that is,
+                  the time it takes for the neuron to fire once. The
+                  rate coding model is similar; the output is the
+                  actual rate of firing over a fixed period of
+                  time. We prove that for both models, the capacity
+                  achieving distribution has only a finite number of
+                  probability mass points. This allows us to compute
+                  numerically the capacity of a neuron. Our capacity
+                  results are in a plausible range based on biological
+                  evidence to date.",
+  doi =           "10.1109/ISIT.2009.5205817"
+  }
+
+% 2008
+
+@InProceedings{2008.IkedaManton.neuroeng,
+  author = 	 "Ikeda, Shiro and Manton, Jonathan H.",
+  title = 	 "Capacity of a single neuron channel",
+  booktitle =    "3rd Australian Workshop on Mathematical and
+                  Computational Neuroscience, NeuroEng 2008",
+  pages = 	 13,
+  address =	 "Melbourne, Australia",
+  year = 	 2008,
+  month = 	 11
+  }
+
+@TechReport{2008.HamadaIkeda.ismmemo,
+  author = 	 "Hamada, Masatoshi and Ikeda, Shiro",
+  title = 	 "Channel Estimation and Code Word Inference for
+                  Mobile Digital Satellite Broadcasting Reception",
+  institution =  "The Institute of Statistical Mathematics, Research
+                  Memorandum",
+  year = 	 2008,
+  number =	 1077,
+  month =	 10
+}
+
+@TechReport{2008.IkedaManton.ismmemo,
+  author = 	 "Ikeda, Shiro and Manton, Jonathan",
+  title = 	 "Capacity of a Single Neuron Channel",
+  institution =  "The Institute of Statistical Mathematics, Research
+                  Memorandum",
+  year = 	 2008,
+  number =	 1076,
+  month =	 10
+}
+%  url =         "www.ism.ac.jp/editsec/resmemo-e.html",
+
+@Article{2008.HamadaIkeda.ieice,
+  author = 	 "Hamada, Masatoshi and Ikeda, Shiro",
+  title = 	 "Channel Estimation and Code Word Inference for
+                  Mobile Digital Satellite Broadcasting Reception",
+  journal = 	 "IEICE trans. on Communications",
+  year = 	 2008,
+  volume = 	 "E91-B",
+  number = 	 12,
+  pages = 	 "3886--3898",
+  month = 	 12,
+  doi =          "10.1093/ietcom/e91-b.12.3886"
+}
+
+% 2007
+
+@InProceedings{2007.Shiraishi_etal.ismrre,
+  author = 	 "Shiraishi, Yuichi and Fukumizu, Kenji and Ikeda,
+                  Shiro",
+  title = 	 "A game theoretical analysis of combining classifiers
+                  for multi-class classification problems",
+  booktitle =    "Proceedings of the international workshop on
+                  data-mining and statistical science (DMSS2007)",
+  pages = 	 "153--164",
+  year = 	 2007,
+  volume = 	 25,
+  series = 	 "ISM Report on Research and Education",
+  address = 	 "Tokyo, Japan",
+  month = 	 10
+}
+
+@TechReport{2007.IkedaSakaguchi.ismmemo,
+  author = 	 "Ikeda, Shiro and Sakaguchi, Yutaka",
+  title = 	 "Motor planning as an optimization of command
+                  representation",
+  institution =  "The Institute of Statistical Mathematics, Research
+                  Memorandum",
+  year = 	 2007,
+  number =	 1045,
+  month =	 9
+}
+%  url =          {www.ism.ac.jp/editsec/resmemo-e.html}
+
+@InProceedings{2007.HamadaIkeda.pimrc,
+  author = 	 "Hamada, Masatoshi and Ikeda, Shiro",
+  title = 	 "Improving mobile reception of digital satellite
+                  broadcasting",
+  booktitle =	 "Proceeding of The 18th Annual IEEE International
+                  Symposium on Personal, Indoor and Mobile Radio
+                  Communications (PIMRC'07)",
+  pages =	 "1--5",
+  doi =          "10.1109/PIMRC.2007.4394266",
+  year =	 2007,
+  address =	 "Athens, Greece",
+  month =	 9,
+  organization = "IEEE"
+  }
+
+@Article{2007.SakaguchiIkeda.neurocomputing,
+  author = 	 "Sakaguchi, Yutaka and Ikeda, Shiro",
+  title = 	 "Motor Planning and Sparse Motor Command
+                  Representation",
+  journal = 	 "Neurocomputing",
+  year = 	 2007,
+  volume =	 70,
+  number =	 "Issues 10-12",
+  month =	 6,
+  pages =	 "1748--1752",
+  doi =          "10.1016/j.neucom.2006.10.120"
+  }
+
+% 2006
+
+@TechReport{2006.Kawakita_etal.ismmemo,
+  author = 	 "Kawakita, Masanori and Ikeda, Shiro and Eguchi, Shinto",
+  title = 	 "A bridge between boosting and a kernel machine",
+  institution =  "The Institute of Statistical Mathematics, Research
+                  Memorandum",
+  year = 	 2006,
+  number =	 1006,
+  month =	 9
+  }
+
+@InProceedings{2006.SakaguchiIkeda.brainit,
+  author = 	 "Sakaguchi, Yutaka and Ikeda, Shiro",
+  title = 	 "Motor Planning Based on Sparse Command
+                  Representation",
+  booktitle =    "Brain-inspired Information Technology (BrainIT2006)",
+  pages = 	 "P1-8",
+  address =      "Kitakyushu, Japan",
+  year = 	 2006,
+  month = 	 9
+  }
+
+@TechReport{2006.SakaguchiIkeda.uectr,
+  author = 	 "Sakaguchi, Yutaka and Ikeda, Shiro",
+  title = 	 "Motor Planning and Sparse Motor Command
+                  Representation",
+  institution =  "Technical Report of University of
+                  Electro-Communications",
+  year = 	 2006,
+  number =	 "UEC-IS-2006-1",
+  month =	 9
+  }
+
+@InProceedings{2006.SakaguchiIkeda.cns,
+  author = 	 "Sakaguchi, Yutaka and Ikeda, Shiro",
+  title = 	 "Motor Planning and Sparse Motor Command
+                  Representation",
+  booktitle =	 "Processingds of Fifteenth Annual Computational
+                  Neuroscience Meeting (CNS{$\ast$}2006)",
+  pages =	 89,
+  year =	 2006,
+  address =	 "Edinburgh, U.K.",
+  month =	 7
+}
+
+% 2005
+
+@TechReport{2005.Ikeda.ismmemo,
+  author = 	 "Ikeda, Shiro",
+  title = 	 "Sparse representation and piece-wise linear kernel",
+  institution =  "The Institute of Statistical Mathematics, Research
+                  Memorandum",
+  year = 	 2005,
+  number =	 962,
+  month =	 10
+}
+
+@InProceedings{2005.Ikeda.spars,
+  author = 	 "Ikeda, Shiro",
+  title = 	 "Sparse representation and piece-wise linear kernel",
+  booktitle = 	 "Proceedings of Signal Processing with Adaptive
+                  Sparse Structured Representations (SPARS'05)",
+  pages =        "123--126",
+  year =	 2005,
+  address =	 "Rennes, France",
+  month =	 11
+  }
+
+@InProceedings{2005.Ikeda.icassp,
+  author = 	 "Ikeda, Shiro",
+  title = 	 "Information geometry of turbo and {LDPC} codes",
+  booktitle = 	 "Proceedings of 2005 IEEE International Conference on
+                  Acoustics, Speech, and Signal Processing (ICASSP2005)",
+  year =	 2005,
+  address =	 "Philadelphia, U.S.A.",
+  month =	 3,
+  note =	 "V-1029",
+  doi =          "10.1109/ICASSP.2005.1416482"
+  }
+
+@Article{2005.Ikeda_etal.scj,
+  author = 	 "Ikeda, Shiro and Tanaka, Toshiyuki and Amari,
+                  {Shun-ichi}",
+  title = 	 "Information Geometry for Turbo Decoding",
+  journal = 	 "Systems and Computers in Japan",
+  year = 	 2005,
+  volume =	 36,
+  number =	 1,
+  pages =	 "79--87",
+  month =	 1,
+  publisher =    "John Wiley \& Sons, Inc.",
+  doi =          "10.1002/scj.10359"
+  }
+
+% 2004
+
+@Article{2004.Ikeda_etal.nc,
+  author = 	 "Ikeda, Shiro and Tanaka, Toshiyuki and Amari,
+                  {Shun-ichi}",
+  title = 	 "Stochastic Reasoning, Free Energy, and Information
+                  Geometry",
+  journal = 	 nc,
+  year = 	 2004,
+  volume =	 16,
+  number =	 9,
+  pages =	 "1779--1810",
+  month =	 9,
+  doi =          "10.1162/0899766041336477"
+  }
+
+@Article{2004.Ikeda_etal.ieeeit,
+  author = 	 "Ikeda, Shiro and Tanaka, Toshiyuki and Amari,
+                  {Shun-ichi}",
+  title = 	 "Information geometry of turbo and low-density
+                  parity-check codes",
+  journal = 	 ieeeit,
+  year = 	 2004,
+  volume =	 50,
+  number =	 6,
+  pages =	 "1097--1114",
+  month =	 6,
+  doi =          "10.1109/TIT.2004.828072"
+  }
+
+% 2003
+
+@InCollection{2003.MurataIkeda.EMbook,
+  author = 	 "Murata, Noboru and Ikeda, Shiro",
+  title = 	 "{EM} Algorithm in Neural Network Learning",
+  booktitle = 	 "The {EM} Algorithm and Related Statistical Models",
+  pages =	 "95--126",
+  publisher =	 "Marcel Dekker, Inc.",
+  year =	 2003,
+  editor =	 "Watanabe, Michiko and Yamaguchi, Kazunori",
+  number =	 170,
+  series =	 "STATISTICS: A Dekker series of Textbooks and
+                  Monographs",
+  chapter =	 8,
+  month =	 10,
+  address =	 "New York, NY/Basel",
+  ISBN = "0824747011"
+  }
+
+@TechReport{2003.Ikeda_etal.ismmemo,
+  author = 	 "Ikeda, Shiro and Tanaka, Toshiyuki and Amari,
+                  {Shun-ichi}",
+  title = 	 "Stochastic Reasoning, Free Energy and Information
+                  Geometry",
+  institution =  "The Institute of Statistical Mathematics, Research
+                  Memorandum",
+  year = 	 2003,
+  number =	 "890",
+  month =	 9
+  }
+
+@InProceedings{2003.Ikeda_etal.iconip,
+  author = 	 "Ikeda, Shiro and Tanaka, Toshiyuki and Amari,
+                  {Shun-ichi}",
+  title = 	 "Information Geometry of Loopy {BP}",
+  booktitle =	 "Supplementary Proceedings of ICANN/ICONIP2003",
+  pages =	 "54--57",
+  year =	 2003,
+  address =	 "Istanbul, Turkey",
+  month =	 6
+  }
+
+@Article{2003.Asano_etal.ieeeasp,
+  author = 	 "Asano, Futoshi and Ikeda, Shiro and Ogawa, Michiaki
+                  and Asoh, Hideki and Kitawaki, Nobuhiko",
+  title = 	 "Combined Approach of Array Processing and
+                  Independent Component Analysis for Blind Separation
+                  of Acoustic Signals",
+  journal = 	 "IEEE transactions on Audio and Speech Processing",
+  year = 	 2003,
+  volume =	 11,
+  number =	 3,
+  pages =	 "204--215",
+  month =	 5,
+  doi =          "10.1109/TSA.2003.809191"
+  }
+
+@patent{2003.Kajihara_etal.uspatent,
+  author =	 "Kajihara, Shigeki and Amari, {Shun-ichi} and Toyama,
+                  Keisuke and Ikeda, Shiro",
+  title =	 "Biosignal measuring method and apparatus",
+  day         = 8,
+  month        = 4,
+  year         = 2003,
+  number       = "Patent No. US 6544170 B1"
+}
+
+@TechReport{2003.Ikeda_etal.bsistech,
+  author = 	 "Ikeda, Shiro and Tanaka, Toshiyuki and Amari, {Shun-ichi}",
+  title = 	 "Information Geometry of Turbo and Low-Density
+                  Parity-Check Codes",
+  institution =  "BSIS Technical Report",
+  year = 	 2003,
+  number =	 "03-2",
+  month =	 1
+  }
+
+% 2002
+
+@InProceedings{2002.Ikeda_etal.isit,
+  author = 	 "Ikeda, Shiro and Tanaka, Toshiyuki and Amari,
+                  {Shun-ichi}",
+  title = 	 "Information Geometry of Turbo Codes",
+  booktitle = 	 isit2002,
+  pages =	 "114--119",
+  year =	 2002,
+  address =	 "Lausanne, Switzerland",
+  month =	 6,
+  doi =          "10.1109/ISIT.2002.1023386",
+  ISBN = "0-7803-7501-7"
+  }
+
+@InProceedings{2002.Ikeda_etal.nips,
+  author = 	 "Ikeda, Shiro and Tanaka, Toshiyuki and Amari,
+                  {Shun-ichi}",
+  title = 	 "Information Geometrical Framework for Analyzing
+                 Belief Propagation Decoder",
+  booktitle = 	 nips,
+  volume =       14,
+  series =   "NIPS{$\ast$}2001",
+  editor =	 "Dietterich, Thomas G. and Becker, Sue
+                 and Ghahramani, Zoubin",
+  publisher =	 mit,
+  pages =	 "407--414",
+  year =	 2002,
+  month =	 4,
+  address = "Vancouver, BC Canada",
+  organization =	 "Cambridge, MA",
+  ISBN = "0262042088"
+  }
+
+@InProceedings{2002.Tanaka_etal.nips,
+  author = 	 "Tanaka, Toshiyuki and Ikeda, Shiro and Amari,
+                  {Shun-ichi}",
+  title = 	 "Information-geometrical significance of sparsity in
+                  {G}allager codes",
+  booktitle = 	 nips,
+  volume =       14,
+  series =   "NIPS{$\ast$}2001",
+  editor =	 "Dietterich, Thomas G. and Becker, Sue
+                 and Ghahramani, Zoubin",
+  publisher =	 mit,
+  pages =	 "527--534",
+  year =	 2002,
+  month =	 4,
+  address = "Vancouver, BC Canada",
+  organization =	 "Cambridge, MA",
+  ISBN =     "0262042088"
+  }
+
+% 2001
+
+@InProceedings{2001.Ikeda_etal.iconip,
+  author = 	 "Ikeda, Shiro and Tanaka, Toshiyuki and Amari,
+                  {Shun-ichi}",
+  title = 	 "Belief propagation and turbo code:
+                 Information geometrical view",
+  booktitle = 	 "Proceedings of 2001 International Conference on
+                 Neural Information Processing (ICONIP2001)",
+  pages =	 "41--46",
+  year =	 2001,
+  address =	 "Shanghai, China",
+  month =	 11
+}
+
+@Article{2001.Murata_etal.neurocomputing,
+  author = 	 "Murata, Noboru and Ikeda, Shiro and Ziehe, Andreas",
+  title = 	 "An Approach to Blind Source Separation Based on
+                 Temporal Structure of Speech Signals",
+  journal = 	 "Neurocomputing",
+  year = 	 2001,
+  volume =	 41,
+  number =	 "1-4",
+  pages =	 "1--24",
+  month =	 10,
+  doi =          "10.1016/S0925-2312(00)00345-3"
+  }
+
+@InProceedings{2001.Asano_etal.icassp,
+  author = 	 "Asano, Futoshi and Ikeda, Shiro and Ogawa, Michiaki
+                 and Asoh, Hideki and Kitawaki, Nobuhiko",
+  title = 	 "Blind source separation in reflective sound fields",
+  booktitle = 	 "Proceedings of 2001 IEEE International Conference on
+                  Acoustics, Speech, and Signal Processing (ICASSP2001)",
+  year =	 2001,
+  address =	 "Salt Lake City, U.S.A.",
+  month =	 5,
+  note =	 "MULT-P2.1",
+  doi =          "10.1109/ICASSP.2001.940210"
+}
+
+@InProceedings{2001.Asano_etal.hsc,
+  author = 	 "Asano, Futoshi and Ikeda, Shiro and Ogawa, Michiaki
+                  and Asoh, Hideki and Kitawaki, Nobuhiko",
+  title = 	 "Blind source separation in reflective sound fields",
+  booktitle = 	 "Proceedings of Workshop on Hands-Free Speech
+                 Communication 2001 (HSC2001)",
+  pages =	 "51--54",
+  year =	 2001,
+  address =	 "Kyoto, Japan",
+  month =	 4
+}
+
+@InCollection{2001.Amari_etal.mit,
+  author    = "Amari, {Shun-ichi} and Ikeda, Shiro and Shimokawa,
+                  Hidetoshi",
+  title     = "Information Geometry and Mean Field Approximation:
+              The {$\alpha$}-projection Approach",
+  booktitle = amfm,
+  address   = "Cambridge, MA",
+  publisher = mit,
+  pages     = "241--257",
+  year      = 2001,
+  chapter   = 16,
+  editor    = "Opper, Manfred and Saad, David",
+  ISBN      = "0262150549"
+}
+
+% 2000
+
+@Article{2000.IkedaToyama.nn,
+  author = 	 "Ikeda, Shiro and Toyama, Keisuke",
+  title = 	 "Independent Component Analysis for Noisy Data
+                 --{MEG} data analysis",
+  journal = 	 "Neural Networks",
+  year = 	 2000,
+  volume =	 13,
+  number =	 10,
+  pages =	 "1063--1074",
+  month =	 12,
+  doi  =         "10.1016/S0893-6080(00)00071-X"
+  }
+
+@InCollection{2000.Girolami.springer,
+  author = 	 "Ikeda, Shiro",
+  title = 	 "{ICA} on Noisy Data: A Factor Analysis Approach",
+  booktitle = 	 "Advances in Independent Component Analysis",
+  pages =	 "201--215",
+  publisher =	 "Springer-Verlag London Ltd.",
+  year =	 2000,
+  editor =	 "Girolami, Mark",
+  chapter =	 11,
+  month =	 6,
+  ISBN = "1852332638"
+}
+
+@TechReport{2000.Amari_etal.bsistech,
+  author = 	 "Amari, {Shun-ichi} and Ikeda, Shiro and Shimokawa,
+                  Hidetoshi",
+  title = 	 "Information Geometry and Mean Field Approximation:
+                  The {$\alpha$}-projection Approach",
+  institution =  "BSIS Technical Report",
+  year = 	 2000,
+  number =	 "00-6",
+  month =	 5
+}
+
+@TechReport{2000.IkedaToyama.bsistech,
+  author = 	 "Ikeda, Shiro and Toyama, Keisuke",
+  title = 	 "{ICA} for noisy neurobiological data",
+  institution =  "BSIS Technical Report",
+  year = 	 2000,
+  number =	 "00-2",
+  month =	 4
+}
+
+@InProceedings{2000.Tanigawa_etal.sfn,
+  author = 	 "Tanigawa, Masashi and Yoshikawa, Kenji and Toyama,
+                  Keisuke and Ohtani, Yoshio and Ejima, Yoshimichi and
+                  Ikeda, Shiro and Kajihara, Shigeki",
+  title = 	 "Motion Adaptation Depresses Perception of Contour
+                  from Motion and Magnetoencephlographic ({MEG})
+                  Responses in {V}2/3 and {V}5",
+  booktitle = 	 "30th Annual meeting. Society for Nueroscience
+                  Abstracts (SfN2000)",
+  pages =	 670,
+  year =	 2000,
+  volume =	 "26, Part 1",
+  address =	 "New Orleans, U.S.A.",
+  month =	 11
+}
+
+@InProceedings{2000.Kajihara_etal.biomag,
+  author = 	 "Kajihara, Shigeki and Toyama, Keisuke and Ikeda,
+                  Shiro and Murata, Noboru and Kobayashi, Tatsuya and
+                  Kida, Yoshihisa and Yoshida, Yoshikazu",
+  title = 	 "Separation of {MEG} Signal by Independent Component
+                  Analysis",
+  booktitle    =  "Proceedings of the 12th International Conference on Biomagnetism (Biomag2000)",
+  year =	 2000,
+  address =	 "Helsinki, Finland",
+  month =	 8
+}
+
+@InProceedings{2000.IkedaToyama.ijcnn,
+  author = 	 "Ikeda, Shiro and Toyama, Keisuke",
+  title = 	 "{ICA} for noisy neurobiological data",
+  booktitle = 	 "Proceedings of International Joint Conference on
+                  Neural Networks 2000 (IJCNN2000)",
+  year =	 2000,
+  address =	 "Como, Italy",
+  month =	 7,
+  doi =          "10.1109/IJCNN.2000.860755"
+  }
+
+@InProceedings{2000.Ikeda.ica,
+  author = 	 "Ikeda, Shiro",
+  title = 	 "Factor Analysis Preprocessing for {ICA}",
+  booktitle = 	 ica2000,
+  pages =	 "327--332",
+  year =	 2000,
+  address =	 "Helsinki, Finland",
+  month =	 6
+  }
+
+@InProceedings{2000.AsanoIkeda.ica,
+  author = 	 "Asano, Futoshi and Ikeda, Shiro",
+  title = 	 "Evaluation and Real-time implementation of blind
+                  source separation system using time-delayed
+                  decorrelation",
+  booktitle = 	 ica2000,
+  pages =	 "411--415",
+  year =	 2000,
+  address =	 "Helsinki, Finland",
+  month =	 6
+  }
+
+@Article{2000.Ikeda.scj,
+  author       =  "Ikeda, Shiro",
+  title        =  "Acceleration of the {EM} algorithm",
+  journal      =  "Systems and Computers in Japan",
+  year         =  2000,
+  volume       =  31,
+  number       =  2,
+  pages        =  "10--18",
+  month        =  2,
+  publisher    =  "John Wiley \& Sons, Inc.",
+  doi          =  "10.1002/(SICI)1520-684X(200002)31:2$<$10::AID-SCJ2$>$3.0.CO;2-D"
+  }
+
+% 1999
+
+@InProceedings{1999.Kajihara_etal.sfn,
+  author       =  "Kajihara, Shigeki and Yoshikawa, Kenji and Murata,
+                  Noboru and Ikeda, Shiro and Tanigawa, Masashi and
+                  Ohtani, Yoshio and Ejima, Yoshimichi and Toyama,
+                  Keisuke",
+  title        =  "Application of independent component analysis
+                  ({ICA}) to magnetoencephalography",
+  booktitle    =  "29th Annual meeting. Society for Nueroscience
+                  Abstracts (SfN1999)",
+  pages        =  1930,
+  year         =  1999,
+  volume       =  "25, Part 2",
+  address      =  "Miami, FL, USA.",
+  month        =  10
+  }
+
+@InProceedings{1999.Ikeda_etal.nips,
+  author       =  "Ikeda, Shiro and Amari, {Shun-ichi} and Nakahara,
+                  Hiroyuki",
+  title        =  "Convergence of the Wake-Sleep Algorithm",
+  booktitle    =  nips,
+  volume       =  11,
+  series       =  "NIPS{$\ast$}98",
+  pages        =  "239--245",
+  publisher    =  mit,
+  year         =  1999,
+  editor       =  "Kearns, Michael S. and Solla, Sara A. and Cohn, David A.",
+  address      =  "Denver, CO, USA",
+  organization =  "Cambridge, MA",
+  ISBN         =  "0262112450"
+  }
+
+@InProceedings{1999.Okuno_etal.CASA,
+  author       =  "Okuno, Hiroshi G. and Ikeda, Shiro and Nakatani,
+                  Tomohiro",
+  title        =  "Combining Independent Component Analysis and Sound
+                  Stream Segregation",
+  booktitle    =  "Proceedings of IJCAI-99 Workshop on Computational
+                  Auditory Scene Analysis",
+  pages        =  "92--98",
+  year         =  1999,
+  address      =  "Stockholm, Sweden",
+  month        =  8
+  }
+
+@InProceedings{1999.IkedaMurata.ica,
+  author       =  "Ikeda, Shiro and Murata, Noboru",
+  title        =  "A method of {ICA} in time-frequency domain",
+  booktitle    =  ica1999,
+  pages        =  "365--371",
+  year         =  1999,
+  address      =  "Aussios, France",
+  month        =  1
+  }
+
+% 1998
+
+@InProceedings{1998.IkedaMurata.iconip,
+  author       =  "Ikeda, Shiro and Murata, Noboru",
+  title        =  "A method of blind separation based on temporal
+                  structure of signals",
+  booktitle    =  "Proceedings of 1998 International Conference on
+                  Neural Information Processing (ICONIP'98)",
+  pages        =  "737--742",
+  year         =  1998,
+  volume       =  2,
+  address      =  "Kitakyushu, Japan",
+  month        =  10
+  }
+
+@InProceedings{1998.MurataIkeda.nolta,
+  author       =  "Murata, Noboru and Ikeda, Shiro",
+  title        =  "A On-line Algorithm for Blind Source Separation on
+                  Speech Signals",
+  booktitle    =  "Proceedings of 1998 International Symposium on
+                  Nonlinear Theory and its Applications (NOLTA'98)",
+  pages        =  "923--926",
+  year         =  1998,
+  address      =  "Crans-Montana, Switzerland",
+  month        =  9
+  }
+
+@InProceedings{1998.IkedaMurata.icann,
+  author       =  "Ikeda, Shiro and Murata, Noboru",
+  title        =  "An Approach to Blind Source Separation of Speech Signals",
+  booktitle    =  "Proceedings of 1998 International Conference on
+                  Artificial Neural Networks (ICANN'98)",
+  pages        =  "761--766",
+  year         =  1998,
+  address      =  "Sk{\"o}vde, Sweden",
+  month        =  9
+}
+
+@TechReport{1998.Murata_etal.bsistech,
+  author       =  "Murata, Noboru and Ikeda, Shiro and Ziehe, Andreas",
+  title        =  "An Approach to Blind Source Separation Based on
+                  Temporal Structure of Speech Signals",
+  institution  =  "BSIS Technical Report",
+  year         =  1998,
+  number       =  "98-2",
+  month        =  4
+}
+
+% 1997
+
+@InProceedings{1997.Ikeda.nolta,
+  author       =  "Ikeda, Shiro",
+  title        =  "Acceleration of the {EM} algorithm",
+  booktitle    =  "Proceedings of 1997 International Symposium on
+                  Nonlinear Theory and its Applications (NOLTA'97)",
+  pages        =  "755--758",
+  year         =  1997,
+  address      =  "Hawaii, HI, USA.",
+  month        =  12
+}
+
+@InProceedings{1997.Nakano_etal.icec,
+  author       =  "Nakano, Kaoru and Konishi, Katsumi and Ishiyama, Rui
+                  and Ikeda, Shiro",
+  title        =  "A Self-Organizing System with Cell-Specialization",
+  booktitle    =  "Proceedings of 1997 IEEE International Conference on
+                  Evolutionary Computing (ICEC'97)",
+  pages        =  "279--284",
+  year         =  1997,
+  address      =  "Indianapolis, IN, USA.",
+  month        =  4,
+  doi          =  "10.1109/ICEC.1997.592315"
+}
+
+% 1996
+
+@InProceedings{1996.Ikeda.nolta,
+  author       =  "Ikeda, Shiro",
+  title        =  "Construct The Structure of Stochastic Multilayer
+                  {P}erceptron Using The Model Search Method",
+  booktitle    =  "Proceedings of 1996 International Symposium on
+                  Nonlinear Theory and its Applications (NOLTA'96)",
+  pages        =  "197--200",
+  year         =  1996,
+  address      =  "Kochi, Japan",
+  month        =  10
+}
+
+% 1995
+
+@InProceedings{1995.IkedaNakano.icnn,
+  author       =  "Ikeda, Shiro and Nakano, Kaoru",
+  title        =  "Estimate The Source Structure Through Communication",
+  booktitle    =  "Proceedings of 1995 IEEE International Conference on
+                  Neural Networks (ICNN'95)",
+  pages        =	"2799--2802",
+  year         =	1995,
+  address      =	"Perth, WA, Australia",
+  month        =	12,
+  doi          =  "10.1109/ICNN.1995.488175"
+}
+
+@InProceedings{1995.Nakano_etal.icec,
+  author       =  "Nakano, Kaoru and Hiraki, Hideaki and Ikeda, Shiro",
+  title        =  "A Learning Machine That Evolves",
+  booktitle    =  "Proceedings of 1995 IEEE International Conference on
+                  Evolutionary Computing (ICEC'95)",
+  pages        =  "808--813",
+  year         =  1995,
+  address      =  "Perth, WA, Australia",
+  month        =  12,
+  doi          =  "10.1109/ICEC.1995.487490"
+}
+
+%1993
+
+@InProceedings{1993.Ikeda.ispacs,
+  author       =  "Ikeda, Shiro",
+  title        =  "Construction of Phoneme Models --- Model Search of
+                  Hidden {M}arkov Models ---",
+  booktitle    =  "Proceedings of International Workshop on Intelligent
+                  Signal Processing and Communication Systems (ISPACS'93)",
+  pages        =  "82--87",
+  year         =  1993,
+  address      =  "Sendai, Japan",
+  month        =  10
+}
+
+% 1992
+
+@InProceedings{1992.Ikeda_etal.ijcnn,
+  author       =  "Ikeda, Shiro and Nakano, Kaoru and Sakaguchi, Yutaka",
+  title        =  "A Robot Organizing Purposive Behavior by Itself",
+  booktitle    =  "Proceedings of International Joint Conference on
+                  Neural Networks (IJCNN'92)",
+  pages        =  "570--575",
+  year         =  1992,
+  volume       =  1,
+  address      =  "Baltimore, MD, USA",
+  month        =  6,
+  doi          =  "10.1109/IJCNN.1992.287151"
+}

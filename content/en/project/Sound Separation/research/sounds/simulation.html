@@ -1,0 +1,101 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html> <head>
+<title>Description of the Sources</title>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=latin1">
+<link rev="made" href="mailto:shiro@brain.riken.go.jp">
+</head>
+
+<body TEXT="#005555" bgcolor="#dddddd" LINK="#0000A0" VLINK="#800080" ALINK="#0000FF">
+
+<h2>Description on the Signals Mixed on Computer</h2>
+
+<hr width="60%" align="left">
+
+<H3>1. Original Sources</H3>
+
+We recorded the signals on DEC Alpha station 200 with 16kHz sampling
+rate. The followings are the orignal sources.
+
+<ul>
+  <li>Source 1
+      (<a href="LINEAR/S1_linear.wav">wav.file</a>, 62k )
+      
+  <li>Source 2
+      (<a href="LINEAR/S2_linear.wav">wav.file</a>, 62k )
+</ul>
+
+<hr width="60%" align="left">
+
+<H3>2. Linear Mixtures</H3>
+
+We mixed the signals on MATLAB using a linear matrix.
+
+<TABLE width="60%">
+<TR align="center">
+<TD><STRONG>x1 = 1.0s1 + 0.7s2</STRONG></TD>
+</TR>
+<TR align="center">
+<TD><STRONG>x2 = 0.3s1 + 1.0s2</STRONG></TD>
+</TR>
+</TABLE>
+<ul>
+  <li>Mixed Sound 1
+      (mono, <a href="LINEAR/X1_linear.wav">wav.file</a>, 62k )
+      
+  <li>Mixed Sound 2
+      (mono, <a href="LINEAR/X2_linear.wav">wav.file</a>, 62k )
+
+  <li>Mixed Sound
+      (stereo, <a href="LINEAR/X_linear.wav">wav.file</a>, 123k )
+</ul>
+
+<hr width="60%" align="left">
+
+<H3>3. Convoluted Mixtures</H3>
+
+We made convoluted mixture with MATLAB.
+<TABLE width="60%">
+<TR align="center">
+<TD><STRONG>x1 = H11*s1 + H12*s2</STRONG>
+</TR>
+<TR align="center">
+<TD><STRONG>x2 = H21*s1 + H22*s2</STRONG>
+</TR>
+</TABLE>
+
+Here, <STRONG>*</STRONG> stands for the convolution, and each coefficients are,
+
+<CENTER>
+<TABLE width="60%">
+<TR align="left">
+<TD align="left"><STRONG>H11 = (0.1781, 0.7044)</STRONG></TD>
+</TR>
+<TR align="left">
+<TD align="left"><STRONG>H12 = (0.4342 -0.2605)</STRONG></TD>
+</TR>
+<TR align="left">
+<TD align="left"><STRONG>H21 = (0, 0.2641, -0.5283)</STRONG></TD>
+</TR>
+<TR align="left">
+<TD align="left"><STRONG>H22 = (0, -0.1824, -0.4342. 0.6252, 0.3126, 0.1824)</STRONG></TD>
+</TR>
+</TABLE>
+</CENTER>
+
+<ul>
+  <li>Mixed Sound 1
+      (mono, <a href="CONV/X1_conv.wav">wav.file</a>, 62k )
+      
+  <li>Mixed Sound 2
+      (mono, <a href="CONV/X2_conv.wav">wav.file</a>, 62k )
+
+  <li>Mixed Sound 
+      (stereo, <a href="CONV/X_conv.wav">wav.file</a>, 123k )
+</ul>
+
+<hr size=3>
+<address><a href="http://www.islab.brain.riken.go.jp/%7Eshiro/">Shiro Ikeda &lt;shiro@brain.riken.go.jp&gt;</a></address>
+<!-- hhmts start -->
+Last modified: Tue Nov  3 17:50:52 JST 1998
+<!-- hhmts end -->
+</body> </html>
