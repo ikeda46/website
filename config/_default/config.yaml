@@ -5,7 +5,7 @@
 
 title: Shiro Ikeda # Website name
 #baseurl: 'http://localhost:1313' # Website URL
-baseurl: 'https://www.ikeda.cc'
+baseurl: 'https://lucid-poitras-bd482e.netlify.app'
 copyright: # Footer text, e.g. '© {year} Me'
 
 ############################
