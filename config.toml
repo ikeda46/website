@@ -1,3 +1,32 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+# ------------------------------
+# hugo config
+# ------------------------------
+
+title = "Shiro Ikeda website"
+baseURL = "https://www.ikeda.cc"
+defaultContentLanguage = "en"
+publishDir = "docs"
+canonifyURLs = "true"
+#relativeURLs = "true"
+
+[author]
+name = "Shiro Ikeda"
+email = "shiro@ism.ac.jp"
+link = "https://www.ikeda.cc"
+
+[build]
+noJSConfigInAssets = true
+
+[languages.ja]
+weight = 2
+languageCode = "ja"
+languageName = "Ja"
+hasCJKLanguage = true
+summaryLength = 100
+
+[languages.en]
+weight = 1
+languageCode = "en"
+languageName = "En"
+hasCJKLanguage = false
+summaryLength = 100
