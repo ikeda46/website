@@ -1,15 +1,24 @@
 ---
 title: Convergence of the Wake-Sleep Algorithm
 date: '1999-01-01'
-draft: false
-publishDate: '2021-05-04T01:16:50.597531Z'
+publishDate: '2021-05-05T07:05:30.868883Z'
 authors:
 - Shiro Ikeda
 - Shun-ichi Amari
 - Hiroyuki Nakahara
 publication_types:
 - '1'
-abstract: ''
+abstract: The W-S (Wake-Sleep) algorithm is a simple learning rule for the models
+  with hidden variables. It is shown that  this algorithm can be applied to a factor
+  analysis model which is a linear version of the Helmholtz machine.  But even for
+  a factor analysis model, the general convergence is not proved theoretically. In
+  this  article, we describe the geometrical understanding  of the W-S algorithm in
+  contrast with the EM  (Expectation-Maximization) algorithm and the em  algorithm.
+  As the result, we prove the convergence  of the W-S algorithm for the factor analysis
+  model.  We also show the condition for the convergence in  general models.
 featured: false
 publication: '*Advances in Neural Information Processing Systems*'
+tags:
+- '"wake-sleep algorithm"'
+- '"information geometry"'
 ---
