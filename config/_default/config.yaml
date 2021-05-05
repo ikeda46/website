@@ -4,8 +4,9 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Shiro Ikeda # Website name
-#baseurl: 'http://localhost:1313' # Website URL
-baseurl: 'https://lucid-poitras-bd482e.netlify.app'
+# baseurl: 'http://localhost:1313' # Website URL
+# baseurl: 'https://lucid-poitras-bd482e.netlify.app'
+baseurl: 'https://www.ikeda.cc'
 copyright: # Footer text, e.g. '© {year} Me'
 
 ############################
