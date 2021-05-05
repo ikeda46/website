@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "hugo --theme=academic --buildDrafts --gc --minify"
+command = "hugo --theme=starter-academic --buildDrafts --gc --minify"
 
 [context.production.environment]
 HUGO_VERSION = "0.83.1"
