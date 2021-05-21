@@ -9,4 +9,6 @@ publication_types:
 abstract: ''
 featured: false
 publication: '*独立成分分析*'
+tags:
+- '"独立成分分析"'
 ---

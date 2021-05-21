@@ -11,4 +11,7 @@ publication_types:
 abstract: ''
 featured: false
 publication: '*応用数理*'
+tags:
+- '"スパースモデリング"'
+- '"天文データ科学"'
 ---

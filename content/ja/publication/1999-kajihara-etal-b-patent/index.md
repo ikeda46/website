@@ -11,4 +11,7 @@ publication_types:
 abstract: ''
 featured: false
 publication: ''
+tags:
+- '"独立成分分析"'
+- '"脳磁計"'
 ---

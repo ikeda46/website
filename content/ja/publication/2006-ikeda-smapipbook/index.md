@@ -9,4 +9,8 @@ publication_types:
 abstract: ''
 featured: false
 publication: '*確率的情報処理と統計力学*'
+tags:
+- '"確率伝搬法"'
+- '"情報幾何"'
+- '"ターボ符号"'
 ---

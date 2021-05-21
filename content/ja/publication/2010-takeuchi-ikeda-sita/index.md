@@ -14,4 +14,8 @@ abstract: We argue the problem of determination of channel capacity from an info
   view on such phenomena.
 featured: false
 publication: '*第33回情報理論とその応用シンポジウム予稿集 (SITA2010)*'
+tags:
+- '"情報幾何"'
+- '"通信路容量"'
+- '"無限次元最適化"'
 ---

@@ -9,4 +9,8 @@ publication_types:
 abstract: ''
 featured: false
 publication: '*数理科学*'
+tags:
+- '"天文データ科学"'
+- '"スパースモデリング"'
+- '"EHT"'
 ---

@@ -9,4 +9,6 @@ publication_types:
 abstract: ''
 featured: false
 publication: '*日本神経回路学会誌*'
+tags:
+- '"独立成分分析"'
 ---

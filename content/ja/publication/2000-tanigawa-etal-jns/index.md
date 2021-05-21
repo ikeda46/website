@@ -14,4 +14,7 @@ publication_types:
 abstract: ''
 featured: false
 publication: '*第23回日本神経科学大会第10回神経回路学会大会合同大会プログラム抄録集*'
+tags:
+- '"独立成分分析"'
+- '"脳磁計"'
 ---

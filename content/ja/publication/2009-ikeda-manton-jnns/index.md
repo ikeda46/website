@@ -14,4 +14,8 @@ abstract: It is widely accepted that neurons transmit information through spikes
   coding under natural assumption.
 featured: false
 publication: '*日本神経回路学会第19回全国大会講演論文集*'
+tags:
+- '"通信路容量"'
+- '"神経細胞通信路"'
+- '"無限次元最適化"'
 ---

@@ -20,4 +20,9 @@ abstract: It is known that the communication channel capacity of the additive wh
   power constraint.
 featured: false
 publication: '*第33回情報理論とその応用シンポジウム予稿集 (SITA2010)*'
+tags:
+- '"通信路容量"'
+- '"最大出力制約"'
+- '"変調方式"'
+- '"無限次元最適化"'
 ---

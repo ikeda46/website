@@ -17,4 +17,7 @@ publication_types:
 abstract: ''
 featured: false
 publication: '*第22回日本神経科学大会プログラム抄録集*'
+tags:
+- '"独立成分分析"'
+- '"脳磁計"'
 ---

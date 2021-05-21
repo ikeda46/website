@@ -9,4 +9,7 @@ publication_types:
 abstract: ''
 featured: false
 publication: '*脳の情報表現--ニューロン・ネットワーク・数理モデル*'
+tags:
+- '"EMアルゴリズム"'
+- '"Wake-Sleep アルゴリズム"'
 ---

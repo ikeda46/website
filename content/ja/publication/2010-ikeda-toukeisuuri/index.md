@@ -6,9 +6,11 @@ authors:
 - 池田 思朗
 publication_types:
 - '2'
-abstract: 機械学習の分野では，2クラス判別器を組み合わせて多クラ スの判別器を作る様々な試みがなされている．Error Correcting Output
-  Codes (ECOC) と呼ばれる方法が頻繁に 用いれているが，それぞれの2クラス判別器が軟判定を返す 場合には ECOC の他にもBradley-Terry
-  (BT) モデルを用い る方法が提案されている．本稿ではこのBTモデルを用いる 組み合わせ法を統計モデルとして考え，既存の方法の改善 法のひとつを示す．
+abstract: 機械学習の分野では，2クラス判別器を組み合わせて多クラ スの判別器を作る様々な試みがなされている．Error Correcting Output Codes (ECOC) と呼ばれる方法が頻繁に 用いれているが，それぞれの2クラス判別器が軟判定を返す 場合には ECOC の他にもBradley-Terry (BT) モデルを用い る方法が提案されている．本稿ではこのBTモデルを用いる 組み合わせ法を統計モデルとして考え，既存の方法の改善 法のひとつを示す．
 featured: false
 publication: '*統計数理*'
+tags:
+- '"Bradley-Terry モデル"'
+- '"多クラス判別"'
+url_pdf: "https://www.ism.ac.jp/editsec/toukei/pdf/58-2-157.pdf"
 ---

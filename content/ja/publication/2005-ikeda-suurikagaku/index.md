@@ -9,4 +9,8 @@ publication_types:
 abstract: ''
 featured: false
 publication: '*数理科学*'
+tags:
+- '"確率伝搬法"'
+- '"情報幾何"'
+- '"ターボ符号"'
 ---

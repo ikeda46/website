@@ -10,4 +10,7 @@ publication_types:
 abstract: ''
 featured: false
 publication: '*日本音響学会 2000年秋季研究発表会 講演論文集*'
+tags:
+- '"独立成分分析"'
+- '"音声信号分離"'
 ---

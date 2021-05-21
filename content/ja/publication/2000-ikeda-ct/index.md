@@ -9,4 +9,6 @@ publication_types:
 abstract: ''
 featured: false
 publication: '*Computer Today 3月号*'
+tags:
+- '"独立成分分析"'
 ---

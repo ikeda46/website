@@ -11,4 +11,9 @@ publication_types:
 abstract: ''
 featured: false
 publication: '*応用数理*'
+tags:
+- '"確率伝搬法"'
+- '"情報幾何"'
+- '"グラフィカルモデル"'
+- '"ターボ符号"'
 ---

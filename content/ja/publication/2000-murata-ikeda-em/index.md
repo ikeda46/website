@@ -10,4 +10,6 @@ publication_types:
 abstract: ''
 featured: false
 publication: '*EMアルゴリズムと不完全データの諸問題*'
+tags:
+- '"EM アルゴリズム"'
 ---

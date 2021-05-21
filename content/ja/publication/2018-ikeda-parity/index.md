@@ -9,4 +9,6 @@ publication_types:
 abstract: ''
 featured: false
 publication: '*パリティ*'
+tags:
+- '"天文データ科学"'
 ---

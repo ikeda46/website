@@ -16,4 +16,7 @@ publication_types:
 abstract: ''
 featured: false
 publication: '*第15回日本生体磁気学会*'
+tags:
+- '"独立成分分析"'
+- '"脳磁計"'
 ---
