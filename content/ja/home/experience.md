@@ -35,16 +35,16 @@ design:
 
 ## 連携・兼任・訪問
 
-2017/4 -- 現在, 国立天文台
+2017/4 -- 現在, 国立天文台 (連携教員)
 
-2016/4 -- 現在, Kavli IPMU
+2016/4 -- 現在, Kavli IPMU (客員研究員)
 
-2010/4 -- 2016/3, 東京工業大学
+2010/4 -- 2016/3, 東京工業大学 (兼任)
 
-2008/4 -- 2008/10, The University of Melbourne
+2008/4 -- 2008/10, The University of Melbourne (訪問研究員)
 
-2007/10 -- 2008/3, Australian National University
+2007/10 -- 2008/3, Australian National University (訪問研究員)
 
-2004/4 -- 2006/3, 理化学研究所，脳総研
+2004/4 -- 2006/3, 理化学研究所，脳総研 (客員研究員)
 
-2003/4 -- 2004/3, Gatsby Unit, University College London
+2003/4 -- 2004/3, Gatsby Unit, University College London (訪問研究員)
