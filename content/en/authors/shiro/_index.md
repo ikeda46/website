@@ -11,11 +11,11 @@ role: Professor
 # Organizations/Affiliations to show in About widget
 organizations:
 - name: The Institute of Statistical Mathematics
-  url: https://www.ism.ac.jp/
+  url: https://www.ism.ac.jp/index_e.html
 - name: Kavli IPMU (Visiting Senior Scientist)
-  url: https://www.ipmu.jp/
+  url: https://www.ipmu.jp/en
 - name: NAOJ (Collaborative Academic)
-  url: https://www.nao.ac.jp/
+  url: https://www.nao.ac.jp/en/
 
 # Short bio (displayed in user profile at end of posts)
 # bio: My research interests include distributed robotics, mobile computing and programmable matter.
