@@ -40,7 +40,7 @@ Brain Science Institute, RIKEN
 ## Visiting Positions
 
 Apr 2017 -- Present<br>
-NAOJ (Collaborative Professor)
+NAOJ (Collaborative Academic)
 
 Apr 2016 -- Present<br>
 Kavli IPMU (Visiting Senior Scientist)
