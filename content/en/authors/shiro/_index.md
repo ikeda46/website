@@ -12,9 +12,9 @@ role: Professor
 organizations:
 - name: The Institute of Statistical Mathematics
   url: https://www.ism.ac.jp/
-- name: Kavli IPMU
+- name: Kavli IPMU (Visiting Senior Scientist)
   url: https://www.ipmu.jp/
-- name: NAOJ
+- name: NAOJ (Collaborative Academic)
   url: https://www.nao.ac.jp/
 
 # Short bio (displayed in user profile at end of posts)

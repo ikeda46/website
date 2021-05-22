@@ -12,9 +12,9 @@ role: 教授
 organizations:
 - name: 統計数理研究所
   url: https://www.ism.ac.jp/
-- name: カブリ数物連携宇宙研究機構
+- name: カブリ数物連携宇宙研究機構 (客員研究員)
   url: https://www.ipmu.jp/
-- name: 国立天文台
+- name: 国立天文台 (連携教員)
   url: https://www.nao.ac.jp/
 
 # Short bio (displayed in user profile at end of posts)

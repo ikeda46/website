@@ -40,22 +40,22 @@ Brain Science Institute, RIKEN
 ## Visiting Positions
 
 Apr 2017 -- Present<br>
-NAOJ
+NAOJ (Collaborative Professor)
 
 Apr 2016 -- Present<br>
-Kavli IPMU
+Kavli IPMU (Visiting Senior Scientist)
 
 Apr 2010 -- Mar 2016<br>
-Tokyo Institute of Technology
+Tokyo Institute of Technology (Adjunct Academic)
 
 Apr 2008 -- Oct 2008<br>
-The University of Melbourne
+The University of Melbourne (Visiting Academic)
 
 Oct 2007 -- Mar 2008<br>
-Australian National University
+Australian National University (Visiting Academic)
 
 Apr 2004 -- Mar 2006<br>
-Brain Science Institute, RIKEN
+Brain Science Institute, RIKEN (Visiting Academic)
 
 Apr 2003 -- Mar 2004<br>
-Gatsby Unit, University College London
+Gatsby Unit, University College London (Visiting Academic)
