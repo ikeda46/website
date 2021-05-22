@@ -11,8 +11,7 @@ abstract: The EM algorithm is widely used to estimate the  parameters of many ap
   the scoring method which is faster but  complicated. We show these two methods can
   be  connected by using the EM algorithm recursively.
 featured: false
-publication: "*Proceedings of 1997 International Symposium on Nonlinear Theory and\
-  \ its Applications (NOLTA'97)*"
+publication: "*Proceedings of 1997 International Symposium on Nonlinear Theory and its Applications (NOLTA'97)*"
 tags:
 - '"EM algorithm"'
 ---

@@ -14,8 +14,7 @@ abstract: In this paper we introduce a new technique for blind  source separatio
   results  of experiments with artificial data and speech data  recorded in the real
   environment. Our algorithm needs considerably straightforward calculation and includes  only a few parameters to be tuned.
 featured: false
-publication: "*Proceedings of 1998 International Conference on Artificial Neural Networks\
-  \ (ICANN'98)*"
+publication: "*Proceedings of 1998 International Conference on Artificial Neural Networks (ICANN'98)*"
 tags:
 - '"sound separation"'
 - '"ICA"'

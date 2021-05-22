@@ -19,6 +19,7 @@ abstract: The W-S (Wake-Sleep) algorithm is a simple learning rule for the model
 featured: false
 publication: '*Advances in Neural Information Processing Systems*'
 tags:
+- '"EM algorithm"'
 - '"wake-sleep algorithm"'
 - '"information geometry"'
 ---

@@ -11,11 +11,10 @@ publication_types:
 abstract: We propose a simple model of a learning machine that evolves. When a classification
   problem is given, a Perceptron like learning machine obtains a proper set of feature
   detecting cells through mating, mutation, and natural selection. Computer simulation
-  showed the expected results. This is one of our trials to  approach the evolutionary
+  showed the expected results. This is one of our trials to approach the evolutionary
   system in the real world.
 featured: false
-publication: "*Proceedings of 1995 IEEE International Conference on Evolutionary Computing\
-  \ (ICEC'95)*"
+publication: "*Proceedings of 1995 IEEE International Conference on Evolutionary Computing (ICEC'95)*"
 tags:
 - '"Perceptron"'
 - '"evolutionary computing"'

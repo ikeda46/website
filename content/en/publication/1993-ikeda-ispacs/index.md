@@ -7,15 +7,14 @@ authors:
 publication_types:
 - '1'
 abstract: The author proposes an algorithm to define a structure of a HMM (hidden
-  Markov model). HMMs are widely  used in the speech recognition systems and at that
+  Markov model). HMMs are widely used in the speech recognition systems and at that
   time structures are usually determined according to the heuristic knowledge. In
-  this article this problem is treated as so-called “model selection” problem in  statistics.
-  Two recognition experiments using this  algorithm are shown. First, artificial data
-  then, ATR speech database are used for the source. Through these experiments, the
-  author shows that such model selection is effective.
+  this article this problem is treated as so-called ``model selection'' problem in
+  statistics. Two recognition experiments using this algorithm are shown. First, artificial
+  data then, ATR speech database are used for the source. Through these experiments,
+  the author shows that such model selection is effective.
 featured: false
-publication: "*Proceedings of International Workshop on Intelligent Signal Processing\
-  \ and Communication Systems (ISPACS'93)*"
+publication: "*Proceedings of International Workshop on Intelligent Signal Processing and Communication Systems (ISPACS'93)*"
 tags:
 - '"hidden Markov model"'
 - '"model selection"'
