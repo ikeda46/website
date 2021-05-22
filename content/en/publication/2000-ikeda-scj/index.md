@@ -10,5 +10,5 @@ publication_types:
 abstract: ''
 featured: false
 publication: '*Systems and Computers in Japan*'
-doi: 10.1002/(SICI)1520-684X(200002)31:2$<$10::AID-SCJ2$>$3.0.CO;2-D
+doi: 10.1002/(SICI)1520-684X(200002)31:2<10::AID-SCJ2>3.0.CO;2-D
 ---
