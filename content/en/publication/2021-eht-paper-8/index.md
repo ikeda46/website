@@ -8,8 +8,30 @@ authors:
 - The Event Horizon Telescope Collaboration
 publication_types:
 - '2'
-abstract: ''
+abstract: Event Horizon Telescope (EHT) observations at 230 GHz have now imaged polarized
+  emission around the supermassive black hole in M87 on event-horizon scales. This
+  polarized synchrotron radiation probes the structure of magnetic fields and the
+  plasma properties near the black hole. Here we compare the resolved polarization
+  structure observed by the EHT, along with simultaneous unresolved observations with
+  the Atacama Large Millimeter/submillimeter Array, to expectations from theoretical
+  models. The low fractional linear polarization in the resolved image suggests that
+  the polarization is scrambled on scales smaller than the EHT beam, which we attribute
+  to Faraday rotation internal to the emission region. We estimate the average density
+  $n_e ∼ 10^4-7$ $mathrmcm^3$, magnetic field strength $B ∼ 1-30 G$, and electron
+  temperature $T_e ∼ (1-12) times 10^10 K$ of the radiating plasma in a simple one-zone
+  emission model. We show that the net azimuthal linear polarization pattern may result
+  from organized, poloidal magnetic fields in the emission region. In a quantitative
+  comparison with a large library of simulated polarimetric images from general relativistic
+  magnetohydrodynamic (GRMHD) simulations, we identify a subset of physical models
+  that can explain critical features of the polarimetric EHT observations while producing
+  a relativistic jet of sufficient power. The consistent GRMHD models are all of magnetically
+  arrested accretion disks, where near-horizon magnetic fields are dynamically important.
+  We use the models to infer a mass accretion rate onto the black hole in M87 of $(3-20)
+  times 10^-4 M_ødot yr^-1$.
 featured: false
 publication: '*The Astrophysical Journal Letters*'
+tags:
+- '"Event Horizon Telescope"'
+- '"M87"'
 doi: 10.3847/2041-8213/abe4de
 ---

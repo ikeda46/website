@@ -34,5 +34,9 @@ abstract: 'Spatial correlations among protoplanetary disk orientations carry uni
   possible disk alignment in the Lupus III cloud.'
 featured: false
 publication: '*The Astrophysical Journal*'
+tags:
+- '"ALMA"'
+- '"radio interferometer"'
+- '"protoplanetary disk"'
 doi: 10.3847/1538-4357/aba43d
 ---

@@ -32,5 +32,8 @@ abstract: Blazars can be divided into two subtypes, flat spectrum radio quasars 
   of a strong Compton cooling effect in sub-pc scale jets.
 featured: false
 publication: '*Publications of the Astronomical Society of Japan*'
+tags:
+- '"classification"'
+- '"model selection"'
 doi: 10.1093/pasj/psaa063
 ---

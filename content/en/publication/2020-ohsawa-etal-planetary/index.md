@@ -72,5 +72,8 @@ abstract: Radar and optical simultaneous observations of meteors are important t
   -- $10^0$g in mass as meteors.
 featured: false
 publication: '*Planetary and Space Science*'
+tags:
+- '"Tomo-e Gozen"'
+- '"Kiso Schmidt Telescope"'
 doi: 10.1016/j.pss.2020.105011
 ---

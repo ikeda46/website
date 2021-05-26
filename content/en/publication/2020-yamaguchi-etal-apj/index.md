@@ -36,5 +36,10 @@ abstract: 'With an emphasis on improving the fidelity even in super-resolution r
   ALMA.'
 featured: false
 publication: '*The Astrophysical Journal*'
+tags:
+- '"sparse modeling"'
+- '"ALMA"'
+- '"imaging"'
+- '"radio interferometer"'
 doi: 10.3847/1538-4357/ab899f
 ---

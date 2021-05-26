@@ -35,5 +35,9 @@ abstract: Signal overlapping is a major bottleneck for protein NMR analysis. We 
   and assignment problems.
 featured: false
 publication: '*Journal of Biomolecular NMR*'
+tags:
+- '"NMR"'
+- '"SiPex"'
+- '"sparse modeling"'
 doi: 10.1007/s10858-019-00295-9
 ---

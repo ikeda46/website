@@ -28,8 +28,12 @@ abstract: We propose a deep-learning approach based on generative adversarial ne
   and that the PDFs show stronger cosmological dependence compared to the noisy counterpart.
   We apply our denoising method to a part of the first-year HSC data to show that
   the observed mass distribution is statistically consistent with the prediction from
-  the standard Lambda-CDM model.
+  the standard $Łambda$CDM model.
 featured: false
 publication: '*Monthly Notices of the Royal Astronomical Society*'
+tags:
+- '"cosmology"'
+- '"deep learning"'
+- '"Subaru-HSC"'
 doi: 10.1093/mnras/stab982
 ---
