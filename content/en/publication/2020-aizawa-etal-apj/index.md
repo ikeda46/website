@@ -1,6 +1,6 @@
 ---
 title: 'Search for Alignment of Disk Orientations in Nearby Star-forming Regions:
-  Lupus, Taurus, Upper Scorpius, $h̊o$ Ophiuchi, and Orion'
+  Lupus, Taurus, Upper Scorpius, ρ Ophiuchi, and Orion'
 date: '2020-08-01'
 draft: false
 publishDate: '2021-05-04T01:16:41.326381Z'
@@ -23,7 +23,7 @@ abstract: 'Spatial correlations among protoplanetary disk orientations carry uni
   any signature of the alignment, supporting the random orientation. Rotational axes
   of 16 disks with spectroscopic measurement of PA in the Lupus III cloud, a subregion
   of the Lupus field, however, exhibit a weak and possible departure from the random
-  distribution at a 2$σ$ level, and the inclination angles of the 16 disks are not
+  distribution at a 2σ level, and the inclination angles of the 16 disks are not
   uniform as well. Furthermore, the mean direction of the disk PAs in the Lupus III
   cloud is parallel to the direction of its filament structure and approximately perpendicular
   to the magnetic field direction. We also confirm the robustness of the estimated
