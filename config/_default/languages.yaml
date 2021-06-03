@@ -12,11 +12,11 @@ en:
 ja:
   languageCode: ja
   contentDir: content/ja
-#  title: Japanese website
-#  params:
-#    description: Site in Japanese.
-#  menu:
-#    main:
-#      - name: 池田思朗
-#        url: '#about'
-#        weight: 1
+  title: 池田 思朗
+  params:
+    description: Site in Japanese.
+  menu:
+    main:
+      - name: 池田思朗
+        url: '#about'
+        weight: 1
