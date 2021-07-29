@@ -12,6 +12,7 @@ authors:
 - Shiro Ikeda
 - Takahiro Nishimichi
 publication_types: ["2"]
+math: true
 abstract: We propose a deep-learning approach based on generative adversarial networks
   (GANs) to reduce noise in weak lensing mass maps under realistic conditions. We
   apply image-to-image translation using conditional GANs to the mass map obtained
@@ -21,14 +22,14 @@ abstract: We propose a deep-learning approach based on generative adversarial ne
   maps using one-point probability distribution functions (PDFs) and also perform
   matching analysis for positive peaks and massive clusters. An ensemble learning
   technique with our GANs is successfully applied to reproduce the PDFs of the lensing
-  convergence. About $60%$ of the peaks in the denoised maps with height greater than
-  5$σ$ have counterparts of massive clusters within a separation of 6 arcmin. We show
+  convergence. About 60\% of the peaks in the denoised maps with height greater than
+  5$\sigma$ have counterparts of massive clusters within a separation of 6 arcmin. We show
   that PDFs in the denoised maps are not compromised by details of multiplicative
   biases and photometric redshift distributions, nor by shape measurement errors,
   and that the PDFs show stronger cosmological dependence compared to the noisy counterpart.
   We apply our denoising method to a part of the first-year HSC data to show that
   the observed mass distribution is statistically consistent with the prediction from
-  the standard $Łambda$CDM model.
+  the standard $\Lambda$CDM model.
 featured: false
 publication: '*Monthly Notices of the Royal Astronomical Society*'
 tags:

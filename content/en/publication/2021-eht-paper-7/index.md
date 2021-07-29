@@ -7,6 +7,7 @@ authors:
 - The Event Horizon Telescope Collaboration
 publication_types:
 - '2'
+math: true
 abstract: In 2017 April, the Event Horizon Telescope (EHT) observed the near-horizon
   region around the supermassive black hole at the core of the M87 galaxy. These 1.3
   mm wavelength observations revealed a compact asymmetric ring-like source morphology.
@@ -15,7 +16,7 @@ abstract: In 2017 April, the Event Horizon Telescope (EHT) observed the near-hor
   linear-polarimetric EHT images of the center of M87. We find that only a part of
   the ring is significantly polarized. The resolved fractional linear polarization
   has a maximum located in the southwest part of the ring, where it rises to the level
-  of $∼ 15%$. The polarization position angles are arranged in a nearly azimuthal
+  of $\sim 15$\%. The polarization position angles are arranged in a nearly azimuthal
   pattern. We perform quantitative measurements of relevant polarimetric properties
   of the compact emission and find evidence for the temporal evolution of the polarized
   source structure over one week of EHT observations. The details of the polarimetric
