@@ -25,9 +25,9 @@ abstract: We propose a novel method to reconstruct high-resolution three-dimensi
   mass limits of $10^{14.0}$ $h^{−1}$ $M_\odot$, $10^{14.7}$ $h^{-1}$ $M_\odot$, $10^{15.0}$ $h^{−1}$
   $M_\odot$ can be detected with 1.5$\sigma$ confidence at the low ($z<0.3$), median ($0.3\le
   z < 0.6$), and high ($0.6 \le z < 0.85$) redshifts, respectively, with an average
-  false detection rate of 0.022 deg$^{2}$. The estimated redshifts of the detected
+  false detection rate of 0.022 deg$^{-2}$. The estimated redshifts of the detected
   clusters are systematically lower than the true values by $\Delta z \sim 0.03$ for halos
-  at $z \le 0.4$, but the relative redshift bias is below $0.5\%$ for clusters at $0.4
+  at $z \le 0.4$, but the relative redshift bias is below 0.5\% for clusters at $0.4
   < z \le 0.85$. The standard deviation of the redshift estimation is $0.092$. Our
   method enables direct three-dimensional cluster detection with accurate redshift
   estimates.
@@ -37,4 +37,5 @@ tags:
 - '"weak lensing"'
 - '"sparse modeling"'
 publication: '*The Astrophysical Journal*'
+doi: 10.3847/1538-4357/ac0625
 ---

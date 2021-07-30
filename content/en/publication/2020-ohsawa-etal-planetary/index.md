@@ -51,6 +51,7 @@ authors:
 - Makoto Yoshikawa
 publication_types:
 - '2'
+math: true
 abstract: Radar and optical simultaneous observations of meteors are important to
   understand the size distribution of the interplanetary dust. However, faint meteors
   detected by high power large aperture radar observations, which are typically as
@@ -59,7 +60,7 @@ abstract: Radar and optical simultaneous observations of meteors are important t
   two radar and optical simultaneous observations were organized. The first observation
   was carried out in 2009-2010 using Middle and Upper Atmosphere Radar (MU radar)
   and an image-intensified CCD camera. The second observation was carried out in 2018
-  using the MU radar and a mosaic CMOS camera, Tomo-e Gozen, mounted on the 1.05-m
+  using the MU radar and a mosaic CMOS camera, Tomo-e Gozen, mounted on the 1.05 m
   Kiso Schmidt Telescope. In total, 331 simultaneous meteors were detected. The relationship
   between radar cross sections and optical V-band magnitudes was well approximated
   by a linear function. A transformation function from the radar cross section to
@@ -67,8 +68,8 @@ abstract: Radar and optical simultaneous observations of meteors are important t
   was applied to about 150,000 meteors detected by the MU radar in 2009-2015, large
   part of which are sporadic, and a luminosity function was derived in the magnitude
   range of -1.5--9.5mag . The luminosity function was well approximated by a single
-  power-law function with the population index of $r=3.52± 0.12$. The present observation
-  indicates that the MU radar has capability to detect interplanetary dust of $10^-5$
+  power-law function with the population index of $r=3.52\pm 0.12$. The present observation
+  indicates that the MU radar has capability to detect interplanetary dust of $10^{-5}$
   -- $10^0$g in mass as meteors.
 featured: false
 publication: '*Planetary and Space Science*'
