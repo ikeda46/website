@@ -40,4 +40,7 @@ tags:
 - '"radio interferometer"'
 - '"protoplanetary disk"'
 doi: 10.3847/1538-4357/aba43d
+links:
+- name: arXiv
+  url: https://arxiv.org/abs/2007.03393
 ---
