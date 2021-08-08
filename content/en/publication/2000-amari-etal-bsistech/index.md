@@ -1,5 +1,5 @@
 ---
-title: 'Information Geometry and Mean Field Approximation: The $α$-projection Approach'
+title: 'Information Geometry and Mean Field Approximation: The α-projection Approach'
 date: '2000-05-01'
 draft: false
 publishDate: '2021-08-08T04:32:52.396979Z'
