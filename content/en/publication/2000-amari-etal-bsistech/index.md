@@ -18,5 +18,5 @@ abstract: Information geometry is applied to mean field approximation for elucid
   of a family of probability distributions. The bifurcation of the $α$-projection
   is studied, at which the uniqueness of the $α$-approximation is broken.
 featured: false
-publication: ''
+publication: '*BSIS technical report*'
 ---
