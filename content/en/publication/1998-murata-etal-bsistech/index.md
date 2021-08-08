@@ -13,7 +13,7 @@ abstract: In this paper we introduce a new technique for blind source separation
   of speech signals. We focus on the temporal structure of the signals in contrast
   to most other major approaches to this problem. The idea is to apply the decorrelation method proposed by Molgedey and Schuster in the time-frequency domain. We show some results of experiments with both artificially controlled data and speech data recorded in the real environment.
 featured: false
-publication: ''
+publication: '*BSIS technical report*'
 tags:
 - '"sound separation"'
 - '"ICA"'
