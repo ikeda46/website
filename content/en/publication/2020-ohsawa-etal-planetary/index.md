@@ -75,6 +75,6 @@ featured: false
 publication: '*Planetary and Space Science*'
 tags:
 - '"Tomo-e Gozen"'
-- '"Kiso Schmidt Telescope"'
+- '"astronomy"'
 doi: 10.1016/j.pss.2020.105011
 ---

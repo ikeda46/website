@@ -46,8 +46,15 @@ authors:
 - Makoto Yoshikawa
 publication_types:
 - '2'
-abstract: ''
+math: true
+abstract: Using a prototype of the Tomo-e Gozen wide-field CMOS mosaic camera, we acquire wide-field optical images at a cadence of 2 Hz and search them for transient sources of duration 1.5 to 11.5 seconds. Over the course of eight nights, our survey encompasses the equivalent of roughly two days on one square degree, to a fluence equivalent to a limiting magnitude about $V=15.6$ in a 1-second exposure. After examining by eye the candidates identified by a software pipeline, we find no sources which meet all our criteria. We compute upper limits to the rate of optical transients consistent with our survey, and compare those to the rates expected and observed for representative sources of ephemeral optical light.
 featured: false
 publication: '*Publications of the Astronomical Society of Japan*'
 doi: 10.1093/pasj/psz120
+tags:
+- '"Tomo-e Gozen"'
+- '"astronomy"'
+links:
+- name: arXiv
+  links: https://arxiv.org/abs/1910.11343
 ---

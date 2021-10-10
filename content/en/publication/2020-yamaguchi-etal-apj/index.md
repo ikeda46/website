@@ -42,6 +42,7 @@ tags:
 - '"ALMA"'
 - '"imaging"'
 - '"radio interferometer"'
+- '"astronomy"'
 doi: 10.3847/1538-4357/ab899f
 links:
 - name: arXiv

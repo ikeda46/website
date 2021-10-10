@@ -19,6 +19,7 @@ tags:
 - '"cosmology"'
 - '"weak lensing"'
 - '"sparse modeling"'
+- '"astronomy"'
 publication: '*The Astrophysical Journal*'
 doi: 10.3847/1538-4357/ac0625
 links:

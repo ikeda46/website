@@ -19,6 +19,7 @@ tags:
 - '"astrophysics"'
 - '"high energy"'
 - '"signal processing"'
+- '"astronomy"'
 doi: 10.1093/pasj/psab032
 links:
 - name: arXiv

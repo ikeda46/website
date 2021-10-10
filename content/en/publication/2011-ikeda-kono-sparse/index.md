@@ -12,4 +12,8 @@ abstract: ''
 featured: false
 publication: '*Proceedings of 4th Workshop on Signal Processing with Adaptive Sparse
   Structured Representations (SPARS2011)*'
+tags:
+- '"phase retrieval"'
+- '"diffraction imaging"'
+- '"sparse modeling"'
 ---

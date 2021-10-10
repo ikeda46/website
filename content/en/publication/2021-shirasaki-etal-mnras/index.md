@@ -19,7 +19,9 @@ publication: '*Monthly Notices of the Royal Astronomical Society*'
 tags:
 - '"cosmology"'
 - '"deep learning"'
+- '"weak lensing"'
 - '"Subaru-HSC"'
+- '"astronomy"'
 doi: 10.1093/mnras/stab982
 links:
 - name: arXiv

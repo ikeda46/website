@@ -15,6 +15,7 @@ publication: '*The Astrophysical Journal Letters*'
 tags:
 - '"Event Horizon Telescope"'
 - '"M87"'
+- '"astronomy"'
 doi: 10.3847/2041-8213/abe4de
 links:
 - name: arXiv

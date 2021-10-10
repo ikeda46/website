@@ -19,4 +19,7 @@ abstract: Information geometry is applied to mean field approximation for elucid
   is studied, at which the uniqueness of the $α$-approximation is broken.
 featured: false
 publication: '*BSIS technical report*'
+tags:
+- '"mean field approximation"'
+- '"information geometry"'
 ---

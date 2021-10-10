@@ -35,6 +35,7 @@ publication: '*Publications of the Astronomical Society of Japan*'
 tags:
 - '"classification"'
 - '"model selection"'
+- '"astronomy"'
 doi: 10.1093/pasj/psaa063
 links:
 - name: arXiv

@@ -1,5 +1,5 @@
 ---
-title: Motor Planning as an Optimization of Command Representation
+title: Motor planning as an optimization of command representation
 date: '2009-12-01'
 draft: false
 publishDate: '2021-05-04T01:16:46.725732Z'
@@ -18,4 +18,7 @@ abstract: A fundamental problem in the field of motor neuroscience is to underst
 featured: false
 publication: '*Proceedings of 48th IEEE Conference on Decision and Control (CDC2009)*'
 doi: 10.1109/CDC.2009.5399672
+tags:
+- '"sparse modeling"'
+- '"motor control"'
 ---
