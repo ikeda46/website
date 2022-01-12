@@ -8,8 +8,11 @@ authors:
 - Shiro Ikeda
 publication_types:
 - '1'
-abstract: ''
+abstract: 'The present article proposes a novel computational approach to the motor planning. In the proposed approach, each motor command is represented as a linear combination of prefixed basis patterns, and the command for a given task is designed by minimizing a two-termed &quot;information representation criterion&quot; which consists of a task optimization term and a parameter preference term. The result of a computer simulation with a single-joint reaching task confirmed that the proposed framework appropriately worked, together with showing that the resultant trajectory qualitatively replicated Fitts&apos; law.'
 featured: false
 publication: '*Processingds of Fifteenth Annual Computational Neuroscience Meeting
-  (CNS$*$2006)*'
+  (CNS&lowast;2006)*'
+tags:
+- '"sparse modeling"'
+- '"motor control"'
 ---
