@@ -1,15 +1,10 @@
 # Font style metadata
-name = "my_font_set"
+name = "Classic"
 
 # Optional Google font URL
 #google_fonts = "Lato:400,700|Merriweather|Roboto+Mono"
 google_fonts = "family=Lato:wght@400;700&family=Merriweather&family=Roboto+Mono"
 
-# Font families
-#heading_font = "Noto Sans"
-#body_font = "Loto Serif"
-#nav_font = "Noto Sans"
-#mono_font = "Inconsolate"
 # Font families
 heading_font = "Lato"
 body_font = "Merriweather"

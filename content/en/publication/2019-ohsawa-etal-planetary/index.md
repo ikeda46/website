@@ -51,7 +51,7 @@ abstract: Imaging observations of faint meteors were carried out on April 11 and
   model of Tomo-e Gozen, can monitor a sky of $∼$1.98$∼$deg$^2$ at 2Hz. The numbers
   of detected meteors are 1514 and 706 on April 11 and 14, respectively. The detected
   meteors are attributed to sporadic meteors. Their absolute magnitudes range from
-  +4 to +10mag in the V-band, corresponding to about $8.3times10^{-2}$ to $3.3times10^{-4}$g
+  +4 to +10mag in the V-band, corresponding to about $8.3\times10^{-2}$ to $3.3\times10^{-4}$g
   in mass. The present magnitude distributions we obtained are well explained by a
   single power-law luminosity function with a slope parameter $r=3.1\pm 0.4$ and a meteor
   rate $\log_{10}N_0=-5.5\pm 0.5$. The results demonstrate a high performance of telescopic

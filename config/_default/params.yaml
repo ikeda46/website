@@ -7,9 +7,10 @@
 
 theme: my_theme
 day_night: true
-#font: 'Rose'
-font: 'Classic'
-#font: 'Minimal'
+##font: 'Rose'
+#font: 'Classic'
+font: my_font_set
+##font: 'Minimal'
 font_size: S
 
 # SEO
