@@ -53,6 +53,9 @@ social:
 - icon: researchgate  # Alternatively, use `google-scholar` icon from `ai` icon pack
   icon_pack: ai
   link: https://www.researchgate.net/profile/Shiro-Ikeda
+- icon: orcid  # Alternatively, use `google-scholar` icon from `ai` icon pack
+  icon_pack: ai
+  link: https://orcid.org/0000-0002-2462-1448
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/media/resume.pdf`, enable `ai` icons in `params.toml`,
 # and uncomment the lines below.

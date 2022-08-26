@@ -45,6 +45,9 @@ NAOJ (Collaborative Academic)
 Apr 2016 -- Present<br>
 Kavli IPMU (Visiting Senior Scientist)
 
+May 2022 -- July 2022<br>
+Okinawa Institute of Science and Technology (Theoretical Science Visiting Program)
+
 Apr 2010 -- Mar 2016<br>
 Tokyo Institute of Technology (Adjunct Academic)
 

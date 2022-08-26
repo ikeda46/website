@@ -26,7 +26,7 @@ tags: [EHT]
 featured: true
 
 image:
-  caption: 'Image credit: [**Kavli IPMU**](https://www.ipmu.jp/ja)'
+  caption: 'Image credit: [**第8回スマートサンプリング講演会**](https://www.ipmu.jp/ja)'
   focal_point: Right
 
 links:
